@@ -1,0 +1,179 @@
+{
+    "0": {
+        "Name": "Camera",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Tree3.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            },
+            "struct camera2DCom": {
+                "height_change_val": 5,
+                "height": 500.0,
+                "min_height": 50.0,
+                "isFixedToPlayer": true,
+                "isPrimary": true
+            }
+        }
+    },
+    "1": {
+        "Name": "Instruction",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1795.0,
+                    "y": 1000.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "newPage1.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            }
+        }
+    },
+    "3": {
+        "Name": "Next",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 760.0,
+                    "y": -410.0,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 240.0,
+                    "y": 63.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "nextButton.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            },
+            "struct levelLoaderButton": {
+                "Target level": "Resources/SavedLevels/Instruction2Level.json"
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "MouseHoverDarkScript"
+            }
+        }
+    },
+    "4": {
+        "Name": "Cross",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 760.0,
+                    "y": 375.0,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 90.0,
+                    "y": 80.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "cross.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            },
+            "struct levelLoaderButton": {
+                "Target level": "Resources/SavedLevels/MainMenuLevel.json"
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "MouseHoverDarkScript"
+            }
+        }
+    }
+}

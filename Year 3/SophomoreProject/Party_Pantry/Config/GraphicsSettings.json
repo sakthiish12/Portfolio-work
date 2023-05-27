@@ -1,0 +1,22 @@
+{
+    "m_InitShaders": [
+        {
+            "Key": "test",
+            "Value": {
+                "m_VertexPath": "Shader/Basic.vs",
+                "m_FragmentPath": "Shader/Basic.frag",
+                "m_GeometryPath": ""
+            }
+        
+        }
+    ],
+  "m_FrameBuffers": {
+    "Key": "test",
+    "Value": [
+      {
+        "Name": "test",
+        "Value": 0
+      }
+    ]
+  }
+}

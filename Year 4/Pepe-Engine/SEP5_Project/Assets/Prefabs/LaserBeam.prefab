@@ -1,0 +1,142 @@
+{
+    "prefab": {
+        "Transform": {
+            "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Rotation": {
+                "i": 0.0,
+                "j": 0.0,
+                "k": 0.0,
+                "r": 1.0
+            },
+            "Local Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Local Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Local Rotation": {
+                "i": 0.0,
+                "j": 0.0,
+                "k": 0.0,
+                "r": 1.0
+            },
+            "Children": [],
+            "Parent": {
+                "m_id": 0
+            }
+        },
+        "EntityInfo": {
+            "Entity Name": "LaserBeam",
+            "Tags": [],
+            "Flags": 1
+        },
+        "Renderer": {
+            "ModelID": {
+                "m_id": 15293340384263473626
+            },
+            "MeshInfoVector": [
+                {
+                    "meshName": "Cylinder",
+                    "hasTextures": false,
+                    "albedoAlphaMap": {
+                        "m_id": 5602551787267187971
+                    },
+                    "normalMap": {
+                        "m_id": 5602551787267187971
+                    },
+                    "ambientOcclusionMap": {
+                        "m_id": 5602551787267187971
+                    },
+                    "roughnessMap": {
+                        "m_id": 5602551787267187971
+                    },
+                    "emissiveMap": {
+                        "m_id": 5602551787267187971
+                    },
+                    "metallicMap": {
+                        "m_id": 5602551787267187971
+                    },
+                    "heightMap": {
+                        "m_id": 5602551787267187971
+                    },
+                    "textureStrength": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "brightnessFactor": 7.063000202178955
+                }
+            ],
+            "opacity": 1.0,
+            "flickerDuration": 0.10000000149011612,
+            "flickerColor": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0,
+                "w": 1.0
+            },
+            "wireframeMode": false,
+            "wireframeColor": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0,
+                "w": 1.0
+            },
+            "ignoreLighting": false,
+            "reflectSpecular": false
+        },
+        "Physics": {
+            "Shape Enum": "Box",
+            "Shape Size": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.699999988079071
+            },
+            "Motion Type Enum": "Dynamic",
+            "Scale Binded": false,
+            "Motion Quality Enum": "Discrete",
+            "Max Angular Velocity": 0.10000000149011612,
+            "Angular Damping": 1.0,
+            "Max Linear Velocity": 500.0,
+            "Linear Damping": 0.05000000074505806,
+            "Friction": 1.0,
+            "Restitution": 0.0,
+            "Gravity": 0.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Is Trigger": true,
+            "Can Push Character": false,
+            "Can Receive Character Impulse": false
+        },
+        "GameLogic": {
+            "Scripts": [
+                "Beam"
+            ],
+            "Scripts Data": [
+                {
+                    "Key": "Beam",
+                    "Value": {}
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "struct transform2D": {
+    "pos": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    "rotation": 0.0,
+    "scale": {
+      "x": 30.0,
+      "y": 30.0
+    }
+  },
+  "struct material": {
+    "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+    "mesh": "square",
+    "color": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0,
+      "w": 1.0
+    }
+  },
+  "struct spriteCom": {
+    "textureId": "fireball.png",
+    "textureSlotsId": 1.0,
+    "toLoaded": false,
+    "loop": false,
+    "isVisible": true
+  }
+}

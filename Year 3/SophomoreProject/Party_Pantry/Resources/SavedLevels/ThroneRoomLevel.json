@@ -1,0 +1,1980 @@
+{
+    "0": {
+        "Name": "Mama",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 12.954000473022461,
+                    "y": 252.25399780273438,
+                    "z": 1.3739999532699586
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 352.9949951171875,
+                    "y": 399.9289855957031
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "MamaKettle.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            }
+        }
+    },
+    "1": {
+        "Name": "NewPlayer",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 516.0150146484375,
+                    "y": -145.0449981689453,
+                    "z": 1.899999976158142
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 300.0,
+                    "y": 300.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "KettleBigSpriteSheet.png",
+                "textureSlotsId": 3.0,
+                "loop": true,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": true,
+                "animationFilePath": "kettleHeadAnimation.json"
+            },
+            "struct rigidBody2D": {
+                "Mass": 1.0,
+                "restitution": 0.5,
+                "isGravityOn": false,
+                "Type": "Kinametics"
+            },
+            "struct AABB": {
+                "scale": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "offset_pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "struct controller": {},
+            "struct Com_FindPath": {},
+            "struct Com_type": {
+                "Type": 0
+            },
+            "struct Com_Health": {
+                "health": 100
+            },
+            "struct abilities": {
+                "active abilities": 0
+            },
+            "struct scriptComponent": {
+                "script_size": 2,
+                "ScriptName0": "DamagedScript",
+                "ScriptName1": "PlayerController"
+            }
+        }
+    },
+    "2": {
+        "Name": "Background",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1787.512939453125,
+                    "y": 1005.072021484375
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "throneBackground.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            }
+        }
+    },
+    "3": {
+        "Name": "Stairs",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": -9.812614440917969,
+                    "y": -46.57011413574219,
+                    "z": 0.05000000074505806
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1575.3436279296876,
+                    "y": 916.4890747070313
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Stairs.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "ThroneRoomStairsScript"
+            }
+        }
+    },
+    "4": {
+        "Name": "Throne",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 12.481094360351563,
+                    "y": 209.41099548339845,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 209.52597045898438,
+                    "y": 406.8334045410156
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Throne.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": false,
+                "animationFilePath": ""
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "ThroneDialogueScript"
+            }
+        }
+    },
+    "7": {
+        "Name": "Teleporter",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 715.3890991210938,
+                    "y": -42.32188415527344,
+                    "z": 0.05000000074505806
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 286.33099365234377,
+                    "y": 350.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "newTeleporter.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "ThroneRoomTeleporterScript"
+            }
+        }
+    },
+    "8": {
+        "Name": "Camera",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": -2.7160000801086427,
+                    "y": 1.9889999628067017,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 352.9949951171875,
+                    "y": 399.9289855957031
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "MamaKettle.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": false,
+                "animationFilePath": ""
+            },
+            "struct camera2DCom": {
+                "height_change_val": 5,
+                "height": 500.0,
+                "min_height": 50.0,
+                "isFixedToPlayer": false,
+                "isPrimary": true
+            },
+            "struct Com_type": {
+                "Type": 3
+            }
+        }
+    },
+    "12": {
+        "Name": "Gun",
+        "Parent": 1,
+        "Depth": 1,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": 0.5,
+                    "z": 1.899999976158142
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 0.25,
+                    "y": 0.25
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Ketchup_Pistol.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": true,
+                "animationFilePath": "NewEnemyAnimation.json"
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "KetchapGunScript"
+            }
+        }
+    },
+    "13": {
+        "Name": "PauseBG",
+        "Parent": 2,
+        "Depth": 1,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 1.9199999570846558
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "PauseMenu.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": false,
+                "animationFilePath": "NewEnemyAnimation.json"
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "PauseScript"
+            }
+        }
+    },
+    "14": {
+        "Name": "PauseInstructions",
+        "Parent": 2,
+        "Depth": 1,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": -0.09099999815225601,
+                    "z": 1.9199999570846558
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 0.19099999964237214,
+                    "y": 0.09000000357627869
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "instruction.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": false,
+                "animationFilePath": "NewEnemyAnimation.json"
+            },
+            "struct scriptComponent": {
+                "script_size": 2,
+                "ScriptName0": "MouseHoverDarkScript",
+                "ScriptName1": "PauseInstrucScript"
+            }
+        }
+    },
+    "15": {
+        "Name": "PauseMainMenu",
+        "Parent": 2,
+        "Depth": 1,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": -0.21299999952316285,
+                    "z": 1.9199999570846558
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 0.19099999964237214,
+                    "y": 0.09000000357627869
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "MainMenuButton.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": false,
+                "animationFilePath": "NewEnemyAnimation.json"
+            },
+            "struct scriptComponent": {
+                "script_size": 2,
+                "ScriptName0": "MouseHoverDarkScript",
+                "ScriptName1": "PauseMainMenuScript"
+            }
+        }
+    },
+    "16": {
+        "Name": "PauseQuitGame",
+        "Parent": 2,
+        "Depth": 1,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": -0.3330000042915344,
+                    "z": 1.9199999570846558
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 0.19099999964237214,
+                    "y": 0.09000000357627869
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "quitButton.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": false,
+                "animationFilePath": "NewEnemyAnimation.json"
+            },
+            "struct scriptComponent": {
+                "script_size": 2,
+                "ScriptName0": "MouseHoverDarkScript",
+                "ScriptName1": "PauseQuitGameScript"
+            }
+        }
+    },
+    "17": {
+        "Name": "PauseResume",
+        "Parent": 2,
+        "Depth": 1,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": 0.15000000596046449,
+                    "z": 1.9199999570846558
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 0.19099999964237214,
+                    "y": 0.09000000357627869
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Resume.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": false,
+                "animationFilePath": "NewEnemyAnimation.json"
+            },
+            "struct scriptComponent": {
+                "script_size": 2,
+                "ScriptName0": "MouseHoverDarkScript",
+                "ScriptName1": "PauseResumeScript"
+            }
+        }
+    },
+    "18": {
+        "Name": "Instructions1",
+        "Parent": 2,
+        "Depth": 1,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 1.940000057220459
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "newPause1.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": false,
+                "animationFilePath": "NewEnemyAnimation.json"
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "PauseInstrucFirstScript"
+            }
+        }
+    },
+    "19": {
+        "Name": "Instructions2",
+        "Parent": 2,
+        "Depth": 1,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 1.9800000190734864
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "newPause2.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": false,
+                "animationFilePath": "NewEnemyAnimation.json"
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "PauseInstrucSecondScript"
+            }
+        }
+    },
+    "20": {
+        "Name": "PauseRestart",
+        "Parent": 2,
+        "Depth": 1,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": 0.029999999329447748,
+                    "z": 1.9199999570846558
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 0.19099999964237214,
+                    "y": 0.09000000357627869
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Restart.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": false,
+                "animationFilePath": "NewEnemyAnimation.json"
+            },
+            "struct scriptComponent": {
+                "script_size": 2,
+                "ScriptName0": "MouseHoverDarkScript",
+                "ScriptName1": "PauseRestartThroneScript"
+            }
+        }
+    },
+    "21": {
+        "Name": "Carpet",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 11.432999610900879,
+                    "y": -100.00399780273438,
+                    "z": 0.05000000074505806
+                },
+                "rotation": 90.0,
+                "scale": {
+                    "x": 206.96400451660157,
+                    "y": 518.2960205078125
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "carpet.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            }
+        }
+    },
+    "22": {
+        "Name": "CharacterShadow",
+        "Parent": 1,
+        "Depth": 1,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": -0.25,
+                    "z": 0.15000000596046449
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 0.6000000238418579,
+                    "y": 0.30000001192092898
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "CharacterShadow.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": true,
+                "animationFilePath": "TomatoSpriteAnimation.json"
+            }
+        }
+    },
+    "25": {
+        "Name": "Tr(1)Collider",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": -859.0830078125,
+                    "y": -11.118000030517579,
+                    "z": -2.6649999618530275
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 200.0,
+                    "y": 200.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "New Tree 2.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            },
+            "struct AABB": {
+                "scale": {
+                    "x": 0.5,
+                    "y": 3.0
+                },
+                "offset_pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            }
+        }
+    },
+    "26": {
+        "Name": "Tr(2)Collider",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": 140.2949981689453,
+                    "z": -1.034999966621399
+                },
+                "rotation": 90.0,
+                "scale": {
+                    "x": 200.0,
+                    "y": 200.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "New Tree 2.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            },
+            "struct AABB": {
+                "scale": {
+                    "x": 3.0,
+                    "y": 0.5
+                },
+                "offset_pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            }
+        }
+    },
+    "27": {
+        "Name": "Tr(2)Collider",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": -717.4000244140625,
+                    "y": 65.0,
+                    "z": -4.392000198364258
+                },
+                "rotation": 90.0,
+                "scale": {
+                    "x": 200.0,
+                    "y": 200.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "New Tree 2.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            },
+            "struct AABB": {
+                "scale": {
+                    "x": 3.0,
+                    "y": 0.5
+                },
+                "offset_pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            }
+        }
+    },
+    "28": {
+        "Name": "Tr(2)Collider",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 704.239990234375,
+                    "y": 65.14900207519531,
+                    "z": -4.718999862670898
+                },
+                "rotation": 90.0,
+                "scale": {
+                    "x": 200.0,
+                    "y": 200.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "New Tree 2.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            },
+            "struct AABB": {
+                "scale": {
+                    "x": 3.0,
+                    "y": 0.5
+                },
+                "offset_pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            }
+        }
+    },
+    "29": {
+        "Name": "Tr(2)Collider",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": -589.9420166015625,
+                    "y": 158.31300354003907,
+                    "z": -3.388000011444092
+                },
+                "rotation": 90.0,
+                "scale": {
+                    "x": 200.0,
+                    "y": 200.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "New Tree 2.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            },
+            "struct AABB": {
+                "scale": {
+                    "x": 3.0,
+                    "y": 0.5
+                },
+                "offset_pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            }
+        }
+    },
+    "30": {
+        "Name": "Tr(2)Collider",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 507.6719970703125,
+                    "y": 158.31300354003907,
+                    "z": 1.2899999618530274
+                },
+                "rotation": 90.0,
+                "scale": {
+                    "x": 200.0,
+                    "y": 200.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "New Tree 2.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": false,
+                "animationFilePath": ""
+            },
+            "struct AABB": {
+                "scale": {
+                    "x": 3.0,
+                    "y": 0.5
+                },
+                "offset_pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            }
+        }
+    },
+    "31": {
+        "Name": "Tr(1)Collider",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 887.1019897460938,
+                    "y": -11.118000030517579,
+                    "z": -15.229999542236329
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 200.0,
+                    "y": 200.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "New Tree 2.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            },
+            "struct AABB": {
+                "scale": {
+                    "x": 0.5,
+                    "y": 5.0
+                },
+                "offset_pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            }
+        }
+    },
+    "32": {
+        "Name": "Tr(3)Collider",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 4.835999965667725,
+                    "y": -500.87799072265627,
+                    "z": 1.2899999618530274
+                },
+                "rotation": 90.0,
+                "scale": {
+                    "x": 200.0,
+                    "y": 200.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "New Tree 2.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": false,
+                "animationFilePath": ""
+            },
+            "struct AABB": {
+                "scale": {
+                    "x": 20.591999053955079,
+                    "y": 0.5
+                },
+                "offset_pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            }
+        }
+    },
+    "33": {
+        "Name": "Tr(3)Collider",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": -746.552978515625,
+                    "y": -397.1319885253906,
+                    "z": 1.2899999618530274
+                },
+                "rotation": 90.0,
+                "scale": {
+                    "x": 200.0,
+                    "y": 200.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "New Tree 2.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": false,
+                "animationFilePath": ""
+            },
+            "struct AABB": {
+                "scale": {
+                    "x": 3.569000005722046,
+                    "y": 0.5
+                },
+                "offset_pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            }
+        }
+    },
+    "34": {
+        "Name": "Tr(3)Collider",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": -811.7960205078125,
+                    "y": -309.64801025390627,
+                    "z": 1.2899999618530274
+                },
+                "rotation": 90.0,
+                "scale": {
+                    "x": 200.0,
+                    "y": 200.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "New Tree 2.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": false,
+                "animationFilePath": ""
+            },
+            "struct AABB": {
+                "scale": {
+                    "x": 1.9420000314712525,
+                    "y": 0.5
+                },
+                "offset_pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            }
+        }
+    },
+    "35": {
+        "Name": "counterUI",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 582.4180908203125,
+                    "y": -389.1402282714844,
+                    "z": 1.899999976158142
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 540.2086181640625,
+                    "y": 122.18099975585938
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Frame.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": true,
+                "animationFilePath": "NewEnemyAnimation.json"
+            }
+        }
+    },
+    "36": {
+        "Name": "tomatoCounter",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 432.15301513671877,
+                    "y": -409.37835693359377,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1.1392793655395508,
+                    "y": 1.1392793655395508
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Tree3.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": false,
+                "animationFilePath": "NewEnemyAnimation.json"
+            },
+            "struct Com_Font": {
+                "text": "22",
+                "isVisible": true,
+                "color": {
+                    "x": 9.999999974752428e-7,
+                    "y": 9.999899930335233e-7,
+                    "z": 9.999899930335233e-7
+                }
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "TomatoCountScript"
+            }
+        }
+    },
+    "37": {
+        "Name": "mushroomCounter",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 596.4127197265625,
+                    "y": -409.37835693359377,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1.1392793655395508,
+                    "y": 1.1392793655395508
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Tree3.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": false,
+                "animationFilePath": "NewEnemyAnimation.json"
+            },
+            "struct Com_Font": {
+                "text": "22",
+                "isVisible": true,
+                "color": {
+                    "x": 9.999999974752428e-7,
+                    "y": 9.999899930335233e-7,
+                    "z": 9.999899930335233e-7
+                }
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "MushroomCountScript"
+            }
+        }
+    },
+    "39": {
+        "Name": "upgradeDialogue",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 355.1539001464844,
+                    "y": -45.17405700683594,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 722.7631225585938,
+                    "y": 722.7631225585938
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Ability Menu.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": false,
+                "animationFilePath": "TomatoSpriteAnimation.json"
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "UpgradeDialogue1Script"
+            }
+        }
+    },
+    "40": {
+        "Name": "upgradeDialogueSpeed",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 355.1539001464844,
+                    "y": -45.17405700683594,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 722.7631225585938,
+                    "y": 722.7631225585938
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Ability Menu.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": false,
+                "animationFilePath": "TomatoSpriteAnimation.json"
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "UpgradeDialogueSpeedUnlockedScript"
+            }
+        }
+    },
+    "41": {
+        "Name": "upgradeDialogueSpeed2",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 355.1539001464844,
+                    "y": -45.17405700683594,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 722.7631225585938,
+                    "y": 722.7631225585938
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Ability Menu.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": false,
+                "animationFilePath": "TomatoSpriteAnimation.json"
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "UpgradeDialogue2UnlockedScript"
+            }
+        }
+    },
+    "42": {
+        "Name": "upgradeDialogueSpeed3",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 355.1539001464844,
+                    "y": -45.17405700683594,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 722.7631225585938,
+                    "y": 722.7631225585938
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Ability Menu.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": false,
+                "animationFilePath": "TomatoSpriteAnimation.json"
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "UpgradeDialogue3UnlockedScript"
+            }
+        }
+    },
+    "43": {
+        "Name": "chilliesCounter",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 769.190673828125,
+                    "y": -409.37835693359377,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1.1392793655395508,
+                    "y": 1.1392793655395508
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Tree3.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": false,
+                "animationFilePath": "NewEnemyAnimation.json"
+            },
+            "struct Com_Font": {
+                "text": "22",
+                "isVisible": true,
+                "color": {
+                    "x": 9.999999974752428e-7,
+                    "y": 9.999899930335233e-7,
+                    "z": 9.999899930335233e-7
+                }
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "ChilliesCountScript"
+            }
+        }
+    },
+    "44": {
+        "Name": "upgradeDialogueShield1",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 355.1539001464844,
+                    "y": -45.17405700683594,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 722.7631225585938,
+                    "y": 722.7631225585938
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Ability Menu.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": false,
+                "animationFilePath": "TomatoSpriteAnimation.json"
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "UpgradeDialogueShield1Script"
+            }
+        }
+    },
+    "45": {
+        "Name": "upgradeDialogueShield2",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 355.1539001464844,
+                    "y": -45.17405700683594,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 722.7631225585938,
+                    "y": 722.7631225585938
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Ability Menu.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": false,
+                "animationFilePath": "TomatoSpriteAnimation.json"
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "UpgradeDialogueShield2Script"
+            }
+        }
+    },
+    "46": {
+        "Name": "upgradeDialogueFlame1",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 355.1539001464844,
+                    "y": -45.17405700683594,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 722.7631225585938,
+                    "y": 722.7631225585938
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Ability Menu.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": false,
+                "animationFilePath": "TomatoSpriteAnimation.json"
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "UpgradeDialogueFlame1Script"
+            }
+        }
+    },
+    "47": {
+        "Name": "upgradeDialogueFlame2",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 355.1539001464844,
+                    "y": -45.17405700683594,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 722.7631225585938,
+                    "y": 722.7631225585938
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Ability Menu.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": false,
+                "animationFilePath": "TomatoSpriteAnimation.json"
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "UpgradeDialogueFlame2Script"
+            }
+        }
+    },
+    "48": {
+        "Name": "Tr(3)Collider",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 759.61669921875,
+                    "y": -384.3886413574219,
+                    "z": 1.2899999618530274
+                },
+                "rotation": 90.0,
+                "scale": {
+                    "x": 200.0,
+                    "y": 200.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "quitButton.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": false,
+                "animationFilePath": ""
+            },
+            "struct AABB": {
+                "scale": {
+                    "x": 3.569000005722046,
+                    "y": 0.5
+                },
+                "offset_pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            }
+        }
+    },
+    "49": {
+        "Name": "Tr(3)Collider",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 810.8665771484375,
+                    "y": -279.91351318359377,
+                    "z": 1.2899999618530274
+                },
+                "rotation": 90.0,
+                "scale": {
+                    "x": 200.0,
+                    "y": 200.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "New Tree 2.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": false,
+                "animationFilePath": ""
+            },
+            "struct AABB": {
+                "scale": {
+                    "x": 1.9420000314712525,
+                    "y": 0.5
+                },
+                "offset_pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            }
+        }
+    },
+    "50": {
+        "Name": "Instructions3",
+        "Parent": 2,
+        "Depth": 1,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 1.9800000190734864
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "newPause3.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": false,
+                "animationFilePath": "NewEnemyAnimation.json"
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "PauseInstructionThirdScript"
+            }
+        }
+    }
+}

@@ -1,0 +1,1258 @@
+
+"17741388151478733444": {
+    "EntityID": 17741388151478733444,
+    "Transform": {
+        "Position": {
+            "x": 3.246321678161621,
+            "y": 1.5460968017578125,
+            "z": -42.766685485839844
+        },
+        "Scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        },
+        "Rotation": {
+            "i": 0.0,
+            "j": 0.0,
+            "k": 0.0,
+            "r": 1.0
+        },
+        "Local Position": {
+            "x": 3.246321678161621,
+            "y": 1.5460968017578125,
+            "z": -42.766685485839844
+        },
+        "Local Scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        },
+        "Local Rotation": {
+            "i": 0.0,
+            "j": 0.0,
+            "k": 0.0,
+            "r": 1.0
+        },
+        "Children": [
+            {
+                "m_id": 18219804225719967444
+            },
+            {
+                "m_id": 8166389397366087374
+            }
+        ],
+        "Parent": {
+            "m_id": 0
+        }
+    },
+    "EntityInfo": {
+        "Entity Name": "ResurrectionDevice",
+        "Tags": [],
+        "Flags": 1
+    }
+},
+"9923295245020326340": {
+    "EntityID": 9923295245020326340,
+    "Transform": {
+        "Position": {
+            "x": 2.9024219512939453,
+            "y": 2.5500028133392334,
+            "z": -41.000244140625
+        },
+        "Scale": {
+            "x": 0.18973368406295776,
+            "y": 1.720827579498291,
+            "z": 4.563961505889893
+        },
+        "Rotation": {
+            "i": -0.5,
+            "j": -0.5,
+            "k": -0.49999967217445374,
+            "r": 0.5000003576278687
+        },
+        "Local Position": {
+            "x": 0.30372700095176697,
+            "y": 0.03483405336737633,
+            "z": -0.04770820215344429
+        },
+        "Local Scale": {
+            "x": 0.03794673830270767,
+            "y": 0.34416550397872925,
+            "z": 0.9127923250198364
+        },
+        "Local Rotation": {
+            "i": 0.0,
+            "j": 0.0,
+            "k": 0.0,
+            "r": 1.0
+        },
+        "Children": [],
+        "Parent": {
+            "m_id": 18219804225719967444
+        }
+    },
+    "EntityInfo": {
+        "Entity Name": "Collider",
+        "Tags": [],
+        "Flags": 1
+    },
+    "Renderer": {
+        "ModelID": {
+            "m_id": 4387389176603137095
+        },
+        "MeshInfoVector": [
+            {
+                "meshName": "Cube",
+                "hasTextures": false,
+                "albedoAlphaMap": {
+                    "m_id": 15335698413972611879
+                },
+                "normalMap": {
+                    "m_id": 5295242449649583581
+                },
+                "ambientOcclusionMap": {
+                    "m_id": 661955630329880524
+                },
+                "roughnessMap": {
+                    "m_id": 14525612286828974516
+                },
+                "emissiveMap": {
+                    "m_id": 7559141681301190761
+                },
+                "metallicMap": {
+                    "m_id": 8265130094951034005
+                },
+                "heightMap": {
+                    "m_id": 1843952903580723348
+                },
+                "textureStrength": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "brightnessFactor": 1.0
+            }
+        ],
+        "opacity": 0.0,
+        "flickerDuration": 0.10000000149011612,
+        "flickerColor": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        },
+        "wireframeMode": false,
+        "wireframeColor": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        },
+        "ignoreLighting": false,
+        "reflectSpecular": false
+    },
+    "Physics": {
+        "Shape Enum": "Box",
+        "Shape Size": {
+            "x": 0.18973368406295776,
+            "y": 1.720827579498291,
+            "z": 4.563961505889893
+        },
+        "Motion Type Enum": "Static",
+        "Scale Binded": true,
+        "Motion Quality Enum": "Discrete",
+        "Max Angular Velocity": 0.0,
+        "Angular Damping": 0.0,
+        "Max Linear Velocity": 0.0,
+        "Linear Damping": 0.0,
+        "Friction": 0.20000000298023224,
+        "Restitution": 0.0,
+        "Gravity": 0.0,
+        "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Is Trigger": false,
+        "Can Push Character": true,
+        "Can Receive Character Impulse": true
+    }
+},
+"11456890106377067855": {
+    "EntityID": 11456890106377067855,
+    "Transform": {
+        "Position": {
+            "x": 2.763516902923584,
+            "y": 4.6911845207214355,
+            "z": -42.46595764160156
+        },
+        "Scale": {
+            "x": 2.959254741668701,
+            "y": 2.959972620010376,
+            "z": 0.22904226183891296
+        },
+        "Rotation": {
+            "i": 0.0,
+            "j": -0.7071065902709961,
+            "k": -0.7071070671081543,
+            "r": 0.0
+        },
+        "Local Position": {
+            "x": 0.010584264062345028,
+            "y": 0.007053521927446127,
+            "z": 0.38052818179130554
+        },
+        "Local Scale": {
+            "x": 0.5918509364128113,
+            "y": 0.5919945240020752,
+            "z": 0.04580845311284065
+        },
+        "Local Rotation": {
+            "i": -4.76837158203125e-7,
+            "j": 0.0,
+            "k": -0.7071070671081543,
+            "r": 0.7071065902709961
+        },
+        "Children": [],
+        "Parent": {
+            "m_id": 18219804225719967444
+        }
+    },
+    "EntityInfo": {
+        "Entity Name": "Collider",
+        "Tags": [],
+        "Flags": 1
+    },
+    "Renderer": {
+        "ModelID": {
+            "m_id": 4387389176603137095
+        },
+        "MeshInfoVector": [
+            {
+                "meshName": "Cube",
+                "hasTextures": false,
+                "albedoAlphaMap": {
+                    "m_id": 15335698413972611879
+                },
+                "normalMap": {
+                    "m_id": 5295242449649583581
+                },
+                "ambientOcclusionMap": {
+                    "m_id": 661955630329880524
+                },
+                "roughnessMap": {
+                    "m_id": 14525612286828974516
+                },
+                "emissiveMap": {
+                    "m_id": 7559141681301190761
+                },
+                "metallicMap": {
+                    "m_id": 8265130094951034005
+                },
+                "heightMap": {
+                    "m_id": 1843952903580723348
+                },
+                "textureStrength": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "brightnessFactor": 1.0
+            }
+        ],
+        "opacity": 0.0,
+        "flickerDuration": 0.10000000149011612,
+        "flickerColor": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        },
+        "wireframeMode": false,
+        "wireframeColor": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        },
+        "ignoreLighting": false,
+        "reflectSpecular": false
+    },
+    "Physics": {
+        "Shape Enum": "Box",
+        "Shape Size": {
+            "x": 2.959254741668701,
+            "y": 2.959972620010376,
+            "z": 0.22904226183891296
+        },
+        "Motion Type Enum": "Static",
+        "Scale Binded": true,
+        "Motion Quality Enum": "Discrete",
+        "Max Angular Velocity": 0.0,
+        "Angular Damping": 0.0,
+        "Max Linear Velocity": 0.0,
+        "Linear Damping": 0.0,
+        "Friction": 0.20000000298023224,
+        "Restitution": 0.0,
+        "Gravity": 0.0,
+        "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Is Trigger": false,
+        "Can Push Character": true,
+        "Can Receive Character Impulse": true
+    }
+},
+"5475323669000829317": {
+    "EntityID": 5475323669000829317,
+    "Transform": {
+        "Position": {
+            "x": 1.695282220840454,
+            "y": 2.5500028133392334,
+            "z": -41.463623046875
+        },
+        "Scale": {
+            "x": 0.18973368406295776,
+            "y": 1.720827579498291,
+            "z": 4.563961505889893
+        },
+        "Rotation": {
+            "i": 0.23697277903556824,
+            "j": 0.6662151217460632,
+            "k": 0.6662173271179199,
+            "r": -0.236972376704216
+        },
+        "Local Position": {
+            "x": 0.21105103194713593,
+            "y": -0.2065938264131546,
+            "z": -0.04770803451538086
+        },
+        "Local Scale": {
+            "x": 0.03794673830270767,
+            "y": 0.34416550397872925,
+            "z": 0.9127923250198364
+        },
+        "Local Rotation": {
+            "i": 0.0000016242265701293945,
+            "j": -7.599592208862305e-7,
+            "k": 0.42924395203590393,
+            "r": -0.9031886458396912
+        },
+        "Children": [],
+        "Parent": {
+            "m_id": 18219804225719967444
+        }
+    },
+    "EntityInfo": {
+        "Entity Name": "Collider",
+        "Tags": [],
+        "Flags": 1
+    },
+    "Renderer": {
+        "ModelID": {
+            "m_id": 4387389176603137095
+        },
+        "MeshInfoVector": [
+            {
+                "meshName": "Cube",
+                "hasTextures": false,
+                "albedoAlphaMap": {
+                    "m_id": 15335698413972611879
+                },
+                "normalMap": {
+                    "m_id": 5295242449649583581
+                },
+                "ambientOcclusionMap": {
+                    "m_id": 661955630329880524
+                },
+                "roughnessMap": {
+                    "m_id": 14525612286828974516
+                },
+                "emissiveMap": {
+                    "m_id": 7559141681301190761
+                },
+                "metallicMap": {
+                    "m_id": 8265130094951034005
+                },
+                "heightMap": {
+                    "m_id": 1843952903580723348
+                },
+                "textureStrength": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "brightnessFactor": 1.0
+            }
+        ],
+        "opacity": 0.0,
+        "flickerDuration": 0.10000000149011612,
+        "flickerColor": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        },
+        "wireframeMode": false,
+        "wireframeColor": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        },
+        "ignoreLighting": false,
+        "reflectSpecular": false
+    },
+    "Physics": {
+        "Shape Enum": "Box",
+        "Shape Size": {
+            "x": 0.18973368406295776,
+            "y": 1.720827579498291,
+            "z": 4.563961505889893
+        },
+        "Motion Type Enum": "Static",
+        "Scale Binded": true,
+        "Motion Quality Enum": "Discrete",
+        "Max Angular Velocity": 0.0,
+        "Angular Damping": 0.0,
+        "Max Linear Velocity": 0.0,
+        "Linear Damping": 0.0,
+        "Friction": 0.20000000298023224,
+        "Restitution": 0.0,
+        "Gravity": 0.0,
+        "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Is Trigger": false,
+        "Can Push Character": true,
+        "Can Receive Character Impulse": true
+    }
+},
+"8166389397366087374": {
+    "EntityID": 8166389397366087374,
+    "Transform": {
+        "Position": {
+            "x": 4.8188934326171875,
+            "y": 1.4788472652435303,
+            "z": -39.684051513671875
+        },
+        "Scale": {
+            "x": 2.0,
+            "y": 2.0,
+            "z": 2.0
+        },
+        "Rotation": {
+            "i": -0.5,
+            "j": -0.5,
+            "k": -0.49999967217445374,
+            "r": 0.5000003576278687
+        },
+        "Local Position": {
+            "x": 1.5725717544555664,
+            "y": -0.06724953651428223,
+            "z": 3.0826339721679688
+        },
+        "Local Scale": {
+            "x": 2.0,
+            "y": 2.0,
+            "z": 2.0
+        },
+        "Local Rotation": {
+            "i": -0.5,
+            "j": -0.5,
+            "k": -0.49999967217445374,
+            "r": 0.5000003576278687
+        },
+        "Children": [],
+        "Parent": {
+            "m_id": 17741388151478733444
+        }
+    },
+    "EntityInfo": {
+        "Entity Name": "Panel1",
+        "Tags": [],
+        "Flags": 1
+    },
+    "Renderer": {
+        "ModelID": {
+            "m_id": 3076781872099667167
+        },
+        "MeshInfoVector": [
+            {
+                "meshName": "Cube.687",
+                "hasTextures": false,
+                "albedoAlphaMap": {
+                    "m_id": 15342556748901227234
+                },
+                "normalMap": {
+                    "m_id": 2897001593952977266
+                },
+                "ambientOcclusionMap": {
+                    "m_id": 661955630329880524
+                },
+                "roughnessMap": {
+                    "m_id": 14525612286828974516
+                },
+                "emissiveMap": {
+                    "m_id": 16340833697196766194
+                },
+                "metallicMap": {
+                    "m_id": 6868891355404405196
+                },
+                "heightMap": {
+                    "m_id": 8256615417976525788
+                },
+                "textureStrength": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "brightnessFactor": 1.0
+            }
+        ],
+        "opacity": 1.0,
+        "flickerDuration": 0.10000000149011612,
+        "flickerColor": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        },
+        "wireframeMode": false,
+        "wireframeColor": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        },
+        "ignoreLighting": false,
+        "reflectSpecular": false
+    },
+    "AudioSource": {
+        "Audio": [
+            {
+                "Key": {
+                    "m_id": 18346501213100808371
+                },
+                "Value": {
+                    "Volume": 0.30000001192092896,
+                    "Pitch": 1.5,
+                    "Priority": 128,
+                    "Is BGM": false,
+                    "Is Muted": false,
+                    "Min Rolloff Distance": 1.0,
+                    "Max Rolloff Distance": 10.0
+                }
+            }
+        ]
+    },
+    "Physics": {
+        "Shape Enum": "Box",
+        "Shape Size": {
+            "x": 2.0,
+            "y": 2.0,
+            "z": 2.0
+        },
+        "Motion Type Enum": "Static",
+        "Scale Binded": true,
+        "Motion Quality Enum": "Discrete",
+        "Max Angular Velocity": 0.0,
+        "Angular Damping": 0.0,
+        "Max Linear Velocity": 0.0,
+        "Linear Damping": 0.0,
+        "Friction": 0.20000000298023224,
+        "Restitution": 0.0,
+        "Gravity": 0.0,
+        "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Is Trigger": false,
+        "Can Push Character": true,
+        "Can Receive Character Impulse": true
+    },
+    "GameLogic": {
+        "Scripts": [
+            "Interactable",
+            "Checkpoint"
+        ],
+        "Scripts Data": [
+            {
+                "Key": "Interactable",
+                "Value": {}
+            },
+            {
+                "Key": "Checkpoint",
+                "Value": {}
+            }
+        ]
+    }
+},
+"13047438701396847593": {
+    "EntityID": 13047438701396847593,
+    "Transform": {
+        "Position": {
+            "x": 1.4741241931915283,
+            "y": 2.550001621246338,
+            "z": -43.44483947753906
+        },
+        "Scale": {
+            "x": 0.18973368406295776,
+            "y": 1.720827579498291,
+            "z": 4.563961505889893
+        },
+        "Rotation": {
+            "i": -0.25315728783607483,
+            "j": 0.6602333188056946,
+            "k": 0.6602393984794617,
+            "r": 0.2531549334526062
+        },
+        "Local Position": {
+            "x": -0.18519227206707,
+            "y": -0.2508251667022705,
+            "z": -0.04770824313163757
+        },
+        "Local Scale": {
+            "x": 0.03794673830270767,
+            "y": 0.34416550397872925,
+            "z": 0.9127923250198364
+        },
+        "Local Rotation": {
+            "i": 0.0000019818546661554137,
+            "j": -0.0000038743023651477415,
+            "k": 0.9133926033973694,
+            "r": -0.40707990527153015
+        },
+        "Children": [],
+        "Parent": {
+            "m_id": 18219804225719967444
+        }
+    },
+    "EntityInfo": {
+        "Entity Name": "Collider",
+        "Tags": [],
+        "Flags": 1
+    },
+    "Renderer": {
+        "ModelID": {
+            "m_id": 4387389176603137095
+        },
+        "MeshInfoVector": [
+            {
+                "meshName": "Cube",
+                "hasTextures": false,
+                "albedoAlphaMap": {
+                    "m_id": 15335698413972611879
+                },
+                "normalMap": {
+                    "m_id": 5295242449649583581
+                },
+                "ambientOcclusionMap": {
+                    "m_id": 661955630329880524
+                },
+                "roughnessMap": {
+                    "m_id": 14525612286828974516
+                },
+                "emissiveMap": {
+                    "m_id": 7559141681301190761
+                },
+                "metallicMap": {
+                    "m_id": 8265130094951034005
+                },
+                "heightMap": {
+                    "m_id": 1843952903580723348
+                },
+                "textureStrength": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "brightnessFactor": 1.0
+            }
+        ],
+        "opacity": 0.0,
+        "flickerDuration": 0.10000000149011612,
+        "flickerColor": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        },
+        "wireframeMode": false,
+        "wireframeColor": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        },
+        "ignoreLighting": false,
+        "reflectSpecular": false
+    },
+    "Physics": {
+        "Shape Enum": "Box",
+        "Shape Size": {
+            "x": 0.18973368406295776,
+            "y": 1.720827579498291,
+            "z": 4.563961505889893
+        },
+        "Motion Type Enum": "Static",
+        "Scale Binded": true,
+        "Motion Quality Enum": "Discrete",
+        "Max Angular Velocity": 0.0,
+        "Angular Damping": 0.0,
+        "Max Linear Velocity": 0.0,
+        "Linear Damping": 0.0,
+        "Friction": 0.20000000298023224,
+        "Restitution": 0.0,
+        "Gravity": 0.0,
+        "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Is Trigger": false,
+        "Can Push Character": true,
+        "Can Receive Character Impulse": true
+    }
+},
+"18219804225719967444": {
+    "EntityID": 18219804225719967444,
+    "Transform": {
+        "Position": {
+            "x": 2.728250503540039,
+            "y": 2.788543701171875,
+            "z": -42.51887893676758
+        },
+        "Scale": {
+            "x": 5.0,
+            "y": 5.0,
+            "z": 5.0
+        },
+        "Rotation": {
+            "i": -0.5,
+            "j": -0.5,
+            "k": -0.49999967217445374,
+            "r": 0.5000003576278687
+        },
+        "Local Position": {
+            "x": -0.518071174621582,
+            "y": 1.2424468994140625,
+            "z": 0.24780654907226563
+        },
+        "Local Scale": {
+            "x": 5.0,
+            "y": 5.0,
+            "z": 5.0
+        },
+        "Local Rotation": {
+            "i": -0.5,
+            "j": -0.5,
+            "k": -0.49999967217445374,
+            "r": 0.5000003576278687
+        },
+        "Children": [
+            {
+                "m_id": 7574694982276756443
+            },
+            {
+                "m_id": 103555849795370289
+            },
+            {
+                "m_id": 9923295245020326340
+            },
+            {
+                "m_id": 5475323669000829317
+            },
+            {
+                "m_id": 13047438701396847593
+            },
+            {
+                "m_id": 1221169970677960556
+            },
+            {
+                "m_id": 11456890106377067855
+            }
+        ],
+        "Parent": {
+            "m_id": 17741388151478733444
+        }
+    },
+    "EntityInfo": {
+        "Entity Name": "Device1",
+        "Tags": [
+            {
+                "m_id": 15
+            }
+        ],
+        "Flags": 1
+    },
+    "Renderer": {
+        "ModelID": {
+            "m_id": 7228326682100261134
+        },
+        "MeshInfoVector": [
+            {
+                "meshName": "Sphere.001",
+                "hasTextures": false,
+                "albedoAlphaMap": {
+                    "m_id": 15030600669098362738
+                },
+                "normalMap": {
+                    "m_id": 12838919692646389559
+                },
+                "ambientOcclusionMap": {
+                    "m_id": 661955630329880524
+                },
+                "roughnessMap": {
+                    "m_id": 17802904438606626052
+                },
+                "emissiveMap": {
+                    "m_id": 14121268825969033174
+                },
+                "metallicMap": {
+                    "m_id": 4307377399436950751
+                },
+                "heightMap": {
+                    "m_id": 2070724455917007407
+                },
+                "textureStrength": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "brightnessFactor": 1.0
+            }
+        ],
+        "opacity": 1.0,
+        "flickerDuration": 0.10000000149011612,
+        "flickerColor": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        },
+        "wireframeMode": false,
+        "wireframeColor": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        },
+        "ignoreLighting": false,
+        "reflectSpecular": false
+    }
+},
+"7574694982276756443": {
+    "EntityID": 7574694982276756443,
+    "Transform": {
+        "Position": {
+            "x": 2.9024219512939453,
+            "y": 0.5180613994598389,
+            "z": -42.58872604370117
+        },
+        "Scale": {
+            "x": 3.10424542427063,
+            "y": 2.889043092727661,
+            "z": 0.5167120695114136
+        },
+        "Rotation": {
+            "i": -0.5,
+            "j": -0.5,
+            "k": -0.49999967217445374,
+            "r": 0.5000003576278687
+        },
+        "Local Position": {
+            "x": -0.01396939903497696,
+            "y": 0.03483400121331215,
+            "z": -0.4540964663028717
+        },
+        "Local Scale": {
+            "x": 0.620849072933197,
+            "y": 0.5778086185455322,
+            "z": 0.10334241390228271
+        },
+        "Local Rotation": {
+            "i": 0.0,
+            "j": 0.0,
+            "k": 0.0,
+            "r": 1.0
+        },
+        "Children": [],
+        "Parent": {
+            "m_id": 18219804225719967444
+        }
+    },
+    "EntityInfo": {
+        "Entity Name": "Collider",
+        "Tags": [],
+        "Flags": 1
+    },
+    "Renderer": {
+        "ModelID": {
+            "m_id": 4387389176603137095
+        },
+        "MeshInfoVector": [
+            {
+                "meshName": "Cube",
+                "hasTextures": false,
+                "albedoAlphaMap": {
+                    "m_id": 15335698413972611879
+                },
+                "normalMap": {
+                    "m_id": 5295242449649583581
+                },
+                "ambientOcclusionMap": {
+                    "m_id": 661955630329880524
+                },
+                "roughnessMap": {
+                    "m_id": 14525612286828974516
+                },
+                "emissiveMap": {
+                    "m_id": 7559141681301190761
+                },
+                "metallicMap": {
+                    "m_id": 8265130094951034005
+                },
+                "heightMap": {
+                    "m_id": 1843952903580723348
+                },
+                "textureStrength": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "brightnessFactor": 1.0
+            }
+        ],
+        "opacity": 0.0,
+        "flickerDuration": 0.10000000149011612,
+        "flickerColor": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        },
+        "wireframeMode": false,
+        "wireframeColor": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        },
+        "ignoreLighting": false,
+        "reflectSpecular": false
+    },
+    "Physics": {
+        "Shape Enum": "Box",
+        "Shape Size": {
+            "x": 3.10424542427063,
+            "y": 2.889043092727661,
+            "z": 0.5167120695114136
+        },
+        "Motion Type Enum": "Static",
+        "Scale Binded": true,
+        "Motion Quality Enum": "Discrete",
+        "Max Angular Velocity": 0.0,
+        "Angular Damping": 0.0,
+        "Max Linear Velocity": 0.0,
+        "Linear Damping": 0.0,
+        "Friction": 0.20000000298023224,
+        "Restitution": 0.0,
+        "Gravity": 0.0,
+        "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Is Trigger": false,
+        "Can Push Character": true,
+        "Can Receive Character Impulse": true
+    }
+},
+"1221169970677960556": {
+    "EntityID": 1221169970677960556,
+    "Transform": {
+        "Position": {
+            "x": 1.1405420303344727,
+            "y": 2.549988269805908,
+            "z": -42.46595764160156
+        },
+        "Scale": {
+            "x": 0.18973374366760254,
+            "y": 1.227239727973938,
+            "z": 4.563961982727051
+        },
+        "Rotation": {
+            "i": 0.0,
+            "j": -0.7071065902709961,
+            "k": -0.7071070671081543,
+            "r": 0.0
+        },
+        "Local Position": {
+            "x": 0.010584051720798016,
+            "y": -0.3175417184829712,
+            "z": -0.04771086946129799
+        },
+        "Local Scale": {
+            "x": 0.03794674947857857,
+            "y": 0.24544794857501984,
+            "z": 0.9127923846244812
+        },
+        "Local Rotation": {
+            "i": -4.76837158203125e-7,
+            "j": 0.0,
+            "k": -0.7071070671081543,
+            "r": 0.7071065902709961
+        },
+        "Children": [],
+        "Parent": {
+            "m_id": 18219804225719967444
+        }
+    },
+    "EntityInfo": {
+        "Entity Name": "Collider",
+        "Tags": [],
+        "Flags": 1
+    },
+    "Renderer": {
+        "ModelID": {
+            "m_id": 4387389176603137095
+        },
+        "MeshInfoVector": [
+            {
+                "meshName": "Cube",
+                "hasTextures": false,
+                "albedoAlphaMap": {
+                    "m_id": 15335698413972611879
+                },
+                "normalMap": {
+                    "m_id": 5295242449649583581
+                },
+                "ambientOcclusionMap": {
+                    "m_id": 661955630329880524
+                },
+                "roughnessMap": {
+                    "m_id": 14525612286828974516
+                },
+                "emissiveMap": {
+                    "m_id": 7559141681301190761
+                },
+                "metallicMap": {
+                    "m_id": 8265130094951034005
+                },
+                "heightMap": {
+                    "m_id": 1843952903580723348
+                },
+                "textureStrength": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "brightnessFactor": 1.0
+            }
+        ],
+        "opacity": 0.0,
+        "flickerDuration": 0.10000000149011612,
+        "flickerColor": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        },
+        "wireframeMode": false,
+        "wireframeColor": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        },
+        "ignoreLighting": false,
+        "reflectSpecular": false
+    },
+    "Physics": {
+        "Shape Enum": "Box",
+        "Shape Size": {
+            "x": 0.18973374366760254,
+            "y": 1.227239727973938,
+            "z": 4.563961982727051
+        },
+        "Motion Type Enum": "Static",
+        "Scale Binded": true,
+        "Motion Quality Enum": "Discrete",
+        "Max Angular Velocity": 0.0,
+        "Angular Damping": 0.0,
+        "Max Linear Velocity": 0.0,
+        "Linear Damping": 0.0,
+        "Friction": 0.20000000298023224,
+        "Restitution": 0.0,
+        "Gravity": 0.0,
+        "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Is Trigger": false,
+        "Can Push Character": true,
+        "Can Receive Character Impulse": true
+    }
+},
+"103555849795370289": {
+    "EntityID": 103555849795370289,
+    "Transform": {
+        "Position": {
+            "x": 2.9024219512939453,
+            "y": 2.5500028133392334,
+            "z": -44.0804328918457
+        },
+        "Scale": {
+            "x": 0.18973368406295776,
+            "y": 1.720827579498291,
+            "z": 4.563961505889893
+        },
+        "Rotation": {
+            "i": -0.5,
+            "j": -0.5,
+            "k": -0.49999967217445374,
+            "r": 0.5000003576278687
+        },
+        "Local Position": {
+            "x": -0.3123107850551605,
+            "y": 0.034834474325180054,
+            "z": -0.04770820215344429
+        },
+        "Local Scale": {
+            "x": 0.03794673830270767,
+            "y": 0.34416550397872925,
+            "z": 0.9127923250198364
+        },
+        "Local Rotation": {
+            "i": 0.0,
+            "j": 0.0,
+            "k": 0.0,
+            "r": 1.0
+        },
+        "Children": [],
+        "Parent": {
+            "m_id": 18219804225719967444
+        }
+    },
+    "EntityInfo": {
+        "Entity Name": "Collider",
+        "Tags": [],
+        "Flags": 1
+    },
+    "Renderer": {
+        "ModelID": {
+            "m_id": 4387389176603137095
+        },
+        "MeshInfoVector": [
+            {
+                "meshName": "Cube",
+                "hasTextures": false,
+                "albedoAlphaMap": {
+                    "m_id": 15335698413972611879
+                },
+                "normalMap": {
+                    "m_id": 5295242449649583581
+                },
+                "ambientOcclusionMap": {
+                    "m_id": 661955630329880524
+                },
+                "roughnessMap": {
+                    "m_id": 14525612286828974516
+                },
+                "emissiveMap": {
+                    "m_id": 7559141681301190761
+                },
+                "metallicMap": {
+                    "m_id": 8265130094951034005
+                },
+                "heightMap": {
+                    "m_id": 1843952903580723348
+                },
+                "textureStrength": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "brightnessFactor": 1.0
+            }
+        ],
+        "opacity": 0.0,
+        "flickerDuration": 0.10000000149011612,
+        "flickerColor": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        },
+        "wireframeMode": false,
+        "wireframeColor": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        },
+        "ignoreLighting": false,
+        "reflectSpecular": false
+    },
+    "Physics": {
+        "Shape Enum": "Box",
+        "Shape Size": {
+            "x": 0.18973368406295776,
+            "y": 1.720827579498291,
+            "z": 4.563961505889893
+        },
+        "Motion Type Enum": "Static",
+        "Scale Binded": true,
+        "Motion Quality Enum": "Discrete",
+        "Max Angular Velocity": 0.0,
+        "Angular Damping": 0.0,
+        "Max Linear Velocity": 0.0,
+        "Linear Damping": 0.0,
+        "Friction": 0.20000000298023224,
+        "Restitution": 0.0,
+        "Gravity": 0.0,
+        "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Is Trigger": false,
+        "Can Push Character": true,
+        "Can Receive Character Impulse": true
+    }
+}

@@ -1,0 +1,427 @@
+{
+    "0": {
+        "Name": "Camera",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": -2.7160000801086427,
+                    "y": 1.9889999628067017,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 352.9949951171875,
+                    "y": 399.9289855957031
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct camera2DCom": {
+                "height_change_val": 5,
+                "height": 500.0,
+                "min_height": 50.0,
+                "isFixedToPlayer": true,
+                "isPrimary": true
+            },
+            "struct Com_type": {
+                "Type": 3
+            }
+        }
+    },
+    "1": {
+        "Name": "Upgrade choice",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1369.657958984375,
+                    "y": 767.8519897460938
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Ability Menu.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": false,
+                "animationFilePath": ""
+            }
+        }
+    },
+    "4": {
+        "Name": "Background",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1785.719970703125,
+                    "y": 997.5079956054688
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Background.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            }
+        }
+    },
+    "5": {
+        "Name": "SuperShield",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 277.08587646484377,
+                    "y": 90.08599853515625,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 386.0,
+                    "y": 239.7010040283203
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "super shield button.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            },
+            "struct scriptComponent": {
+                "script_size": 2,
+                "ScriptName0": "MouseHoverDarkScript",
+                "ScriptName1": "UpgradeButtonShieldScript"
+            }
+        }
+    },
+    "6": {
+        "Name": "BackButton",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 714.9765014648438,
+                    "y": -427.8978271484375,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 278.6570129394531,
+                    "y": 78.76000213623047
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "back.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            },
+            "struct levelLoaderButton": {
+                "Target level": "Resources/SavedLevels/ThroneRoomLevel.json"
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "MouseHoverDarkScript"
+            }
+        }
+    },
+    "7": {
+        "Name": "playerplaceholder",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Tree3.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            },
+            "struct Com_type": {
+                "Type": 0
+            },
+            "struct abilities": {
+                "active abilities": 0
+            }
+        }
+    },
+    "8": {
+        "Name": "upgradeDialogue",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 433.6763000488281,
+                    "y": 433.6763000488281
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Ability Menu.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": false,
+                "animationFilePath": ""
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "UpgradeDialogue2Script"
+            }
+        }
+    },
+    "9": {
+        "Name": "upgradeDialogue2",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 433.6763000488281,
+                    "y": 433.6763000488281
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Ability Menu.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": false,
+                "animationFilePath": ""
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "UpgradeDialogue3Script"
+            }
+        }
+    },
+    "10": {
+        "Name": "Fireball",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": -5.970863342285156,
+                    "y": -179.57168579101563,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 386.0,
+                    "y": 239.7010040283203
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Fireball Button.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            },
+            "struct scriptComponent": {
+                "script_size": 2,
+                "ScriptName0": "MouseHoverDarkScript",
+                "ScriptName1": "UpgradeButtonFireballScript"
+            }
+        }
+    },
+    "11": {
+        "Name": "SuperSpeed",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": -271.8037109375,
+                    "y": 90.08599853515625,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 386.0,
+                    "y": 239.7010040283203
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "super speed button.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            },
+            "struct scriptComponent": {
+                "script_size": 2,
+                "ScriptName0": "MouseHoverDarkScript",
+                "ScriptName1": "UpgradeButtonScript"
+            }
+        }
+    }
+}

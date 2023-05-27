@@ -1,0 +1,61 @@
+{
+    "struct transform2D": {
+        "pos": {
+            "x": 301.21490478515627,
+            "y": 461.68829345703127,
+            "z": 2.0
+        },
+        "rotation": 0.0,
+        "scale": {
+            "x": 150.0,
+            "y": 150.0
+        }
+    },
+    "struct material": {
+        "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+        "mesh": "square",
+        "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        }
+    },
+    "struct spriteCom": {
+        "textureId": "kettlesprite.png",
+        "textureSlotsId": 3.0,
+        "loop": true,
+        "toLoaded": true,
+        "rows": 4,
+        "columns": 4,
+        "speed": 100.0,
+        "isVisible": true
+    },
+    "struct rigidBody2D": {
+        "Mass": 1.0,
+        "restitution": 0.5,
+        "isGravityOn": false,
+        "Type": "Kinametics"
+    },
+    "struct AABB": {
+        "scale": {
+            "x": 0.800000011920929,
+            "y": 0.800000011920929
+        },
+        "offset_pos": {
+            "x": 0.0,
+            "y": 0.0
+        }
+    },
+    "struct controller": {},
+    "struct Com_FindPath": {},
+    "struct Com_type": {
+        "Type": 0
+    },
+    "struct Com_Health": {
+        "health": 3
+    },
+    "struct abilities": {
+        "active abilities": 0
+    }
+}

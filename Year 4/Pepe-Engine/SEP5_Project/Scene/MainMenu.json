@@ -1,0 +1,1449 @@
+{
+    "Tags": [],
+    "entities": {
+        "14668984392361108743": {
+            "EntityID": 14668984392361108743,
+            "Transform": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Local Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Local Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Local Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Children": [],
+                "Parent": {
+                    "m_id": 0
+                }
+            },
+            "EntityInfo": {
+                "Entity Name": "MusicPlayer",
+                "Tags": [],
+                "Flags": 1
+            },
+            "AudioSource": {
+                "Audio": [
+                    {
+                        "Key": {
+                            "m_id": 9902012554750114517
+                        },
+                        "Value": {
+                            "Volume": 0.30000001192092896,
+                            "Pitch": 1.0,
+                            "Priority": 0,
+                            "Is BGM": true,
+                            "Is Muted": false,
+                            "Min Rolloff Distance": 1.0,
+                            "Max Rolloff Distance": 10000.0
+                        }
+                    }
+                ]
+            },
+            "AudioListener": {},
+            "GameLogic": {
+                "Scripts": [
+                    "MMMusicPlayer"
+                ],
+                "Scripts Data": [
+                    {
+                        "Key": "MMMusicPlayer",
+                        "Value": {}
+                    }
+                ]
+            }
+        }
+    },
+    "Canvases": [
+        {
+            "ID": 9414565049935008009,
+            "Canvas Name": "MM_Background",
+            "IsActive": true,
+            "Sort Layer": 0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "UI Elements": [
+                {
+                    "ID": 6688028641176636064,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "MM_BG",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 8945946143128081534
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 14518097906550614335,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 1,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "MM_Pattern",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 0.5,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 13684805996423837123
+                    },
+                    "Rotation": 0.0
+                }
+            ]
+        },
+        {
+            "ID": 13564576623477535282,
+            "Canvas Name": "Main_Page",
+            "IsActive": true,
+            "Sort Layer": 1,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "UI Elements": [
+                {
+                    "ID": 13915383105150949678,
+                    "Type Name": "UIButton",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "left",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5699999928474426,
+                        "y": 0.3400000035762787,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.17000000178813934,
+                        "y": 0.07500000298023224,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "PlayButton",
+                    "UIScripts": {
+                        "UIScripts": [
+                            "MMPlayButtonScript"
+                        ],
+                        "UIScripts Data": [
+                            {
+                                "Key": "MMPlayButtonScript",
+                                "Value": {}
+                            }
+                        ]
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Textures": [
+                        {
+                            "m_id": 11604908863084540384
+                        },
+                        {
+                            "m_id": 7585979134921161120
+                        },
+                        {
+                            "m_id": 13286186169837629656
+                        },
+                        {
+                            "m_id": 11604908863084540384
+                        }
+                    ],
+                    "AudioQues": [
+                        {
+                            "m_id": 18346501213100808371
+                        },
+                        {
+                            "m_id": 18346501213100808370
+                        }
+                    ],
+                    "AudioQue Volume": 0.5,
+                    "AudioQue Pitch": 1.0,
+                    "AudioQue Priority": 128
+                },
+                {
+                    "ID": 2587111305522420493,
+                    "Type Name": "UIButton",
+                    "Sort Layer": 1,
+                    "Horizontal Alignment": "left",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5699999928474426,
+                        "y": 0.41999998688697815,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.17000000178813934,
+                        "y": 0.07500000298023224,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "ControlsButton",
+                    "UIScripts": {
+                        "UIScripts": [
+                            "MMControlsButtonScript"
+                        ],
+                        "UIScripts Data": [
+                            {
+                                "Key": "MMControlsButtonScript",
+                                "Value": {}
+                            }
+                        ]
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Textures": [
+                        {
+                            "m_id": 5544542264649443821
+                        },
+                        {
+                            "m_id": 2782231997909978077
+                        },
+                        {
+                            "m_id": 1179441208845632376
+                        },
+                        {
+                            "m_id": 5544542264649443821
+                        }
+                    ],
+                    "AudioQues": [
+                        {
+                            "m_id": 18346501213100808371
+                        },
+                        {
+                            "m_id": 18346501213100808370
+                        }
+                    ],
+                    "AudioQue Volume": 0.5,
+                    "AudioQue Pitch": 1.0,
+                    "AudioQue Priority": 128
+                },
+                {
+                    "ID": 159910592689648169,
+                    "Type Name": "UIButton",
+                    "Sort Layer": 2,
+                    "Horizontal Alignment": "left",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5699999928474426,
+                        "y": 0.5,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.17000000178813934,
+                        "y": 0.07500000298023224,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "OptionsButton",
+                    "UIScripts": {
+                        "UIScripts": [
+                            "MMOptionsButtonScript"
+                        ],
+                        "UIScripts Data": [
+                            {
+                                "Key": "MMOptionsButtonScript",
+                                "Value": {}
+                            }
+                        ]
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Textures": [
+                        {
+                            "m_id": 14058384415428710527
+                        },
+                        {
+                            "m_id": 10069649460538681527
+                        },
+                        {
+                            "m_id": 5907129177755478955
+                        },
+                        {
+                            "m_id": 14058384415428710527
+                        }
+                    ],
+                    "AudioQues": [
+                        {
+                            "m_id": 18346501213100808371
+                        },
+                        {
+                            "m_id": 18346501213100808370
+                        }
+                    ],
+                    "AudioQue Volume": 0.5,
+                    "AudioQue Pitch": 1.0,
+                    "AudioQue Priority": 128
+                },
+                {
+                    "ID": 268570118224031926,
+                    "Type Name": "UIButton",
+                    "Sort Layer": 3,
+                    "Horizontal Alignment": "left",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5699999928474426,
+                        "y": 0.5799999833106995,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.17000000178813934,
+                        "y": 0.07500000298023224,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "CreditsButton",
+                    "UIScripts": {
+                        "UIScripts": [
+                            "MMCreditsButtonScript"
+                        ],
+                        "UIScripts Data": [
+                            {
+                                "Key": "MMCreditsButtonScript",
+                                "Value": {}
+                            }
+                        ]
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Textures": [
+                        {
+                            "m_id": 7989017270944816836
+                        },
+                        {
+                            "m_id": 2767342763514797232
+                        },
+                        {
+                            "m_id": 7165586056594163046
+                        },
+                        {
+                            "m_id": 7989017270944816836
+                        }
+                    ],
+                    "AudioQues": [
+                        {
+                            "m_id": 18346501213100808371
+                        },
+                        {
+                            "m_id": 18346501213100808370
+                        }
+                    ],
+                    "AudioQue Volume": 0.5,
+                    "AudioQue Pitch": 1.0,
+                    "AudioQue Priority": 128
+                },
+                {
+                    "ID": 13678083240152016031,
+                    "Type Name": "UIButton",
+                    "Sort Layer": 4,
+                    "Horizontal Alignment": "left",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5699999928474426,
+                        "y": 0.6600000262260437,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.17000000178813934,
+                        "y": 0.07500000298023224,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "QuitButton",
+                    "UIScripts": {
+                        "UIScripts": [
+                            "MMQuitButtonScript"
+                        ],
+                        "UIScripts Data": [
+                            {
+                                "Key": "MMQuitButtonScript",
+                                "Value": {}
+                            }
+                        ]
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Textures": [
+                        {
+                            "m_id": 14790915210524414765
+                        },
+                        {
+                            "m_id": 18160236160997987362
+                        },
+                        {
+                            "m_id": 15318098044036381662
+                        },
+                        {
+                            "m_id": 14790915210524414765
+                        }
+                    ],
+                    "AudioQues": [
+                        {
+                            "m_id": 18346501213100808371
+                        },
+                        {
+                            "m_id": 18346501213100808370
+                        }
+                    ],
+                    "AudioQue Volume": 0.5,
+                    "AudioQue Pitch": 1.0,
+                    "AudioQue Priority": 128
+                },
+                {
+                    "ID": 14518097906550614336,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 5,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.17000000178813934,
+                        "y": 0.8600000143051147,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.1899999976158142,
+                        "y": 0.4000000059604645,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "MM_ApePortrait",
+                    "UIScripts": {
+                        "UIScripts": [
+                            "MMTeeheeAnimationScript"
+                        ],
+                        "UIScripts Data": [
+                            {
+                                "Key": "MMTeeheeAnimationScript",
+                                "Value": {}
+                            }
+                        ]
+                    },
+                    "Brightness": 0.699999988079071,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 7309070213581249519
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 8815841839157089347,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 6,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.36000001430511475,
+                        "y": 0.5,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.2199999988079071,
+                        "y": 0.10000000149011612,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "MM_Logo",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 7309070213581249520
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 7690254443779272790,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 7,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "MainPage_Border",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 2423027673567276475
+                    },
+                    "Rotation": 0.0
+                }
+            ]
+        },
+        {
+            "ID": 6142414100296113280,
+            "Canvas Name": "Controls_Page",
+            "IsActive": false,
+            "Sort Layer": 2,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "UI Elements": [
+                {
+                    "ID": 2409133394126638023,
+                    "Type Name": "UIImage",
+                    "Sort Layer": -1,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "BlackBG",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 0.699999988079071,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 7466100391818487463
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 12326133443636640042,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "ControlsPanel",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 16144886168315644444
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 11488713638532514671,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 1,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "Controls_Border",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 2423027673567276475
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 4768237449797401122,
+                    "Type Name": "UIButton",
+                    "Sort Layer": 2,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.07000000029802322,
+                        "y": 0.05000000074505806,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.10999999940395355,
+                        "y": 0.05000000074505806,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "BackButton",
+                    "UIScripts": {
+                        "UIScripts": [
+                            "BackButtonScript"
+                        ],
+                        "UIScripts Data": [
+                            {
+                                "Key": "BackButtonScript",
+                                "Value": {}
+                            }
+                        ]
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Textures": [
+                        {
+                            "m_id": 11257506550891018748
+                        },
+                        {
+                            "m_id": 3014124475049673470
+                        },
+                        {
+                            "m_id": 8663745166519100452
+                        },
+                        {
+                            "m_id": 11257506550891018748
+                        }
+                    ],
+                    "AudioQues": [
+                        {
+                            "m_id": 18346501213100808371
+                        },
+                        {
+                            "m_id": 18346501213100808370
+                        }
+                    ],
+                    "AudioQue Volume": 0.5,
+                    "AudioQue Pitch": 1.0,
+                    "AudioQue Priority": 128
+                }
+            ]
+        },
+        {
+            "ID": 6581587572680707860,
+            "Canvas Name": "Options_Page",
+            "IsActive": false,
+            "Sort Layer": 3,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "UI Elements": [
+                {
+                    "ID": 15823848495453575230,
+                    "Type Name": "UIImage",
+                    "Sort Layer": -1,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "OptionsBG",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 0.699999988079071,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 7466100391818487463
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 15443993672137739773,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "OptionsPanel",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 1953913495632634078
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 14165715195030464466,
+                    "Type Name": "UISlider",
+                    "Sort Layer": 1,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5220000147819519,
+                        "y": 0.4779999852180481,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.19499999284744263,
+                        "y": 0.019999999552965164,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "BGMSlider",
+                    "UIScripts": {
+                        "UIScripts": [
+                            "MusicSliderController"
+                        ],
+                        "UIScripts Data": [
+                            {
+                                "Key": "MusicSliderController",
+                                "Value": {}
+                            }
+                        ]
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Textures": [
+                        {
+                            "m_id": 1953913495632634081
+                        },
+                        {
+                            "m_id": 1953913495632634081
+                        },
+                        {
+                            "m_id": 1953913495632634081
+                        },
+                        {
+                            "m_id": 1953913495632634081
+                        }
+                    ],
+                    "AudioQues": [
+                        {
+                            "m_id": 18346501213100808370
+                        },
+                        {
+                            "m_id": 18346501213100808370
+                        }
+                    ],
+                    "AudioQue Volume": 0.5,
+                    "AudioQue Pitch": 1.0,
+                    "AudioQue Priority": 128,
+                    "SliderKnob Scale": {
+                        "x": 0.009999999776482582,
+                        "y": 0.03999999910593033,
+                        "z": 0.0
+                    },
+                    "Percentage": 1.0,
+                    "SliderBarBackgroundTexture": {
+                        "m_id": 1953913495632634079
+                    },
+                    "SliderBarForegroundTexture": {
+                        "m_id": 1953913495632634080
+                    }
+                },
+                {
+                    "ID": 5169805410883803244,
+                    "Type Name": "UISlider",
+                    "Sort Layer": 2,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5220000147819519,
+                        "y": 0.5640000104904175,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.19499999284744263,
+                        "y": 0.019999999552965164,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "SFXSlider",
+                    "UIScripts": {
+                        "UIScripts": [
+                            "SoundSliderController"
+                        ],
+                        "UIScripts Data": [
+                            {
+                                "Key": "SoundSliderController",
+                                "Value": {}
+                            }
+                        ]
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Textures": [
+                        {
+                            "m_id": 1953913495632634081
+                        },
+                        {
+                            "m_id": 1953913495632634081
+                        },
+                        {
+                            "m_id": 1953913495632634081
+                        },
+                        {
+                            "m_id": 1953913495632634081
+                        }
+                    ],
+                    "AudioQues": [
+                        {
+                            "m_id": 18346501213100808370
+                        },
+                        {
+                            "m_id": 18346501213100808370
+                        }
+                    ],
+                    "AudioQue Volume": 0.5,
+                    "AudioQue Pitch": 1.0,
+                    "AudioQue Priority": 128,
+                    "SliderKnob Scale": {
+                        "x": 0.009999999776482582,
+                        "y": 0.03999999910593033,
+                        "z": 0.0
+                    },
+                    "Percentage": 1.0,
+                    "SliderBarBackgroundTexture": {
+                        "m_id": 1953913495632634079
+                    },
+                    "SliderBarForegroundTexture": {
+                        "m_id": 1953913495632634080
+                    }
+                },
+                {
+                    "ID": 6468595320296796060,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 3,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "OptionsBorder",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 2423027673567276475
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 99837281411459870,
+                    "Type Name": "UIButton",
+                    "Sort Layer": 4,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.07000000029802322,
+                        "y": 0.05000000074505806,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.10999999940395355,
+                        "y": 0.05000000074505806,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "BackButton",
+                    "UIScripts": {
+                        "UIScripts": [
+                            "BackButtonScript"
+                        ],
+                        "UIScripts Data": [
+                            {
+                                "Key": "BackButtonScript",
+                                "Value": {}
+                            }
+                        ]
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Textures": [
+                        {
+                            "m_id": 11257506550891018748
+                        },
+                        {
+                            "m_id": 3014124475049673470
+                        },
+                        {
+                            "m_id": 8663745166519100452
+                        },
+                        {
+                            "m_id": 11257506550891018748
+                        }
+                    ],
+                    "AudioQues": [
+                        {
+                            "m_id": 18346501213100808371
+                        },
+                        {
+                            "m_id": 18346501213100808370
+                        }
+                    ],
+                    "AudioQue Volume": 0.5,
+                    "AudioQue Pitch": 1.0,
+                    "AudioQue Priority": 128
+                }
+            ]
+        },
+        {
+            "ID": 13356705050255783554,
+            "Canvas Name": "Credits_Page",
+            "IsActive": false,
+            "Sort Layer": 4,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "UI Elements": [
+                {
+                    "ID": 17245863064275387235,
+                    "Type Name": "UIImage",
+                    "Sort Layer": -1,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "CreditsBG",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 0.699999988079071,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 7466100391818487463
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 11186984717341761345,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "CreditsPanel",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 16436185553668767186
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 6187555642341330295,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 1,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "CreditsBorder",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 2423027673567276475
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 4768237449797401121,
+                    "Type Name": "UIButton",
+                    "Sort Layer": 2,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.07000000029802322,
+                        "y": 0.05000000074505806,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.10999999940395355,
+                        "y": 0.05000000074505806,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "BackButton",
+                    "UIScripts": {
+                        "UIScripts": [
+                            "BackButtonScript"
+                        ],
+                        "UIScripts Data": [
+                            {
+                                "Key": "BackButtonScript",
+                                "Value": {}
+                            }
+                        ]
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Textures": [
+                        {
+                            "m_id": 11257506550891018748
+                        },
+                        {
+                            "m_id": 3014124475049673470
+                        },
+                        {
+                            "m_id": 8663745166519100452
+                        },
+                        {
+                            "m_id": 11257506550891018748
+                        }
+                    ],
+                    "AudioQues": [
+                        {
+                            "m_id": 18346501213100808371
+                        },
+                        {
+                            "m_id": 18346501213100808370
+                        }
+                    ],
+                    "AudioQue Volume": 0.5,
+                    "AudioQue Pitch": 1.0,
+                    "AudioQue Priority": 128
+                }
+            ]
+        }
+    ],
+    "Global Illumination setting": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "intentsity": 0.019999999552965164
+    }
+}

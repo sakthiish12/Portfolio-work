@@ -1,0 +1,154 @@
+{
+    "prefab": {
+        "Transform": {
+            "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.356100082397461,
+                "y": 1.3561002016067505,
+                "z": 1.3561002016067505
+            },
+            "Rotation": {
+                "i": 0.0,
+                "j": 0.4929902255535126,
+                "k": 0.0,
+                "r": 0.8700348734855652
+            },
+            "Local Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Local Scale": {
+                "x": 1.356100082397461,
+                "y": 1.3561002016067505,
+                "z": 1.3561002016067505
+            },
+            "Local Rotation": {
+                "i": 0.0,
+                "j": 0.4929902255535126,
+                "k": 0.0,
+                "r": 0.8700348734855652
+            },
+            "Children": [],
+            "Parent": {
+                "m_id": 0
+            }
+        },
+        "EntityInfo": {
+            "Entity Name": "MilkBottle",
+            "Tags": [],
+            "Flags": 1
+        },
+        "Renderer": {
+            "ModelID": {
+                "m_id": 4387389176603137095
+            },
+            "MeshInfoVector": [
+                {
+                    "meshName": "Cube",
+                    "hasTextures": false,
+                    "albedoAlphaMap": {
+                        "m_id": 15335698413972611879
+                    },
+                    "normalMap": {
+                        "m_id": 5295242449649583581
+                    },
+                    "ambientOcclusionMap": {
+                        "m_id": 661955630329880524
+                    },
+                    "roughnessMap": {
+                        "m_id": 14525612286828974516
+                    },
+                    "emissiveMap": {
+                        "m_id": 7559141681301190761
+                    },
+                    "metallicMap": {
+                        "m_id": 8265130094951034005
+                    },
+                    "heightMap": {
+                        "m_id": 1843952903580723348
+                    },
+                    "textureStrength": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "brightnessFactor": 3.4070000648498535
+                }
+            ],
+            "opacity": 0.0,
+            "flickerDuration": 0.10000000149011612,
+            "flickerColor": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0,
+                "w": 1.0
+            },
+            "wireframeMode": false,
+            "wireframeColor": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0,
+                "w": 1.0
+            },
+            "ignoreLighting": false,
+            "reflectSpecular": false
+        },
+        "Physics": {
+            "Shape Enum": "Box",
+            "Shape Size": {
+                "x": 1.356100082397461,
+                "y": 1.3561002016067505,
+                "z": 1.3561002016067505
+            },
+            "Motion Type Enum": "Dynamic",
+            "Scale Binded": true,
+            "Motion Quality Enum": "Discrete",
+            "Max Angular Velocity": 0.0,
+            "Angular Damping": 0.0,
+            "Max Linear Velocity": 500.0,
+            "Linear Damping": 0.0,
+            "Friction": 0.20000000298023224,
+            "Restitution": 0.0,
+            "Gravity": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Is Trigger": false,
+            "Can Push Character": false,
+            "Can Receive Character Impulse": false
+        },
+        "GameLogic": {
+            "Scripts": [
+                "Interactable",
+                "MilkBottlePickUp",
+                "RotationScript"
+            ],
+            "Scripts Data": [
+                {
+                    "Key": "Interactable",
+                    "Value": {}
+                },
+                {
+                    "Key": "MilkBottlePickUp",
+                    "Value": {}
+                },
+                {
+                    "Key": "RotationScript",
+                    "Value": {
+                        "RateOfRotation": 90.0
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "prefab": {
+        "Transform": {
+            "Position": {
+                "x": 45.660160064697266,
+                "y": 4.279733180999756,
+                "z": -45.948612213134766
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Rotation": {
+                "i": -0.7071065902709961,
+                "j": 5.322005449670542e-7,
+                "k": 5.32200203906541e-7,
+                "r": 0.7071070671081543
+            },
+            "Local Position": {
+                "x": 0.0,
+                "y": 0.30000001192092896,
+                "z": 0.3499997556209564
+            },
+            "Local Scale": {
+                "x": 0.3333333432674408,
+                "y": 0.3333333432674408,
+                "z": 0.3333333432674408
+            },
+            "Local Rotation": {
+                "i": -0.7071065902709961,
+                "j": 4.214685134229512e-8,
+                "k": 4.214685134229512e-8,
+                "r": 0.7071070671081543
+            },
+            "Children": [],
+            "Parent": {
+                "m_id": 0
+            }
+        },
+        "EntityInfo": {
+            "Entity Name": "Gun Model",
+            "Tags": [],
+            "Flags": 1
+        },
+        "Renderer": {
+            "ModelID": {
+                "m_id": 165968077060401443
+            },
+            "MeshInfoVector": [
+                {
+                    "meshName": "Cylinder.004",
+                    "hasTextures": false,
+                    "albedoAlphaMap": {
+                        "m_id": 15335698413972611879
+                    },
+                    "normalMap": {
+                        "m_id": 5295242449649583581
+                    },
+                    "ambientOcclusionMap": {
+                        "m_id": 661955630329880524
+                    },
+                    "roughnessMap": {
+                        "m_id": 14525612286828974516
+                    },
+                    "emissiveMap": {
+                        "m_id": 7559141681301190761
+                    },
+                    "metallicMap": {
+                        "m_id": 8265130094951034005
+                    },
+                    "textureStrength": [
+                        0.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "brightnessFactor": 1.0
+                }
+            ],
+            "opacity": 1.0,
+            "flickerDuration": 0.10000000149011612,
+            "flickerColor": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0,
+                "w": 1.0
+            },
+            "wireframeMode": false,
+            "wireframeColor": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0,
+                "w": 1.0
+            }
+        }
+    }
+}

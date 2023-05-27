@@ -1,0 +1,41 @@
+{
+  "struct transform2D": {
+    "pos": {
+      "x": 8.556175231933594,
+      "y": 39.99999237060547,
+      "z": 1.0
+    },
+    "rotation": 0.0,
+    "scale": {
+      "x": 740.3048706054688,
+      "y": 351.92279052734377
+    }
+  },
+  "struct material": {
+    "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+    "mesh": "square",
+    "color": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0,
+      "w": 1.0
+    }
+  },
+  "struct spriteCom": {
+    "textureId": "Chat bubble.png",
+    "textureSlotsId": 1.0,
+    "loop": false,
+    "toLoaded": true,
+    "rows": 4,
+    "columns": 4,
+    "speed": 100.0,
+    "isVisible": false,
+    "animationFilePath": "NewEnemyAnimation.json"
+  },
+  "struct Dialogue": {
+    "Dialogue Texture": "Resources/PresetEntities/ChatBubble1.json",
+    "Dialogue Text": "Resources/PresetEntities/ThroneChatBubble4TEXT.json",
+    "X OffSet": 0.0,
+    "Y OffSet": -1.2999999523162842
+  }
+}

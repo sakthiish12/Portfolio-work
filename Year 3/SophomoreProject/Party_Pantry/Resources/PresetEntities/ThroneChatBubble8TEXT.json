@@ -1,0 +1,48 @@
+{
+  "struct transform2D": {
+    "pos": {
+      "x": -2.675,
+      "y": -1.307,
+      "z": 1.9
+    },
+    "rotation": 0.0,
+    "scale": {
+      "x": 0.003,
+      "y": 0.003
+    }
+  },
+  "struct material": {
+    "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+    "mesh": "square",
+    "color": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0,
+      "w": 1.0
+    }
+  },
+  "struct spriteCom": {
+    "textureId": "Chat bubble.png",
+    "textureSlotsId": 1.0,
+    "loop": false,
+    "toLoaded": false,
+    "rows": 4,
+    "columns": 4,
+    "speed": 0.0,
+    "isVisible": false,
+    "animationFilePath": ""
+  },
+  "struct Com_Font": {
+    "text": "",
+    "isVisible": true,
+    "color": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    }
+  },
+  "struct DialogueManager": {
+    "Dialogue Storage": "The Food Devils will be defeated by you my son. I believe in that.",
+    "Dialogue Soeed": 0.05
+  }
+}

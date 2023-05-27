@@ -1,0 +1,35 @@
+{
+    "struct transform2D": {
+      "pos": {
+        "x": 0.0,
+        "y": -195.812,
+        "z": 1.899999976158142
+      },
+        "rotation": 0.0,
+      "scale": {
+        "x": 941.473,
+        "y": 162.505
+      }
+    },
+    "struct material": {
+        "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+        "mesh": "square",
+        "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        }
+    },
+    "struct spriteCom": {
+        "textureId": "MamaKettleText.png",
+        "textureSlotsId": 1.0,
+        "loop": false,
+        "toLoaded": true,
+        "rows": 4,
+        "columns": 4,
+        "speed": 100.0,
+        "isVisible": true,
+        "animationFilePath": "NewEnemyAnimation.json"
+    }
+}

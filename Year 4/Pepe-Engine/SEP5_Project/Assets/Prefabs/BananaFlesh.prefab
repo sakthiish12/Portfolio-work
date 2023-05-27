@@ -1,0 +1,142 @@
+{
+    "prefab": {
+        "Transform": {
+            "Position": {
+                "x": 15.017425537109375,
+                "y": 1.6535696983337402,
+                "z": 5.434247970581055
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Rotation": {
+                "i": 0.2578592002391815,
+                "j": -0.005907498765736818,
+                "k": 0.0003010941727552563,
+                "r": 0.9661644101142883
+            },
+            "Local Position": {
+                "x": 15.017425537109375,
+                "y": 1.6535696983337402,
+                "z": 5.434247970581055
+            },
+            "Local Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Local Rotation": {
+                "i": 0.2578592002391815,
+                "j": -0.005907498765736818,
+                "k": 0.0003010941727552563,
+                "r": 0.9661644101142883
+            },
+            "Children": [],
+            "Parent": {
+                "m_id": 0
+            }
+        },
+        "EntityInfo": {
+            "Entity Name": "BananaFlesh",
+            "Tags": [],
+            "Flags": 1
+        },
+        "Renderer": {
+            "ModelID": {
+                "m_id": 12905914022835908664
+            },
+            "MeshInfoVector": [
+                {
+                    "meshName": "Mesh.001",
+                    "hasTextures": false,
+                    "albedoAlphaMap": {
+                        "m_id": 7930349632822774644
+                    },
+                    "normalMap": {
+                        "m_id": 5295242449649583581
+                    },
+                    "ambientOcclusionMap": {
+                        "m_id": 661955630329880524
+                    },
+                    "roughnessMap": {
+                        "m_id": 14525612286828974516
+                    },
+                    "emissiveMap": {
+                        "m_id": 7559141681301190761
+                    },
+                    "metallicMap": {
+                        "m_id": 8265130094951034005
+                    },
+                    "heightMap": {
+                        "m_id": 1843952903580723348
+                    },
+                    "textureStrength": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "brightnessFactor": 1.9780000448226929
+                }
+            ],
+            "opacity": 1.0,
+            "flickerDuration": 3.0,
+            "flickerColor": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0,
+                "w": 1.0
+            },
+            "wireframeMode": false,
+            "wireframeColor": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0,
+                "w": 1.0
+            },
+            "ignoreLighting": false,
+            "reflectSpecular": false
+        },
+        "Physics": {
+            "Shape Enum": "Sphere",
+            "Shape Size": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Motion Type Enum": "Dynamic",
+            "Scale Binded": false,
+            "Motion Quality Enum": "Discrete",
+            "Max Angular Velocity": 0.10000000149011612,
+            "Angular Damping": 1.0,
+            "Max Linear Velocity": 500.0,
+            "Linear Damping": 0.05000000074505806,
+            "Friction": 1.0,
+            "Restitution": 0.0,
+            "Gravity": 0.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Is Trigger": false,
+            "Can Push Character": false,
+            "Can Receive Character Impulse": false
+        },
+        "GameLogic": {
+            "Scripts": [
+                "Projectile"
+            ],
+            "Scripts Data": [
+                {
+                    "Key": "Projectile",
+                    "Value": {}
+                }
+            ]
+        }
+    }
+}

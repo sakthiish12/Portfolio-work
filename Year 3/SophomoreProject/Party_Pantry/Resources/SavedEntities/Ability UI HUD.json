@@ -1,0 +1,39 @@
+{
+    "struct transform2D": {
+        "pos": {
+            "x": -2.062999963760376,
+            "y": 1.5260000228881837,
+            "z": 1.899999976158142
+        },
+        "rotation": 0.0,
+        "scale": {
+            "x": 2.740000009536743,
+            "y": 0.8100000023841858
+        }
+    },
+    "struct material": {
+        "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+        "mesh": "square",
+        "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        }
+    },
+    "struct spriteCom": {
+        "textureId": "P0.png",
+        "textureSlotsId": 1.0,
+        "loop": false,
+        "toLoaded": true,
+        "rows": 4,
+        "columns": 4,
+        "speed": 100.0,
+        "isVisible": true,
+        "animationFilePath": "NewEnemyAnimation.json"
+    },
+    "struct scriptComponent": {
+        "script_size": 1,
+        "ScriptName0": "HUDUIScript"
+    }
+}

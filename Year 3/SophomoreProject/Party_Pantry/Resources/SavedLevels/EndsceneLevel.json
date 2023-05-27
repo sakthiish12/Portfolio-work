@@ -1,0 +1,83 @@
+{
+    "1": {
+        "Name": "Background",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1790.0,
+                    "y": 1000.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "EndScene.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            },
+            "struct levelLoaderButton": {
+                "Target level": "Resources/SavedLevels/Endscene1Level.json"
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "SpaceToSkipEndSceneScript"
+            }
+        }
+    },
+    "2": {
+        "Name": "Camera",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct camera2DCom": {
+                "height_change_val": 5,
+                "height": 500.0,
+                "min_height": 50.0,
+                "isFixedToPlayer": true,
+                "isPrimary": true
+            }
+        }
+    }
+}

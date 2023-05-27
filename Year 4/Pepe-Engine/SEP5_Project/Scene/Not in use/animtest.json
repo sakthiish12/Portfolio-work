@@ -1,0 +1,122 @@
+{
+    "Tags": [],
+    "entities": {
+        "2550884485514212321": {
+            "EntityID": 2550884485514212321,
+            "Transform": {
+                "Position": {
+                    "x": 0.0,
+                    "y": -4.775777816772461,
+                    "z": -0.000002561926066846354
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Rotation": {
+                    "i": -8.432161635596458e-9,
+                    "j": -0.7071070671081543,
+                    "k": -0.7071065902709961,
+                    "r": 8.432167852845396e-9
+                },
+                "Local Position": {
+                    "x": 0.0,
+                    "y": -4.775777816772461,
+                    "z": -0.000002561926066846354
+                },
+                "Local Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Local Rotation": {
+                    "i": -8.432161635596458e-9,
+                    "j": -0.7071070671081543,
+                    "k": -0.7071065902709961,
+                    "r": 8.432167852845396e-9
+                },
+                "Children": [],
+                "Parent": {
+                    "m_id": 0
+                }
+            },
+            "EntityInfo": {
+                "Entity Name": "New Entity",
+                "Tags": [],
+                "Flags": 1
+            },
+            "Renderer": {
+                "ModelID": {
+                    "m_id": 13942308143319936782
+                },
+                "MeshInfoVector": [
+                    {
+                        "meshName": "Sphere.004",
+                        "hasTextures": false,
+                        "albedoAlphaMap": {
+                            "m_id": 6497532860751393468
+                        },
+                        "normalMap": {
+                            "m_id": 5295242449649583581
+                        },
+                        "ambientOcclusionMap": {
+                            "m_id": 661955630329880524
+                        },
+                        "roughnessMap": {
+                            "m_id": 14525612286828974516
+                        },
+                        "emissiveMap": {
+                            "m_id": 8186683162576037237
+                        },
+                        "metallicMap": {
+                            "m_id": 8265130094951034005
+                        },
+                        "heightMap": {
+                            "m_id": 1843952903580723348
+                        },
+                        "textureStrength": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "brightnessFactor": 1.0
+                    }
+                ],
+                "opacity": 1.0,
+                "flickerDuration": 0.10000000149011612,
+                "flickerColor": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "wireframeMode": false,
+                "wireframeColor": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "ignoreLighting": false,
+                "reflectSpecular": false
+            },
+            "AnimationComponent": {
+                "Time": 0.0,
+                "AnimationName": "Firewall|Attack1Anim",
+                "AnimationIdx": 0,
+                "TickOffset": 1.0
+            }
+        }
+    },
+    "Canvases": [],
+    "Global Illumination setting": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "intentsity": 0.019999999552965164
+    }
+}

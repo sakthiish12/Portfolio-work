@@ -1,0 +1,81 @@
+{
+    "0": {
+        "Name": "Camera",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct camera2DCom": {
+                "height_change_val": 5,
+                "height": 300.0,
+                "min_height": 50.0,
+                "isFixedToPlayer": true,
+                "isPrimary": true
+            }
+        }
+    },
+    "1": {
+        "Name": "Cutscene2",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1075.0,
+                    "y": 600.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "newCutScene2.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            },
+            "struct scriptComponent": {
+                "script_size": 2,
+                "ScriptName0": "FadeInOutCustScene2Script",
+                "ScriptName1": "SpaceToSkipScript"
+            }
+        }
+    }
+}

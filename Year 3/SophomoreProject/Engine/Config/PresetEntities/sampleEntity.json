@@ -1,0 +1,20 @@
+{
+  "struct transform2D": {
+    "pos": {
+      "x": 200.0,
+      "y": 200.0
+    },
+    "rotation": 3.1416,
+    "scale": {
+      "x": 20.0,
+      "y": 20.0
+    }
+  },
+  "struct material": {
+    "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+    "mesh": "square"
+  },
+  "struct spriteCom": {
+    "textureId" :  "../../Graphics/Resources/apple.png"
+  }
+}

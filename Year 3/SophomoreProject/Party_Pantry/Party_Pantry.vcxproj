@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{eb8b83ed-63f7-4161-b9fe-22671a957219}</ProjectGuid>
+    <RootNamespace>PartyPantry</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir);$(SolutionDir)Dependencies\GLEW\include;$(SolutionDir)Dependencies\Vendor;$(SolutionDir)Graphics\Source;$(SolutionDir)Dependencies\FreeType\include;$(SolutionDir)Dependencies\rapidjson;$(SolutionDir)Dependencies\fmod\include;$(SolutionDir)Dependencies\mono\include\mono-2.0;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\Dependencies;$(SolutionDir)Dependencies\mono\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir);$(SolutionDir)Dependencies\GLEW\include;$(SolutionDir)Dependencies\Vendor;$(SolutionDir)Graphics\Source;$(SolutionDir)Dependencies\FreeType\include;$(SolutionDir)Dependencies\rapidjson;$(SolutionDir)Dependencies\fmod\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)Dependencies\mono\include\mono-2.0</IncludePath>
+    <LibraryPath>$(SolutionDir)..\Dependencies;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(SolutionDir)Dependencies\mono\lib</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\mono\include\mono-2.0</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Engine_debug.lib;User32.lib;Gdi32.lib;Shell32.lib;opengl32.lib;mono-2.0-sgen.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/IGNORE:4217  /IGNORE:4099 /IGNORE:4098 /IGNORE:4006 %(AdditionalOptions)</AdditionalOptions>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+    </Link>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\User\Documents\GitHub\SophomoreProject\Engine\Dependencies\mono\include\mono-2.0\mono;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Engine.lib;opengl32.lib;User32.lib;Gdi32.lib;Shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/IGNORE:4217  /IGNORE:4099 /IGNORE:4098 /IGNORE:4006 %(AdditionalOptions)</AdditionalOptions>
+      <Profile>true</Profile>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Engine\Engine.vcxproj">
+      <Project>{5205de6a-19ae-4bd0-9a92-92c44a6e1e23}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Scripts\Blender\BlenderWarningScript.cpp" />
+    <ClCompile Include="Scripts\Blender\ChilliesTextCountScript.cpp" />
+    <ClCompile Include="Scripts\Blender\MushroomTextCountScript.cpp" />
+    <ClCompile Include="Scripts\ChilliCrackler.cpp" />
+    <ClCompile Include="Scripts\CreditSceneScript.cpp" />
+    <ClCompile Include="Scripts\DigipenLogoScript.cpp" />
+    <ClCompile Include="Scripts\Firebomb.cpp" />
+    <ClCompile Include="Scripts\GameIconScript.cpp" />
+    <ClCompile Include="Scripts\HUD\ChilliesCounterScript.cpp" />
+    <ClCompile Include="Scripts\HUD\CounterUIScript.cpp" />
+    <ClCompile Include="Scripts\HUD\HUDFireballOverlayScrip.cpp" />
+    <ClCompile Include="Scripts\HUD\HUDShieldOverlayScript.cpp" />
+    <ClCompile Include="Scripts\HUD\HUDSpeedOverlayScript.cpp" />
+    <ClCompile Include="Scripts\Level2\BlockageScript.cpp" />
+    <ClCompile Include="Scripts\Level2\BoulderCameraTransitionScript.cpp" />
+    <ClCompile Include="Scripts\Level2\BridgeCutSceneScript.cpp" />
+    <ClCompile Include="Scripts\Level2\DynamicHUDUIScript.cpp" />
+    <ClCompile Include="Scripts\Level2\KingCoordSplashScript.cpp" />
+    <ClCompile Include="Scripts\Level2\MushroomDynamicCameraScript.cpp" />
+    <ClCompile Include="Scripts\Level2\LevelTwoTasklistScript.cpp" />
+    <ClCompile Include="Scripts\Level2\SpeedUpgradeDialogue.cpp" />
+    <ClCompile Include="Scripts\MainMenuPlayButtonScript.cpp" />
+    <ClCompile Include="Scripts\MeleeSpatula.cpp" />
+    <ClCompile Include="Scripts\MenuSelector\MenuSelectorLevel1Script.cpp" />
+    <ClCompile Include="Scripts\MenuSelector\MenuSelectorLevel2Script.cpp" />
+    <ClCompile Include="Scripts\MushroomMole.cpp" />
+    <ClCompile Include="Scripts\Blender\BlenderSceneTextScript.cpp" />
+    <ClCompile Include="Scripts\BossMushroomScript.cpp" />
+    <ClCompile Include="Scripts\BridgeScript.cpp" />
+    <ClCompile Include="Scripts\BushScript.cpp" />
+    <ClCompile Include="Scripts\CameraTransitionScript.cpp" />
+    <ClCompile Include="Scripts\ChiliShotScript.cpp" />
+    <ClCompile Include="Scripts\ControllerScript.cpp" />
+    <ClCompile Include="Scripts\HUD\AbilitiesUIScript.cpp" />
+    <ClCompile Include="Scripts\Blender\BlenderCapDragScript.cpp" />
+    <ClCompile Include="Scripts\Blender\BlenderOutputScript.cpp" />
+    <ClCompile Include="Scripts\BlenderProximityScript.cpp" />
+    <ClCompile Include="Scripts\Blender\BlenderTextCountScript.cpp" />
+    <ClCompile Include="Scripts\EnemyBehaviour.cpp" />
+    <ClCompile Include="Scripts\FadeInOutCutScene2Script.cpp" />
+    <ClCompile Include="Scripts\FadeInOutScript.cpp" />
+    <ClCompile Include="Scripts\FadeInScript.cpp" />
+    <ClCompile Include="Scripts\FireShotScript.cpp" />
+    <ClCompile Include="Scripts\DamagedScript.cpp" />
+    <ClCompile Include="Scripts\HealthUIScript.cpp" />
+    <ClCompile Include="Scripts\HUD\HUDUIScript.cpp" />
+    <ClCompile Include="Scripts\IncludeAllScript.cpp" />
+    <ClCompile Include="Scripts\Level2\BoulderScript.cpp" />
+    <ClCompile Include="Scripts\Level2\CaveTeleportingScript.cpp" />
+    <ClCompile Include="Scripts\Level2\FallingStepScript.cpp" />
+    <ClCompile Include="Scripts\LeverActivationScript.cpp" />
+    <ClCompile Include="Scripts\LoseQuitGameScript.cpp" />
+    <ClCompile Include="Scripts\MouseHoverDarkenScript.cpp" />
+    <ClCompile Include="Scripts\MoveableBounder.cpp" />
+    <ClCompile Include="Scripts\MushroomBoss.cpp" />
+    <ClCompile Include="Scripts\OptionsScrollerScript.cpp" />
+    <ClCompile Include="Scripts\HUD\MushroomCounterScript.cpp" />
+    <ClCompile Include="Scripts\OptionsScrollerScriptV2.cpp" />
+    <ClCompile Include="Scripts\Pause\PauseInstructionFirstScript.cpp" />
+    <ClCompile Include="Scripts\Pause\PauseInstructionsScript.cpp" />
+    <ClCompile Include="Scripts\Pause\PauseInstructionsSecondScript.cpp" />
+    <ClCompile Include="Scripts\KetchapGunScript.cpp" />
+    <ClCompile Include="Scripts\Pause\PauseInstructionThirdScript.cpp" />
+    <ClCompile Include="Scripts\Pause\PauseMainMenuScript.cpp" />
+    <ClCompile Include="Scripts\PauseOptionGameScript.cpp" />
+    <ClCompile Include="Scripts\PauseOptionSoundScript.cpp" />
+    <ClCompile Include="Scripts\Pause\PauseQuitGameScript.cpp" />
+    <ClCompile Include="Scripts\Pause\PauseRestart2Script.cpp" />
+    <ClCompile Include="Scripts\Pause\PauseRestartScript.cpp" />
+    <ClCompile Include="Scripts\Pause\PauseRestartThroneScript.cpp" />
+    <ClCompile Include="Scripts\Pause\PauseResumeScript.cpp" />
+    <ClCompile Include="Scripts\Pause\PauseScript.cpp" />
+    <ClCompile Include="Scripts\PlayerCollisionEnemyTest.cpp" />
+    <ClCompile Include="Scripts\PlayerController.cpp" />
+    <ClCompile Include="Scripts\ResolutionChangeScript.cpp" />
+    <ClCompile Include="Scripts\ScriptTest.cpp" />
+    <ClCompile Include="Scripts\SkillsUpgradeCheckerScript.cpp" />
+    <ClCompile Include="Scripts\SoundLevel2Script.cpp" />
+    <ClCompile Include="Scripts\SoundsScript.cpp" />
+    <ClCompile Include="Scripts\SpaceToSkipEndSceneScript.cpp" />
+    <ClCompile Include="Scripts\TeleporterLevel1Script.cpp" />
+    <ClCompile Include="Scripts\ThroneRoom\ThroneDialogueScript.cpp" />
+    <ClCompile Include="Scripts\ThroneRoom\ThroneRoomStairsScript.cpp" />
+    <ClCompile Include="Scripts\ThroneRoom\ThroneRoomTeleporterScript.cpp" />
+    <ClCompile Include="Scripts\TomoSplashScript.cpp" />
+    <ClCompile Include="Scripts\Tornado.cpp" />
+    <ClCompile Include="Scripts\UpgradeDialogues\UpgradeDialogue1Script.cpp" />
+    <ClCompile Include="Scripts\UpgradeDialogues\UpgradeDialogue2Script.cpp" />
+    <ClCompile Include="Scripts\TomatoBoss.cpp" />
+    <ClCompile Include="Scripts\TomatoTimebomb.cpp" />
+    <ClCompile Include="Scripts\UpgradeDialogues\UpgradeDialogue3Script.cpp" />
+    <ClCompile Include="Scripts\UpgradeDialogues\UpgradeDialogueFlame1Script.cpp" />
+    <ClCompile Include="Scripts\UpgradeDialogues\UpgradeDialogueFlame2Script.cpp" />
+    <ClCompile Include="Scripts\UpgradeDialogues\UpgradeDialogueShield1Script.cpp" />
+    <ClCompile Include="Scripts\UpgradeDialogues\UpgradeDialogueShield2Script.cpp" />
+    <ClCompile Include="Scripts\UpgradeDialogues\UpgradeDialogueSpeedUnlockedScript.cpp" />
+    <ClCompile Include="Scripts\UpgradeDialogues\UpgradeDialogueUnlocked2Script.cpp" />
+    <ClCompile Include="Scripts\UpgradeDialogues\UpgradeDialogueUnlocked3Script.cpp" />
+    <ClCompile Include="Scripts\Upgrades\UpgradeBodyScript.cpp" />
+    <ClCompile Include="Scripts\SpaceToSkipScript.cpp" />
+    <ClCompile Include="Scripts\TasklistScript.cpp" />
+    <ClCompile Include="Scripts\TeleporterScript.cpp" />
+    <ClCompile Include="Scripts\HUD\TomatoCounterScript.cpp" />
+    <ClCompile Include="Scripts\Upgrades\UpgradeButton2Shield.cpp" />
+    <ClCompile Include="Scripts\Upgrades\UpgradeButton3FireBallScript.cpp" />
+    <ClCompile Include="Scripts\Upgrades\UpgradeButtonScript.cpp" />
+    <ClCompile Include="Scripts\Upgrades\UpgradeSkillsScript.cpp" />
+    <ClCompile Include="Scripts\WaterShotScript.cpp" />
+    <ClCompile Include="Scripts\TomatoTrooper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Config\NewPlayerAnimation.json" />
+    <None Include="Config\PlayerAnimation.json" />
+    <None Include="Config\PresetEntities\PhyTest0.json" />
+    <None Include="Config\PresetEntities\sampleGUI.json" />
+    <None Include="Scripts\HUD\HUDUIScript.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scripts\Blender\BlenderWarningScript.h" />
+    <ClInclude Include="Scripts\Blender\ChilliesTextCountScript.h" />
+    <ClInclude Include="Scripts\Blender\MushroomTextCountScript.h" />
+    <ClInclude Include="Scripts\ChilliCrackler.h" />
+    <ClInclude Include="Scripts\CreditSceneScript.h" />
+    <ClInclude Include="Scripts\DigipenLogoScript.h" />
+    <ClInclude Include="Scripts\Firebomb.h" />
+    <ClInclude Include="Scripts\GameIconScript.h" />
+    <ClInclude Include="Scripts\HUD\ChilliesCounterScript.h" />
+    <ClInclude Include="Scripts\HUD\CounterUIScript.h" />
+    <ClInclude Include="Scripts\HUD\HUDFireballOverlayScript.h" />
+    <ClInclude Include="Scripts\HUD\HUDShieldOverlayScript.h" />
+    <ClInclude Include="Scripts\HUD\HUDSpeedOverlayScript.h" />
+    <ClInclude Include="Scripts\Level2\BlockageScript.h" />
+    <ClInclude Include="Scripts\Level2\BoulderCameraTransitionScript.h" />
+    <ClInclude Include="Scripts\Level2\BridgeCutSceneScript.h" />
+    <ClInclude Include="Scripts\Level2\DynamicHUDUIScript.h" />
+    <ClInclude Include="Scripts\Level2\KingCoordSplashScript.h" />
+    <ClInclude Include="Scripts\Level2\LevelTwoTasklistScript.h" />
+    <ClInclude Include="Scripts\Level2\MushroomDynamicCameraScript.h" />
+    <ClInclude Include="Scripts\Level2\SpeedUpgradeDialogue.h" />
+    <ClInclude Include="Scripts\MainMenuPlayButtonScript.h" />
+    <ClInclude Include="Scripts\MeleeSpatula.h" />
+    <ClInclude Include="Scripts\MenuSelector\MenuSelectorLevel1Script.h" />
+    <ClInclude Include="Scripts\MenuSelector\MenuSelectorLevel2Script.h" />
+    <ClInclude Include="Scripts\MushroomMole.h" />
+    <ClInclude Include="Scripts\HUD\AbilitiesUIScript.h" />
+    <ClInclude Include="Scripts\Blender\BlenderCapDragScript.h" />
+    <ClInclude Include="Scripts\Blender\BlenderOutputScript.h" />
+    <ClInclude Include="Scripts\BlenderProximityScript.h" />
+    <ClInclude Include="Scripts\Blender\BlenderSceneTextScript.h" />
+    <ClInclude Include="Scripts\Blender\BlenderTextCountScript.h" />
+    <ClInclude Include="Scripts\BossMushroomScript.h" />
+    <ClInclude Include="Scripts\BridgeScript.h" />
+    <ClInclude Include="Scripts\BushScript.h" />
+    <ClInclude Include="Scripts\CameraTransitionScript.h" />
+    <ClInclude Include="Scripts\ChiliShotScript.h" />
+    <ClInclude Include="Scripts\EnemyBehaviour.h" />
+    <ClInclude Include="Scripts\FadeInOutCutScene2Script.h" />
+    <ClInclude Include="Scripts\FadeInOutScript.h" />
+    <ClInclude Include="Scripts\FadeInScript.h" />
+    <ClInclude Include="Scripts\FireShotScript.h" />
+    <ClInclude Include="Scripts\DamagedScript.h" />
+    <ClInclude Include="Scripts\HealthUIScript.h" />
+    <ClInclude Include="Scripts\IncludeAllScript.h" />
+    <ClInclude Include="Scripts\Level2\BoulderScript.h" />
+    <ClInclude Include="Scripts\Level2\CaveTeleportingScript.h" />
+    <ClInclude Include="Scripts\Level2\FallingStepScript.h" />
+    <ClInclude Include="Scripts\LeverActivationScript.h" />
+    <ClInclude Include="Scripts\LoseQuitGameScript.h" />
+    <ClInclude Include="Scripts\MouseHoverDarkenScript.h" />
+    <ClInclude Include="Scripts\MoveableBounder.h" />
+    <ClInclude Include="Scripts\MushroomBoss.h" />
+    <ClInclude Include="Scripts\OptionsScrollerScript.h" />
+    <ClInclude Include="Scripts\HUD\MushroomCounterScript.h" />
+    <ClInclude Include="Scripts\OptionsScrollerScriptV2.h" />
+    <ClInclude Include="Scripts\PauseInstructionFirstScript.h" />
+    <ClInclude Include="Scripts\PauseInstructionsScript.h" />
+    <ClInclude Include="Scripts\PauseInstructionsSecondScript.h" />
+    <ClInclude Include="Scripts\Pause\PauseInstructionFirstScript.h" />
+    <ClInclude Include="Scripts\Pause\PauseInstructionsScript.h" />
+    <ClInclude Include="Scripts\Pause\PauseInstructionsSecondScript.h" />
+    <ClInclude Include="Scripts\KetchapGunScript.h" />
+    <ClInclude Include="Scripts\Pause\PauseInstructionThirdScript.h" />
+    <ClInclude Include="Scripts\Pause\PauseMainMenuScript.h" />
+    <ClInclude Include="Scripts\PauseOptionGameScript.h" />
+    <ClInclude Include="Scripts\PauseOptionSoundScript.h" />
+    <ClInclude Include="Scripts\Pause\PauseQuitGameScript.h" />
+    <ClInclude Include="Scripts\Pause\PauseRestart2Script.h" />
+    <ClInclude Include="Scripts\Pause\PauseRestartScript.h" />
+    <ClInclude Include="Scripts\Pause\PauseRestartThroneScript.h" />
+    <ClInclude Include="Scripts\Pause\PauseResumeScript.h" />
+    <ClInclude Include="Scripts\Pause\PauseScript.h" />
+    <ClInclude Include="Scripts\PlayerCollisionEnemyTest.h" />
+    <ClInclude Include="Scripts\PlayerController.h" />
+    <ClInclude Include="Scripts\ResolutionChangeScript.h" />
+    <ClInclude Include="Scripts\ScriptTest.h" />
+    <ClInclude Include="Scripts\SkillsUpgradeCheckerScript.h" />
+    <ClInclude Include="Scripts\SoundLevel2Script.h" />
+    <ClInclude Include="Scripts\SoundsScript.h" />
+    <ClInclude Include="Scripts\SpaceToSkipEndSceneScript.h" />
+    <ClInclude Include="Scripts\SpaceToSkipScript.h" />
+    <ClInclude Include="Scripts\TaskListScript.h" />
+    <ClInclude Include="Scripts\TeleporterLevel1Script.h" />
+    <ClInclude Include="Scripts\TeleporterScript.h" />
+    <ClInclude Include="Scripts\ThroneRoom\ThroneDialoguesScript.h" />
+    <ClInclude Include="Scripts\ThroneRoom\ThroneRoomStairsScript.h" />
+    <ClInclude Include="Scripts\ThroneRoom\ThroneRoomTeleporterScript.h" />
+    <ClInclude Include="Scripts\TomoSplashScript.h" />
+    <ClInclude Include="Scripts\Tornado.h" />
+    <ClInclude Include="Scripts\UpgradeDialogues\UpgradeDialogue1Script.h" />
+    <ClInclude Include="Scripts\UpgradeDialogues\UpgradeDialogue2Script.h" />
+    <ClInclude Include="Scripts\TomatoBoss.h" />
+    <ClInclude Include="Scripts\TomatoTimebomb.h" />
+    <ClInclude Include="Scripts\UpgradeDialogues\UpgradeDialogue3Script.h" />
+    <ClInclude Include="Scripts\UpgradeDialogues\UpgradeDialogueFlame1Script.h" />
+    <ClInclude Include="Scripts\UpgradeDialogues\UpgradeDialogueFlame2Script.h" />
+    <ClInclude Include="Scripts\UpgradeDialogues\UpgradeDialogueShield1Script.h" />
+    <ClInclude Include="Scripts\UpgradeDialogues\UpgradeDialogueShield2Script.h" />
+    <ClInclude Include="Scripts\UpgradeDialogues\UpgradeDialogueSpeedUnlockedScript.h" />
+    <ClInclude Include="Scripts\UpgradeDialogues\UpgradeDialogueUnlocked2Script.h" />
+    <ClInclude Include="Scripts\UpgradeDialogues\UpgradeDialogueUnlocked3Script.h" />
+    <ClInclude Include="Scripts\Upgrades\UpgradeBodyScript.h" />
+    <ClInclude Include="Scripts\HUD\TomatoCounterScript.h" />
+    <ClInclude Include="Scripts\Upgrades\UpgradeButton2Shield.h" />
+    <ClInclude Include="Scripts\Upgrades\UpgradeButton3FireBallScript.h" />
+    <ClInclude Include="Scripts\Upgrades\UpgradeButtonScript.h" />
+    <ClInclude Include="Scripts\Upgrades\UpgradeSkillsScript.h" />
+    <ClInclude Include="Scripts\WaterShotScript.h" />
+    <ClInclude Include="Scripts\TomatoTrooper.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

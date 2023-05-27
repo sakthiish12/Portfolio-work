@@ -1,0 +1,52 @@
+{
+    "struct transform2D": {
+        "pos": {
+            "x": 0.0,
+            "y": -153.2088623046875,
+            "z": 1.0
+        },
+        "rotation": 0.0,
+        "scale": {
+            "x": 445.0,
+            "y": 100.0
+        }
+    },
+    "struct material": {
+        "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+        "mesh": "square",
+        "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        }
+    },
+    "struct spriteCom": {
+        "textureId": "options.png",
+        "textureSlotsId": 1.0,
+        "loop": false,
+        "toLoaded": true,
+        "rows": 0,
+        "columns": 0,
+        "speed": 0.0,
+        "isVisible": true,
+        "animationFilePath": ""
+    },
+    "struct Com_Font": {
+        "text": "MainMenu",
+        "isVisible": false,
+        "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        }
+    },
+    "struct levelLoaderButton": {
+        "Target level": "Resources/SavedLevels/OptionsLevel.json"
+    },
+    "struct scriptComponent": {
+        "script_size": 2,
+        "ScriptName0": "MouseHoverDarkScript",
+        "ScriptName1": "SoundScript"
+    }
+}

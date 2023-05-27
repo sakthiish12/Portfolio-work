@@ -1,0 +1,146 @@
+{
+    "prefab": {
+        "Transform": {
+            "Position": {
+                "x": 12.609358787536621,
+                "y": 0.6060640215873718,
+                "z": -7.1359663009643555
+            },
+            "Scale": {
+                "x": 8.693942070007324,
+                "y": 1.0,
+                "z": 4.649196624755859
+            },
+            "Rotation": {
+                "i": 0.0,
+                "j": 0.0,
+                "k": 0.0,
+                "r": 1.0
+            },
+            "Local Position": {
+                "x": 12.609358787536621,
+                "y": 0.6060640215873718,
+                "z": -7.1359663009643555
+            },
+            "Local Scale": {
+                "x": 8.693942070007324,
+                "y": 1.0,
+                "z": 4.649196624755859
+            },
+            "Local Rotation": {
+                "i": 0.0,
+                "j": 0.0,
+                "k": 0.0,
+                "r": 1.0
+            },
+            "Children": [],
+            "Parent": {
+                "m_id": 0
+            }
+        },
+        "EntityInfo": {
+            "Entity Name": "Checkpoint1",
+            "Tags": [
+                {
+                    "m_id": 15
+                }
+            ],
+            "Flags": 1
+        },
+        "Renderer": {
+            "ModelID": {
+                "m_id": 4387389176603137095
+            },
+            "MeshInfoVector": [
+                {
+                    "meshName": "Cube",
+                    "hasTextures": false,
+                    "albedoAlphaMap": {
+                        "m_id": 5602551787267187971
+                    },
+                    "normalMap": {
+                        "m_id": 5295242449649583581
+                    },
+                    "ambientOcclusionMap": {
+                        "m_id": 661955630329880524
+                    },
+                    "roughnessMap": {
+                        "m_id": 14525612286828974516
+                    },
+                    "emissiveMap": {
+                        "m_id": 7559141681301190761
+                    },
+                    "metallicMap": {
+                        "m_id": 8265130094951034005
+                    },
+                    "heightMap": {
+                        "m_id": 1843952903580723348
+                    },
+                    "textureStrength": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "brightnessFactor": 2.4089999198913574
+                }
+            ],
+            "opacity": 1.0,
+            "flickerDuration": 0.10000000149011612,
+            "flickerColor": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0,
+                "w": 1.0
+            },
+            "wireframeMode": false,
+            "wireframeColor": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0,
+                "w": 1.0
+            },
+            "ignoreLighting": false,
+            "reflectSpecular": false
+        },
+        "Physics": {
+            "Shape Enum": "Box",
+            "Shape Size": {
+                "x": 8.693942070007324,
+                "y": 1.0,
+                "z": 4.649196624755859
+            },
+            "Motion Type Enum": "Static",
+            "Scale Binded": true,
+            "Motion Quality Enum": "Discrete",
+            "Max Angular Velocity": 0.0,
+            "Angular Damping": 0.0,
+            "Max Linear Velocity": 0.0,
+            "Linear Damping": 0.0,
+            "Friction": 0.20000000298023224,
+            "Restitution": 0.0,
+            "Gravity": 0.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Is Trigger": true,
+            "Can Push Character": false,
+            "Can Receive Character Impulse": false
+        },
+        "GameLogic": {
+            "Scripts": [
+                "Checkpoint"
+            ],
+            "Scripts Data": [
+                {
+                    "Key": "Checkpoint",
+                    "Value": {}
+                }
+            ]
+        }
+    }
+}

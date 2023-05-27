@@ -1,0 +1,153 @@
+{
+    "Tags": [],
+    "entities": {},
+    "Canvases": [
+        {
+            "ID": 11049008537641040355,
+            "Canvas Name": "New Canvas",
+            "IsActive": true,
+            "Sort Layer": 0,
+            "UI Elements": [
+                {
+                    "ID": 3422948572686630553,
+                    "Type Name": "UIToggle",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Scale": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.0
+                    },
+                    "Flags": 0,
+                    "Name": "New Toggle",
+                    "UIScripts": {
+                        "UIScripts": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Textures": [
+                        {
+                            "m_id": 18346501213100808377
+                        },
+                        {
+                            "m_id": 18346501213100808379
+                        },
+                        {
+                            "m_id": 18346501213100808378
+                        },
+                        {
+                            "m_id": 18346501213100808377
+                        }
+                    ],
+                    "AudioQues": [
+                        {
+                            "m_id": 18346501213100808371
+                        },
+                        {
+                            "m_id": 18346501213100808370
+                        }
+                    ],
+                    "AudioQue Volume": 1.0,
+                    "AudioQue Pitch": 1.0,
+                    "AudioQue Priority": 128,
+                    "Checkmark Texture ID": {
+                        "m_id": 11604908863084540384
+                    },
+                    "Toggled On": false
+                },
+                {
+                    "ID": 8317013321184494840,
+                    "Type Name": "UISlider",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Scale": {
+                        "x": 0.800000011920929,
+                        "y": 0.009999999776482582,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "New Slider",
+                    "UIScripts": {
+                        "UIScripts": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Textures": [
+                        {
+                            "m_id": 10267887709755569005
+                        },
+                        {
+                            "m_id": 17197716863404279269
+                        },
+                        {
+                            "m_id": 5602551787267187971
+                        },
+                        {
+                            "m_id": 10267887709755569005
+                        }
+                    ],
+                    "AudioQues": [
+                        {
+                            "m_id": 18346501213100808371
+                        },
+                        {
+                            "m_id": 18346501213100808370
+                        }
+                    ],
+                    "AudioQue Volume": 1.0,
+                    "AudioQue Pitch": 1.0,
+                    "AudioQue Priority": 128,
+                    "SliderKnob Scale": {
+                        "x": 0.10000000149011612,
+                        "y": 0.10000000149011612,
+                        "z": 0.0
+                    },
+                    "Percentage": 0.0,
+                    "SliderBar Texture ID": {
+                        "m_id": 5602551787267187971
+                    }
+                }
+            ]
+        }
+    ],
+    "Global Illumination setting": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "intentsity": 0.019999999552965164
+    }
+}

@@ -1,0 +1,150 @@
+{
+    "prefab": {
+        "Transform": {
+            "Position": {
+                "x": 45.660160064697266,
+                "y": 3.3797333240509033,
+                "z": -46.99861145019531
+            },
+            "Scale": {
+                "x": 3.0,
+                "y": 3.0,
+                "z": 3.0
+            },
+            "Rotation": {
+                "i": 0.0,
+                "j": 6.930403060323442e-7,
+                "k": 0.0,
+                "r": 1.0
+            },
+            "Local Position": {
+                "x": 45.660160064697266,
+                "y": 3.3797333240509033,
+                "z": -46.99861145019531
+            },
+            "Local Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Local Rotation": {
+                "i": 0.0,
+                "j": 6.930403060323442e-7,
+                "k": 0.0,
+                "r": 1.0
+            },
+            "Children": [],
+            "Parent": {
+                "m_id": 0
+            }
+        },
+        "EntityInfo": {
+            "Entity Name": "Enemy_Scientist3",
+            "Tags": [
+                {
+                    "m_id": 1
+                },
+                {
+                    "m_id": 3
+                }
+            ],
+            "Flags": 1
+        },
+        "AudioSource": {
+            "Audio": [
+                {
+                    "Key": {
+                        "m_id": 10210675003471560135
+                    },
+                    "Value": {
+                        "Volume": 0.5,
+                        "Pitch": 1.0,
+                        "Priority": 128,
+                        "Is BGM": false,
+                        "Is Muted": false,
+                        "Min Rolloff Distance": 1.0,
+                        "Max Rolloff Distance": 10000.0
+                    }
+                }
+            ]
+        },
+        "Physics": {
+            "Shape Enum": "Capsule",
+            "Shape Size": {
+                "x": 1.2000000476837158,
+                "y": 1.2000000476837158,
+                "z": 1.2000000476837158
+            },
+            "Motion Type Enum": "Dynamic",
+            "Scale Binded": false,
+            "Motion Quality Enum": "Discrete",
+            "Max Angular Velocity": 0.0,
+            "Angular Damping": 15.0,
+            "Max Linear Velocity": 500.0,
+            "Linear Damping": 5.0,
+            "Friction": 0.0,
+            "Restitution": 0.0,
+            "Gravity": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Is Trigger": false,
+            "Can Push Character": true,
+            "Can Receive Character Impulse": true
+        },
+        "GameLogic": {
+            "Scripts": [
+                "CharacterScript",
+                "EnemyBase",
+                "CharacterPather",
+                "EnemyScientist"
+            ],
+            "Scripts Data": [
+               {
+                    "Key": "EnemyScientist",
+                    "Value": {
+                        "Charged Ranged Attack": {
+                            "Projectile Base Skill": {
+                                "CoolDown Duration": 2.5,
+                                "Damage Multiplier": 1.0,
+                                "Status Effect": "NoStatus",
+                                "Status Duration": 2.0,
+                                "Cast Range": 15.0,
+                                "KnockBack": 10.0,
+                                "Projectile Name": "pRobot_Bullet",
+                                "Projectile Type": "Straight",
+                                "Projectile Radius": 0.20000000298023224,
+                                "Projectile Speed": 20.0
+                            },
+                            "Charge Duration": 1.0,
+                            "Charge Size Multiplier": 2.0
+                        }
+                    }
+                },
+                {
+                    "Key": "CharacterScript",
+                    "Value": {
+                        "cHealth_total": 12.0,
+                        "cHealth_current": 12.0,
+                        "cSpeed_Base": 7.0,
+                        "cAttack_Base": 3.0,
+                        "KnockBack Resistance": 0.0,
+                        "Destroy Delay": 3.0,
+                        "Aggro Range": 30.0,
+                        "Invulnerable": false
+                    }
+                },
+                {
+                    "Key": "EnemyBase",
+                    "Value": {}
+                },
+                {
+                    "Key": "CharacterPather",
+                    "Value": {}
+                }
+            ]
+        }
+    }
+}

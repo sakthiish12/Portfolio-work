@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{9C21CE39-B06F-43F5-AF25-5AC040AEE016}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>prisonbreak</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)inc;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64</LibraryPath>
+    <ExecutablePath>$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)inc;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(Solution)Libraries\fmod\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>fmodL_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)Libraries\fmod\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Libraries\fmod\inc</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>fmod_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)Libraries\fmod\lib\x64</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Libraries\Clock\Clock.cpp" />
+    <ClCompile Include="Libraries\Console\Console.c" />
+    <ClCompile Include="Libraries\DifficultySystem\DifficultySystem.c" />
+    <ClCompile Include="Libraries\Credits\Credits.c" />
+    <ClCompile Include="Libraries\GameMenu\GameMenu.c" />
+    <ClCompile Include="Libraries\Global\Global.c" />
+    <ClCompile Include="Libraries\Guard\Guard.c" />
+    <ClCompile Include="Libraries\Guard\Pathfind.c" />
+    <ClCompile Include="Libraries\Highscore\Highscore.c" />
+    <ClCompile Include="Libraries\Human\Human.c" />
+    <ClCompile Include="Libraries\Instructions\Instructions.c" />
+    <ClCompile Include="Libraries\Item\Item.c" />
+    <ClCompile Include="Libraries\Main\PrisonBreak.c" />
+    <ClCompile Include="Libraries\Map\Map.c" />
+    <ClCompile Include="Libraries\Random\Random.c" />
+    <ClCompile Include="Libraries\Sounds\GameSounds.c" />
+    <ClCompile Include="Libraries\Settings\Settings.c" />
+    <ClCompile Include="Libraries\StateMachine\StateMachine.c" />
+    <ClCompile Include="Libraries\States\Game.c" />
+    <ClCompile Include="Libraries\States\GameOver.c" />
+    <ClCompile Include="Libraries\States\MainMenu.c" />
+    <ClCompile Include="Libraries\States\SplashScreen.c" />
+    <ClCompile Include="Libraries\Tutorial\Tutorial.c" />
+    <ClCompile Include="Libraries\TxtFileReader\TxtFileReader.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Libraries\Clock\Clock.h" />
+    <ClInclude Include="Libraries\Console\Console.h" />
+    <ClInclude Include="Libraries\DifficultySystem\DifficultySystem.h" />
+    <ClInclude Include="Libraries\fmod\inc\fmod.h" />
+    <ClInclude Include="Libraries\fmod\inc\fmod.hpp" />
+    <ClInclude Include="Libraries\fmod\inc\fmod_codec.h" />
+    <ClInclude Include="Libraries\fmod\inc\fmod_common.h" />
+    <ClInclude Include="Libraries\fmod\inc\fmod_dsp.h" />
+    <ClInclude Include="Libraries\fmod\inc\fmod_dsp_effects.h" />
+    <ClInclude Include="Libraries\fmod\inc\fmod_errors.h" />
+    <ClInclude Include="Libraries\fmod\inc\fmod_output.h" />
+    <ClInclude Include="Libraries\Credits\Credits.h" />
+    <ClInclude Include="Libraries\GameMenu\GameMenu.h" />
+    <ClInclude Include="Libraries\Global\Global.h" />
+    <ClInclude Include="Libraries\Guard\Guard.h" />
+    <ClInclude Include="Libraries\Guard\Pathfind.h" />
+    <ClInclude Include="Libraries\Highscore\Highscore.h" />
+    <ClInclude Include="Libraries\Human\Human.h" />
+    <ClInclude Include="Libraries\Instructions\Instructions.h" />
+    <ClInclude Include="Libraries\Item\Item.h" />
+    <ClInclude Include="Libraries\Map\Map.h" />
+    <ClInclude Include="Libraries\Random\Random.h" />
+    <ClInclude Include="Libraries\Sounds\GameSounds.h" />
+    <ClInclude Include="Libraries\Settings\Settings.h" />
+    <ClInclude Include="Libraries\StateMachine\StateMachine.h" />
+    <ClInclude Include="Libraries\States\Game.h" />
+    <ClInclude Include="Libraries\States\GameOver.h" />
+    <ClInclude Include="Libraries\States\MainMenu.h" />
+    <ClInclude Include="Libraries\States\SplashScreen.h" />
+    <ClInclude Include="Libraries\Tutorial\Tutorial.h" />
+    <ClInclude Include="Libraries\TxtFileReader\TxtFileReader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Libraries\fmod\inc\fmod.cs" />
+    <None Include="Libraries\fmod\inc\fmod_dsp.cs" />
+    <None Include="Libraries\fmod\inc\fmod_errors.cs" />
+    <None Include="Libraries\fmod\lib\x64\fmod.dll" />
+    <None Include="Libraries\fmod\lib\x64\fmodL.dll" />
+    <None Include="Libraries\fmod\lib\x86\fmod.dll" />
+    <None Include="Libraries\fmod\lib\x86\fmodL.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Libraries\fmod\lib\x64\fmodL_vc.lib" />
+    <Library Include="Libraries\fmod\lib\x64\fmod_vc.lib" />
+    <Library Include="Libraries\fmod\lib\x86\fmodL_vc.lib" />
+    <Library Include="Libraries\fmod\lib\x86\fmod_vc.lib" />
+    <Library Include="Libraries\fmod\lib\x86\libfmod.a" />
+    <Library Include="Libraries\fmod\lib\x86\libfmodL.a" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Libraries\fmod\GameSounds\DoNotUse.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

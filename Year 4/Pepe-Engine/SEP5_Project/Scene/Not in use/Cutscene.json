@@ -1,0 +1,1415 @@
+{
+    "Tags": [],
+    "entities": {},
+    "Canvases": [
+        {
+            "ID": 6409832760607803220,
+            "Canvas Name": "CutsceneBlackBG",
+            "IsActive": true,
+            "Sort Layer": 5,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "UI Elements": [
+                {
+                    "ID": 3147344968972770013,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "New Image",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 7466100391818487463
+                    },
+                    "Rotation": 0.0
+                }
+            ]
+        },
+        {
+            "ID": 16331032927041586943,
+            "Canvas Name": "Cutscene1",
+            "IsActive": false,
+            "Sort Layer": 6,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "UI Elements": [
+                {
+                    "ID": 12409617855187854825,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.75,
+                        "y": 0.44999998807907104,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "Panel1",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 15550989640120665685
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 1602526259717269580,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.36000001430511475,
+                        "y": 1.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.4699999988079071,
+                        "y": 0.46000000834465027,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "Panel2",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 8445055125817947540
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 2204798953628952057,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.6549999713897705,
+                        "y": 1.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.4399999976158142,
+                        "y": 0.46000000834465027,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "Panel3",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 5949197322246279882
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 15707581228029999433,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 1.6799999475479126,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.75,
+                        "y": 0.800000011920929,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "Panel4",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 15461044942019116733
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 6657425980173935488,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.2750000059604645,
+                        "y": 2.7699999809265137,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.30000001192092896,
+                        "y": 1.2599999904632568,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "Panel5",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 15732323008520637659
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 1209052083713713981,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.6650000214576721,
+                        "y": 2.240000009536743,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.41999998688697815,
+                        "y": 0.20000000298023224,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "Panel6",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 6843459847924330307
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 8663925444172482938,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.6650000214576721,
+                        "y": 2.490000009536743,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.41999998688697815,
+                        "y": 0.20000000298023224,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "Panel7",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 1737406685480626174
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 14325772540145782120,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.6650000214576721,
+                        "y": 2.740000009536743,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.41999998688697815,
+                        "y": 0.20000000298023224,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "Panel8",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 15830241883562601540
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 17310902083970969143,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.6650000214576721,
+                        "y": 3.1500000953674316,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.41999998688697815,
+                        "y": 0.5,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "Panel9",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 16594177748826441063
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 15760338808841592159,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 3.75,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.75,
+                        "y": 0.5699999928474426,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "Panel10",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 7126095115582306227
+                    },
+                    "Rotation": 0.0
+                }
+            ]
+        },
+        {
+            "ID": 2649744959127977640,
+            "Canvas Name": "Cutscene2",
+            "IsActive": true,
+            "Sort Layer": 7,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "UI Elements": [
+                {
+                    "ID": 7413118622172868179,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.27300000190734863,
+                        "y": 0.7599999904632568,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.29499998688697815,
+                        "y": 0.9549999833106995,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "Panel1",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 8765742741924297417
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 3639005708731290034,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.6600000262260437,
+                        "y": 0.5,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.4300000071525574,
+                        "y": 0.4399999976158142,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "Panel2",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 16404025300730223556
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 7794826398210785786,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.6600000262260437,
+                        "y": 1.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.4300000071525574,
+                        "y": 0.4699999988079071,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "Panel3",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 17379022525595178888
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 15093099954337470342,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 1.4900000095367432,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.75,
+                        "y": 0.4099999964237213,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "Panel4",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 5840008463418161198
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 10664624330284746264,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 1.9500000476837158,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.75,
+                        "y": 0.4099999964237213,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "Panel5",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 10029726785257504691
+                    },
+                    "Rotation": 0.0
+                }
+            ]
+        },
+        {
+            "ID": 7976263109951871141,
+            "Canvas Name": "Cutscene3",
+            "IsActive": false,
+            "Sort Layer": 8,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "UI Elements": [
+                {
+                    "ID": 14268980460293705033,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Scale": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Flags": 1,
+                    "Name": "Panel1",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 7071341943995262261
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 3443400693117263725,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Scale": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Flags": 1,
+                    "Name": "Panel2",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 17673747689584763563
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 10501204257277133279,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Scale": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Flags": 1,
+                    "Name": "Panel3",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 12342707348980998905
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 4632133819684124055,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Scale": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Flags": 1,
+                    "Name": "Panel4",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 10238550844285709810
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 5754110139192035046,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Scale": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Flags": 1,
+                    "Name": "Panel5",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 1772120234930960782
+                    },
+                    "Rotation": 0.0
+                }
+            ]
+        },
+        {
+            "ID": 3909772488800467822,
+            "Canvas Name": "Cutscene4",
+            "IsActive": false,
+            "Sort Layer": 9,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "UI Elements": [
+                {
+                    "ID": 1248527893110645394,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Scale": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Flags": 1,
+                    "Name": "Panel1",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 14572863875446999557
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 9286682933222457704,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Scale": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Flags": 1,
+                    "Name": "Panel2",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 12973648906660877557
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 11118349945529326899,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Scale": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Flags": 1,
+                    "Name": "Panel3",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 15287353452872245677
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 7575613190385086567,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Scale": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Flags": 1,
+                    "Name": "Panel4",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 13070988837664014116
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 10814066414555022532,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Scale": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Flags": 1,
+                    "Name": "Panel5",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 6895668702952953111
+                    },
+                    "Rotation": 0.0
+                }
+            ]
+        },
+        {
+            "ID": 12630227140690531521,
+            "Canvas Name": "Cutscene5",
+            "IsActive": false,
+            "Sort Layer": 10,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "UI Elements": [
+                {
+                    "ID": 3901033877859914915,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Scale": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Flags": 1,
+                    "Name": "Panel1",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 16697023131793075977
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 488602300138211908,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Scale": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Flags": 1,
+                    "Name": "Panel2",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 2101779319682509937
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 15749570975066481134,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Scale": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Flags": 1,
+                    "Name": "Panel3",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 16737505243296056352
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 1308718830354821983,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Scale": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Flags": 1,
+                    "Name": "Panel4",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 3883103126561651973
+                    },
+                    "Rotation": 0.0
+                },
+                {
+                    "ID": 2540378650356499201,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Scale": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Flags": 1,
+                    "Name": "Panel5",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 3968593041493112065
+                    },
+                    "Rotation": 0.0
+                }
+            ]
+        },
+        {
+            "ID": 12760533022735786211,
+            "Canvas Name": "CutSceneContinueUI",
+            "IsActive": true,
+            "Sort Layer": 11,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "UI Elements": [
+                {
+                    "ID": 11456084077635252299,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.9399999976158142,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.27000001072883606,
+                        "y": 0.05999999865889549,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "New Image",
+                    "UIScripts": {
+                        "UIScripts": [],
+                        "UIScripts Data": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Opacity": 1.0,
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 16445428990737608268
+                    },
+                    "Rotation": 0.0
+                }
+            ]
+        }
+    ],
+    "Global Illumination setting": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "intentsity": 0.019999999552965164
+    }
+}

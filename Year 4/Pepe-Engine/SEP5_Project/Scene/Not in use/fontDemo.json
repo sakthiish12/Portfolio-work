@@ -1,0 +1,216 @@
+{
+    "Tags": [],
+    "entities": {
+        "5312102872694040991": {
+            "EntityID": 5312102872694040991,
+            "Transform": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Local Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Local Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Local Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Children": [],
+                "Parent": {
+                    "m_id": 0
+                }
+            },
+            "EntityInfo": {
+                "Entity Name": "New Entity",
+                "Tags": [],
+                "Flags": 1
+            },
+            "TextComponent": {
+                "id": {
+                    "m_id": 17929175512516088369
+                },
+                "text": "Times new roman regular white",
+                "position": {
+                    "x": 148.0,
+                    "y": 630.0,
+                    "z": 0.0
+                },
+                "scale": 1.0,
+                "colorAndOpacity": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "fontType": 0,
+                "textSpaceType": "",
+                "horizontalAlignment": "",
+                "verticalAlignment": ""
+            }
+        },
+        "222802473665678260": {
+            "EntityID": 222802473665678260,
+            "Transform": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Local Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Local Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Local Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Children": [],
+                "Parent": {
+                    "m_id": 0
+                }
+            },
+            "EntityInfo": {
+                "Entity Name": "New Entity",
+                "Tags": [],
+                "Flags": 1
+            },
+            "TextComponent": {
+                "id": {
+                    "m_id": 17929175512516088369
+                },
+                "text": "Arial red regular",
+                "position": {
+                    "x": 148.0,
+                    "y": 602.0,
+                    "z": 0.0
+                },
+                "scale": 1.0,
+                "colorAndOpacity": {
+                    "x": 1.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fontType": 0,
+                "textSpaceType": "",
+                "horizontalAlignment": "",
+                "verticalAlignment": ""
+            }
+        },
+        "7347690393251506022": {
+            "EntityID": 7347690393251506022,
+            "Transform": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Local Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Local Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Local Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Children": [],
+                "Parent": {
+                    "m_id": 0
+                }
+            },
+            "EntityInfo": {
+                "Entity Name": "New Entity",
+                "Tags": [],
+                "Flags": 1
+            },
+            "TextComponent": {
+                "id": {
+                    "m_id": 4368087601361646543
+                },
+                "text": "roboto green faded",
+                "position": {
+                    "x": 148.0,
+                    "y": 572.0,
+                    "z": 0.0
+                },
+                "scale": 1.0,
+                "colorAndOpacity": {
+                    "x": 0.0,
+                    "y": 1.0,
+                    "z": 0.0,
+                    "w": 0.49000000953674316
+                },
+                "fontType": 0,
+                "textSpaceType": "",
+                "horizontalAlignment": "",
+                "verticalAlignment": ""
+            }
+        }
+    },
+    "Canvases": [],
+    "Global Illumination setting": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "intentsity": 0.019999999552965164
+    }
+}

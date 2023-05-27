@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BananaGame", "BananaGame\BananaGame.vcxproj", "{0A0F10D7-905B-4B75-A153-B1665886A206}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BananaEngine", "BananaEngine\BananaEngine.vcxproj", "{5A89BED3-3C0A-47A1-A2CB-FE125D848123}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		DebugGameplay|x64 = DebugGameplay|x64
+		Release|x64 = Release|x64
+		ReleaseGameplay|x64 = ReleaseGameplay|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A0F10D7-905B-4B75-A153-B1665886A206}.Debug|x64.ActiveCfg = Debug|x64
+		{0A0F10D7-905B-4B75-A153-B1665886A206}.Debug|x64.Build.0 = Debug|x64
+		{0A0F10D7-905B-4B75-A153-B1665886A206}.DebugGameplay|x64.ActiveCfg = DebugGameplay|x64
+		{0A0F10D7-905B-4B75-A153-B1665886A206}.DebugGameplay|x64.Build.0 = DebugGameplay|x64
+		{0A0F10D7-905B-4B75-A153-B1665886A206}.Release|x64.ActiveCfg = Release|x64
+		{0A0F10D7-905B-4B75-A153-B1665886A206}.Release|x64.Build.0 = Release|x64
+		{0A0F10D7-905B-4B75-A153-B1665886A206}.ReleaseGameplay|x64.ActiveCfg = ReleaseGameplay|x64
+		{0A0F10D7-905B-4B75-A153-B1665886A206}.ReleaseGameplay|x64.Build.0 = ReleaseGameplay|x64
+		{5A89BED3-3C0A-47A1-A2CB-FE125D848123}.Debug|x64.ActiveCfg = Debug|x64
+		{5A89BED3-3C0A-47A1-A2CB-FE125D848123}.Debug|x64.Build.0 = Debug|x64
+		{5A89BED3-3C0A-47A1-A2CB-FE125D848123}.DebugGameplay|x64.ActiveCfg = DebugGameplay|x64
+		{5A89BED3-3C0A-47A1-A2CB-FE125D848123}.DebugGameplay|x64.Build.0 = DebugGameplay|x64
+		{5A89BED3-3C0A-47A1-A2CB-FE125D848123}.Release|x64.ActiveCfg = Release|x64
+		{5A89BED3-3C0A-47A1-A2CB-FE125D848123}.Release|x64.Build.0 = Release|x64
+		{5A89BED3-3C0A-47A1-A2CB-FE125D848123}.ReleaseGameplay|x64.ActiveCfg = ReleaseGameplay|x64
+		{5A89BED3-3C0A-47A1-A2CB-FE125D848123}.ReleaseGameplay|x64.Build.0 = ReleaseGameplay|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51475D45-009D-4E0B-82D3-E8893C636187}
+	EndGlobalSection
+EndGlobal

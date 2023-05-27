@@ -1,0 +1,389 @@
+{
+    "Tags": [
+        {
+            "Key": "TurretBullet",
+            "Value": {
+                "m_id": 12
+            }
+        }
+    ],
+    "entities": {
+        "976442172169733088": {
+            "EntityID": 976442172169733088,
+            "Transform": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 0.025685977190732956,
+                    "z": 1.3779025920257482e-8
+                },
+                "Scale": {
+                    "x": 1.9999998807907104,
+                    "y": 2.0,
+                    "z": 2.0
+                },
+                "Rotation": {
+                    "i": -0.7071065902709961,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 0.7071070671081543
+                },
+                "Local Position": {
+                    "x": 0.0,
+                    "y": 0.025685977190732956,
+                    "z": 1.3779025920257482e-8
+                },
+                "Local Scale": {
+                    "x": 1.9999998807907104,
+                    "y": 2.0,
+                    "z": 2.0
+                },
+                "Local Rotation": {
+                    "i": -0.7071065902709961,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 0.7071070671081543
+                },
+                "Children": [
+                    {
+                        "m_id": 4386855331129035211
+                    }
+                ],
+                "Parent": {
+                    "m_id": 0
+                }
+            },
+            "EntityInfo": {
+                "Entity Name": "TurretBase",
+                "Tags": [],
+                "Flags": 1
+            },
+            "Renderer": {
+                "ModelID": {
+                    "m_id": 1763176250013
+                },
+                "MeshInfoVector": [
+                    {
+                        "meshName": "Cylinder.009",
+                        "hasTextures": false,
+                        "albedoAlphaMap": {
+                            "m_id": 1763176250006
+                        },
+                        "normalMap": {
+                            "m_id": 1763176250010
+                        },
+                        "ambientOcclusionMap": {
+                            "m_id": 661955630329880524
+                        },
+                        "roughnessMap": {
+                            "m_id": 1763176250011
+                        },
+                        "emissiveMap": {
+                            "m_id": 1763176250007
+                        },
+                        "metallicMap": {
+                            "m_id": 1763176250009
+                        },
+                        "heightMap": {
+                            "m_id": 1763176250008
+                        },
+                        "textureStrength": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "brightnessFactor": 1.0
+                    }
+                ],
+                "opacity": 1.0,
+                "flickerDuration": 0.10000000149011612,
+                "flickerColor": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "wireframeMode": false,
+                "wireframeColor": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "ignoreLighting": false,
+                "reflectSpecular": false
+            }
+        },
+        "5791702570387708395": {
+            "EntityID": 5791702570387708395,
+            "Transform": {
+                "Position": {
+                    "x": 4.1529688132868614e-8,
+                    "y": 0.6968970894813538,
+                    "z": -0.7277166843414307
+                },
+                "Scale": {
+                    "x": 1.9999998807907104,
+                    "y": 2.0,
+                    "z": 2.0
+                },
+                "Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Local Position": {
+                    "x": 2.0764845842791146e-8,
+                    "y": 0.16129150986671448,
+                    "z": -0.36385834217071533
+                },
+                "Local Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Local Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Children": [
+                    {
+                        "m_id": 17618090268794224789
+                    }
+                ],
+                "Parent": {
+                    "m_id": 4386855331129035211
+                }
+            },
+            "EntityInfo": {
+                "Entity Name": "TurretGun",
+                "Tags": [],
+                "Flags": 1
+            },
+            "Renderer": {
+                "ModelID": {
+                    "m_id": 1763176250012
+                },
+                "MeshInfoVector": [
+                    {
+                        "meshName": "Cylinder.015",
+                        "hasTextures": false,
+                        "albedoAlphaMap": {
+                            "m_id": 1763176250000
+                        },
+                        "normalMap": {
+                            "m_id": 1763176250004
+                        },
+                        "ambientOcclusionMap": {
+                            "m_id": 661955630329880524
+                        },
+                        "roughnessMap": {
+                            "m_id": 1763176250005
+                        },
+                        "emissiveMap": {
+                            "m_id": 1763176250001
+                        },
+                        "metallicMap": {
+                            "m_id": 1763176250003
+                        },
+                        "heightMap": {
+                            "m_id": 1763176250002
+                        },
+                        "textureStrength": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "brightnessFactor": 1.0
+                    }
+                ],
+                "opacity": 1.0,
+                "flickerDuration": 0.10000000149011612,
+                "flickerColor": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "wireframeMode": false,
+                "wireframeColor": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "ignoreLighting": false,
+                "reflectSpecular": false
+            },
+            "AudioSource": {
+                "Audio": [
+                    {
+                        "Key": {
+                            "m_id": 15300463267994365381
+                        },
+                        "Value": {
+                            "Volume": 0.30000001192092896,
+                            "Pitch": 1.0,
+                            "Priority": 128,
+                            "Is BGM": false,
+                            "Is Muted": false,
+                            "Min Rolloff Distance": 1.0,
+                            "Max Rolloff Distance": 20.0
+                        }
+                    }
+                ]
+            },
+            "GameLogic": {
+                "Scripts": [
+                    "Turret"
+                ],
+                "Scripts Data": [
+                    {
+                        "Key": "Turret",
+                        "Value": {
+                            "RateOfRotation": 0.0,
+                            "DetectionRange": 30.0
+                        }
+                    }
+                ]
+            }
+        },
+        "4386855331129035211": {
+            "EntityID": 4386855331129035211,
+            "Transform": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 0.3743140697479248,
+                    "z": 1.3779011709402766e-8
+                },
+                "Scale": {
+                    "x": 1.9999998807907104,
+                    "y": 2.0,
+                    "z": 2.0
+                },
+                "Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Local Position": {
+                    "x": 0.0,
+                    "y": 9.350932828056102e-8,
+                    "z": 0.17431403696537018
+                },
+                "Local Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Local Rotation": {
+                    "i": 0.7071065902709961,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 0.7071070671081543
+                },
+                "Children": [
+                    {
+                        "m_id": 5791702570387708395
+                    }
+                ],
+                "Parent": {
+                    "m_id": 976442172169733088
+                }
+            },
+            "EntityInfo": {
+                "Entity Name": "TurretRig",
+                "Tags": [],
+                "Flags": 1
+            },
+            "Physics": {
+                "Shape Enum": "Cylinder",
+                "Shape Size": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Motion Type Enum": "Static",
+                "Scale Binded": false,
+                "Motion Quality Enum": "Discrete",
+                "Max Angular Velocity": 0.0,
+                "Angular Damping": 0.0,
+                "Max Linear Velocity": 0.0,
+                "Linear Damping": 0.0,
+                "Friction": 0.20000000298023224,
+                "Restitution": 0.0,
+                "Gravity": 0.0,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Is Trigger": false,
+                "Can Push Character": false,
+                "Can Receive Character Impulse": false
+            }
+        },
+        "17618090268794224789": {
+            "EntityID": 17618090268794224789,
+            "Transform": {
+                "Position": {
+                    "x": 0.0035572468768805265,
+                    "y": 0.6968970894813538,
+                    "z": -1.6283388137817383
+                },
+                "Scale": {
+                    "x": 0.19999998807907104,
+                    "y": 0.20000000298023224,
+                    "z": 0.20000000298023224
+                },
+                "Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Local Position": {
+                    "x": 0.0017786028329283,
+                    "y": -9.541167855786625e-10,
+                    "z": -0.4503110647201538
+                },
+                "Local Scale": {
+                    "x": 0.10000000149011612,
+                    "y": 0.10000000149011612,
+                    "z": 0.10000000149011612
+                },
+                "Local Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Children": [],
+                "Parent": {
+                    "m_id": 5791702570387708395
+                }
+            },
+            "EntityInfo": {
+                "Entity Name": "BulletSpawn",
+                "Tags": [],
+                "Flags": 1
+            }
+        }
+    },
+    "Canvases": [],
+    "Global Illumination setting": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "intentsity": 0.09000000357627869
+    }
+}

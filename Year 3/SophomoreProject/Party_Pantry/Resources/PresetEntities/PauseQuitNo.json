@@ -1,0 +1,30 @@
+{
+  "struct transform2D": {
+    "pos": {
+      "x": 0.779,
+      "y": 2.60,
+      "z": 1.93
+    },
+    "rotation": 0.0,
+    "scale": {
+      "x": 1.0,
+      "y": 1.3
+    }
+  },
+  "struct material": {
+    "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+    "mesh": "square",
+    "color": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0,
+      "w": 1.0
+    }
+  },
+  "struct spriteCom": {
+    "textureId": "noButton.png",
+    "textureSlotsId": 1.0,
+    "toLoaded": false,
+    "loop": false
+  }
+}

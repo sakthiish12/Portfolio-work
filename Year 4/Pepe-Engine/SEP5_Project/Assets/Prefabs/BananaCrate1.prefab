@@ -1,0 +1,171 @@
+{
+    "prefab": {
+        "Transform": {
+            "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.2000000476837158,
+                "y": 1.2000000476837158,
+                "z": 1.2000000476837158
+            },
+            "Rotation": {
+                "i": 0.5,
+                "j": 0.5,
+                "k": -0.5,
+                "r": 0.5
+            },
+            "Local Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Local Scale": {
+                "x": 1.2000000476837158,
+                "y": 1.2000000476837158,
+                "z": 1.2000000476837158
+            },
+            "Local Rotation": {
+                "i": 0.5,
+                "j": 0.5,
+                "k": -0.5,
+                "r": 0.5
+            },
+            "Children": [],
+            "Parent": {
+                "m_id": 0
+            }
+        },
+        "EntityInfo": {
+            "Entity Name": "BananaCrate1",
+            "Tags": [
+                {
+                    "m_id": 2
+                }
+            ],
+            "Flags": 1
+        },
+        "Renderer": {
+            "ModelID": {
+                "m_id": 15865267162280391270
+            },
+            "MeshInfoVector": [
+                {
+                    "meshName": "Cube.185",
+                    "hasTextures": false,
+                    "albedoAlphaMap": {
+                        "m_id": 18120493688517009703
+                    },
+                    "normalMap": {
+                        "m_id": 15749069127010626440
+                    },
+                    "ambientOcclusionMap": {
+                        "m_id": 11969174617384115826
+                    },
+                    "roughnessMap": {
+                        "m_id": 13616499519442763059
+                    },
+                    "emissiveMap": {
+                        "m_id": 7559141681301190761
+                    },
+                    "metallicMap": {
+                        "m_id": 3090791231545107633
+                    },
+                    "heightMap": {
+                        "m_id": 1843952903580723348
+                    },
+                    "textureStrength": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "brightnessFactor": 3.7049999237060547
+                }
+            ],
+            "opacity": 1.0,
+            "flickerDuration": 0.10000000149011612,
+            "flickerColor": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0,
+                "w": 1.0
+            },
+            "wireframeMode": false,
+            "wireframeColor": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0,
+                "w": 1.0
+            },
+            "ignoreLighting": false,
+            "reflectSpecular": false
+        },
+        "AudioSource": {
+            "Audio": [
+                {
+                    "Key": {
+                        "m_id": 1958017969286768020
+                    },
+                    "Value": {
+                        "Volume": 0.5,
+                        "Pitch": 1.0,
+                        "Priority": 128,
+                        "Is BGM": false,
+                        "Is Muted": false,
+                        "Min Rolloff Distance": 1.0,
+                        "Max Rolloff Distance": 10000.0
+                    }
+                }
+            ]
+        },
+        "Physics": {
+            "Shape Enum": "Box",
+            "Shape Size": {
+                "x": 1.2000000476837158,
+                "y": 1.2000000476837158,
+                "z": 1.2000000476837158
+            },
+            "Motion Type Enum": "Dynamic",
+            "Scale Binded": true,
+            "Motion Quality Enum": "Discrete",
+            "Max Angular Velocity": 0.0,
+            "Angular Damping": 0.0,
+            "Max Linear Velocity": 500.0,
+            "Linear Damping": 0.0,
+            "Friction": 0.20000000298023224,
+            "Restitution": 0.0,
+            "Gravity": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Is Trigger": false,
+            "Can Push Character": false,
+            "Can Receive Character Impulse": false
+        },
+        "GameLogic": {
+            "Scripts": [
+                "BananaPickUp",
+                "Interactable"
+            ],
+            "Scripts Data": [
+                {
+                    "Key": "BananaPickUp",
+                    "Value": {
+                        "Bananas Quantity": 32
+                    }
+                },
+                {
+                    "Key": "Interactable",
+                    "Value": {}
+                }
+            ]
+        }
+    }
+}

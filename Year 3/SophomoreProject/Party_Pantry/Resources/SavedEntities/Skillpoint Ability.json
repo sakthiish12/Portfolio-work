@@ -1,0 +1,38 @@
+{
+    "struct transform2D": {
+        "pos": {
+            "x": -119.16899871826172,
+            "y": -91.03800201416016,
+            "z": 1.0
+        },
+        "rotation": 0.0,
+        "scale": {
+            "x": 44.70600128173828,
+            "y": 78.1259994506836
+        }
+    },
+    "struct material": {
+        "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+        "mesh": "square",
+        "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        }
+    },
+    "struct spriteCom": {
+        "textureId": "Green Point.png",
+        "textureSlotsId": 1.0,
+        "loop": false,
+        "toLoaded": true,
+        "rows": 4,
+        "columns": 4,
+        "speed": 0.0,
+        "isVisible": true,
+        "animationFilePath": ""
+    },
+    "struct scriptComponent": {
+        "script_size": 0
+    }
+}

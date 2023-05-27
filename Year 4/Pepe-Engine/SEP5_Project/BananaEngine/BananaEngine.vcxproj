@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DebugGameplay|x64">
+      <Configuration>DebugGameplay</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseGameplay|x64">
+      <Configuration>ReleaseGameplay</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EngineCodes\AI\AStar\AStarPather.cpp" />
+    <ClCompile Include="EngineCodes\AssetManager\AssetTypes\Animation.cpp" />
+    <ClCompile Include="EngineCodes\AssetManager\AssetTypes\Be_model.cpp" />
+    <ClCompile Include="EngineCodes\AssetManager\AssetTypes\PrefabAsset.cpp" />
+    <ClCompile Include="EngineCodes\AssetManager\AssetTypes\Texture.cpp" />
+    <ClCompile Include="EngineCodes\Components\AnimationComponent.cpp" />
+    <ClCompile Include="EngineCodes\Components\CameraComponent.cpp" />
+    <ClCompile Include="EngineCodes\Components\lightComponent.cpp" />
+    <ClCompile Include="EngineCodes\Components\ParticleSystem.cpp" />
+    <ClCompile Include="EngineCodes\Components\Physics.cpp" />
+    <ClCompile Include="EngineCodes\AssetManager\AssetManager.cpp" />
+    <ClCompile Include="EngineCodes\AssetManager\AssetTypes\AudioClip.cpp" />
+    <ClCompile Include="EngineCodes\Components\AudioListener.cpp" />
+    <ClCompile Include="EngineCodes\Components\AudioSource.cpp" />
+    <ClCompile Include="EngineCodes\Components\Renderer.cpp" />
+    <ClCompile Include="EngineCodes\Components\GameLogic.cpp" />
+    <ClCompile Include="EngineCodes\Debugger\Debugger.cpp" />
+    <ClCompile Include="EngineCodes\EditorSystem\UI_Hierarchy_Window\UI_Hierarchy_Window.cpp" />
+    <ClCompile Include="EngineCodes\EditorSystem\UI_Inspector_Window\UI_Inspector_Window.cpp" />
+    <ClCompile Include="EngineCodes\Engine\GameEngine.cpp" />
+    <ClCompile Include="EngineCodes\Engine\PauseControl.cpp" />
+    <ClCompile Include="EngineCodes\Engine\SpeedControl.cpp" />
+    <ClCompile Include="EngineCodes\Maths\Quaternion.cpp" />
+    <ClCompile Include="EngineCodes\Maths\Vector3D.cpp" />
+    <ClCompile Include="EngineCodes\Serialisation\BananaSerialisation.cpp" />
+    <ClCompile Include="EngineCodes\Systems\AnimationSystem\AnimationSystem.cpp" />
+    <ClCompile Include="EngineCodes\EditorSystem\Assets_Window\Assets_Window.cpp" />
+    <ClCompile Include="EngineCodes\EditorSystem\Console_Window\Console_Window.cpp" />
+    <ClCompile Include="EngineCodes\EditorSystem\EditorSystem\EditorSystem.cpp" />
+    <ClCompile Include="EngineCodes\EditorSystem\EntityCommand\EntityCommand.cpp" />
+    <ClCompile Include="EngineCodes\EditorSystem\EntityTag_Window\EntityTag_Window.cpp" />
+    <ClCompile Include="EngineCodes\EditorSystem\FPS_Window\FPS_Window.cpp" />
+    <ClCompile Include="EngineCodes\EditorSystem\Graphics_Window\Graphics_Window.cpp" />
+    <ClCompile Include="EngineCodes\EditorSystem\Hierarchy_Window\Hierarchy_Window.cpp" />
+    <ClCompile Include="EngineCodes\EditorSystem\ImguiStuff\imgui-master\imgui.cpp" />
+    <ClCompile Include="EngineCodes\EditorSystem\ImguiStuff\imgui-master\imgui_demo.cpp" />
+    <ClCompile Include="EngineCodes\EditorSystem\ImguiStuff\imgui-master\imgui_draw.cpp" />
+    <ClCompile Include="EngineCodes\EditorSystem\ImguiStuff\imgui-master\imgui_impl_glfw.cpp" />
+    <ClCompile Include="EngineCodes\EditorSystem\ImguiStuff\imgui-master\imgui_impl_vulkan.cpp" />
+    <ClCompile Include="EngineCodes\EditorSystem\ImguiStuff\imgui-master\imgui_tables.cpp" />
+    <ClCompile Include="EngineCodes\EditorSystem\ImguiStuff\imgui-master\imgui_widgets.cpp" />
+    <ClCompile Include="EngineCodes\EditorSystem\ImguiStuff\ImGuizmo-master\GraphEditor.cpp" />
+    <ClCompile Include="EngineCodes\EditorSystem\ImguiStuff\ImGuizmo-master\ImCurveEdit.cpp" />
+    <ClCompile Include="EngineCodes\EditorSystem\ImguiStuff\ImGuizmo-master\ImGradient.cpp" />
+    <ClCompile Include="EngineCodes\EditorSystem\ImguiStuff\ImGuizmo-master\ImGuizmo.cpp" />
+    <ClCompile Include="EngineCodes\EditorSystem\ImguiStuff\ImGuizmo-master\ImSequencer.cpp" />
+    <ClCompile Include="EngineCodes\EditorSystem\ImGuiWindow\ImGuiWindow.cpp" />
+    <ClCompile Include="EngineCodes\EditorSystem\Inspector_Window\Inspector_Window.cpp" />
+    <ClCompile Include="EngineCodes\EditorSystem\Menu_Window\Menu_Window.cpp" />
+    <ClCompile Include="EngineCodes\EditorSystem\Resources_Window\Resources_Window.cpp" />
+    <ClCompile Include="EngineCodes\EditorSystem\Tool_Bar\Tool_Bar.cpp" />
+    <ClCompile Include="EngineCodes\EditorSystem\UndoSystem\UndoSystem.cpp" />
+    <ClCompile Include="EngineCodes\Systems\ECS\ECSTracker\ParticleSystemTracker.cpp" />
+    <ClCompile Include="EngineCodes\Systems\GameLogicSystem\GameLogicSystem.cpp" />
+    <ClCompile Include="EngineCodes\Systems\AudioManager\AudioManager.cpp" />
+    <ClCompile Include="EngineCodes\Systems\ECS\ECSTracker\lightComponentTracker.cpp" />
+    <ClCompile Include="EngineCodes\Systems\GameLogicSystem\ScriptManager.cpp" />
+    <ClCompile Include="EngineCodes\Systems\Graphics\Camera\Be_camera.cpp" />
+    <ClCompile Include="EngineCodes\Systems\ECS\ECS.cpp" />
+    <ClCompile Include="EngineCodes\Components\EntityInfo.cpp" />
+    <ClCompile Include="EngineCodes\Components\Transform.cpp" />
+    <ClCompile Include="EngineCodes\Systems\ECS\ECSComponent\ECSComponentMgr.cpp" />
+    <ClCompile Include="EngineCodes\Systems\ECS\ECSTracker\AnimationComponentTracker.cpp" />
+    <ClCompile Include="EngineCodes\Systems\ECS\ECSTracker\GameLogicTracker.cpp" />
+    <ClCompile Include="EngineCodes\Systems\ECS\ECSTracker\ECSTracker.cpp" />
+    <ClCompile Include="EngineCodes\Systems\ECS\ECSTracker\ECSTrackerMgr.cpp" />
+    <ClCompile Include="EngineCodes\Systems\ECS\ECSTracker\RendererTracker.cpp" />
+    <ClCompile Include="EngineCodes\Systems\Graphics\Font\Area.cpp" />
+    <ClCompile Include="EngineCodes\Systems\Graphics\Font\AreaAllocator.cpp" />
+    <ClCompile Include="EngineCodes\Systems\Graphics\Font\AreaList.cpp" />
+    <ClCompile Include="EngineCodes\Systems\Graphics\Font\AtlasTexture.cpp" />
+    <ClCompile Include="EngineCodes\Systems\Graphics\Font\Font.cpp" />
+    <ClCompile Include="EngineCodes\Systems\Graphics\Font\FontTexture.cpp" />
+    <ClCompile Include="EngineCodes\Systems\Graphics\Font\Glyph.cpp" />
+    <ClCompile Include="EngineCodes\Systems\Graphics\Font\TextureAtlas.cpp" />
+    <ClCompile Include="EngineCodes\Systems\Graphics\Offscreen.cpp" />
+    <ClCompile Include="EngineCodes\Systems\Graphics\Systems\particle_render_system.cpp" />
+    <ClCompile Include="EngineCodes\Systems\Graphics\Systems\text_render_system.cpp" />
+    <ClCompile Include="EngineCodes\Systems\Graphics\Systems\ui_render_system.cpp" />
+    <ClCompile Include="EngineCodes\Systems\InputController\InputController.cpp" />
+    <ClCompile Include="EngineCodes\Systems\ECS\ECSTracker\PhysicsTracker.cpp" />
+    <ClCompile Include="EngineCodes\EditorSystem\Graphics_Window\EditorCameraController.cpp" />
+    <ClCompile Include="EngineCodes\Systems\PhysicsSystem\sPhysicsSystem.cpp" />
+    <ClCompile Include="EngineCodes\Systems\ECS\ECSTracker\AudioListenerTracker.cpp" />
+    <ClCompile Include="EngineCodes\Systems\Graphics\Be_bone.cpp" />
+    <ClCompile Include="EngineCodes\Systems\Graphics\Be_buffer.cpp" />
+    <ClCompile Include="EngineCodes\Systems\Graphics\Be_descriptors.cpp" />
+    <ClCompile Include="EngineCodes\Systems\Graphics\Be_device.cpp" />
+    <ClCompile Include="EngineCodes\Systems\Graphics\Be_pipeline.cpp" />
+    <ClCompile Include="EngineCodes\Systems\Graphics\Be_renderer.cpp" />
+    <ClCompile Include="EngineCodes\Systems\Graphics\Be_swap_chain.cpp" />
+    <ClCompile Include="EngineCodes\Systems\Graphics\Systems\point_light_system.cpp" />
+    <ClCompile Include="EngineCodes\Systems\Graphics\Systems\simple_render_system.cpp" />
+    <ClCompile Include="EngineCodes\Systems\Graphics\GridSystem\Grid_System.cpp" />
+    <ClCompile Include="EngineCodes\Systems\RendererSystem\RendererSystem.cpp" />
+    <ClCompile Include="EngineCodes\Systems\UIManager\UICanvas.cpp" />
+    <ClCompile Include="EngineCodes\Systems\UIManager\UIElement.cpp" />
+    <ClCompile Include="EngineCodes\Systems\UIManager\UIElements\UIButton.cpp" />
+    <ClCompile Include="EngineCodes\Systems\UIManager\UIElements\UIFontText.cpp" />
+    <ClCompile Include="EngineCodes\Systems\UIManager\UIElements\UIImage.cpp" />
+    <ClCompile Include="EngineCodes\Systems\UIManager\UIElements\UIProgressBar.cpp" />
+    <ClCompile Include="EngineCodes\Systems\UIManager\UIElements\UISlider.cpp" />
+    <ClCompile Include="EngineCodes\Systems\UIManager\UIElements\UIToggle.cpp" />
+    <ClCompile Include="EngineCodes\Systems\UIManager\UIManager.cpp" />
+    <ClCompile Include="EngineCodes\Systems\UIManager\UIScript.cpp" />
+    <ClCompile Include="EngineCodes\Systems\Window\Window.cpp" />
+    <ClCompile Include="EngineCodes\Utilities\BEID\BEID.cpp" />
+    <ClCompile Include="EngineCodes\Precompiled\pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugGameplay|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleaseGameplay|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="EngineCodes\Systems\ECS\ECSEntity\ECSEntityMgr.cpp" />
+    <ClCompile Include="EngineCodes\Systems\PhysicsSystem\EntityTagFilter.cpp" />
+    <ClCompile Include="EngineCodes\Utilities\Random\Random.cpp" />
+    <ClCompile Include="EngineCodes\Utilities\Utility.cpp" />
+    <ClCompile Include="EngineCodes\EventDispatcher\EventDispatcher.cpp" />
+    <ClCompile Include="EngineCodes\Systems\SceneManager\Scene.cpp" />
+    <ClCompile Include="EngineCodes\Systems\SceneManager\SceneManager.cpp" />
+    <ClCompile Include="EngineCodes\Systems\UIManager\UIInteractable.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EngineCodes\AI\AStar\AStarPather.h" />
+    <ClInclude Include="EngineCodes\AI\AStar\Grid.h" />
+    <ClInclude Include="EngineCodes\AI\AStar\Grid.hpp" />
+    <ClInclude Include="EngineCodes\AI\AStar\GridInfo.h" />
+    <ClInclude Include="EngineCodes\AI\AStar\Pathfinding.h" />
+    <ClInclude Include="EngineCodes\AI\FSM\FSM.h" />
+    <ClInclude Include="EngineCodes\AssetManager\AssetData.h" />
+    <ClInclude Include="EngineCodes\AssetManager\AssetData.hpp" />
+    <ClInclude Include="EngineCodes\AssetManager\AssetManager.h" />
+    <ClInclude Include="EngineCodes\AssetManager\AssetManager.hpp" />
+    <ClInclude Include="EngineCodes\AssetManager\AssetTypes\Animation.h" />
+    <ClInclude Include="EngineCodes\AssetManager\AssetTypes\AudioClip.h" />
+    <ClInclude Include="EngineCodes\AssetManager\AssetTypes\Be_model.hpp" />
+    <ClInclude Include="EngineCodes\AssetManager\AssetTypes\IAsset.h" />
+    <ClInclude Include="EngineCodes\AssetManager\AssetTypes\PrefabAsset.h" />
+    <ClInclude Include="EngineCodes\AssetManager\AssetTypes\Texture.h" />
+    <ClInclude Include="EngineCodes\Components\AnimationComponent.h" />
+    <ClInclude Include="EngineCodes\AssetManager\AssetTypes\TestFile.h" />
+    <ClInclude Include="EngineCodes\Components\AudioListener.h" />
+    <ClInclude Include="EngineCodes\Components\AudioSource.h" />
+    <ClInclude Include="EngineCodes\Components\CameraComponent.h" />
+    <ClInclude Include="EngineCodes\Components\lightComponent.h" />
+    <ClInclude Include="EngineCodes\Components\ParticleSystem.h" />
+    <ClInclude Include="EngineCodes\Components\Physics.h" />
+    <ClInclude Include="EngineCodes\Components\Renderer.h" />
+    <ClInclude Include="EngineCodes\Components\GameLogic.h" />
+    <ClInclude Include="EngineCodes\Debugger\Debugger.h" />
+    <ClInclude Include="EngineCodes\Debugger\Debugger.hpp" />
+    <ClInclude Include="EngineCodes\Debugger\StopWatch.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\UI_Hierarchy_Window\UI_Hierarchy_Window.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\UI_Inspector_Window\UI_Inspector_Window.h" />
+    <ClInclude Include="EngineCodes\Engine\GameEngine.h" />
+    <ClInclude Include="EngineCodes\Engine\GameEngine.hpp" />
+    <ClInclude Include="EngineCodes\Engine\PauseControl.h" />
+    <ClInclude Include="EngineCodes\Engine\SpeedControl.h" />
+    <ClInclude Include="EngineCodes\Serialisation\BananaSerialisation.h" />
+    <ClInclude Include="EngineCodes\EventDispatcher\EventDispatcher.hpp" />
+    <ClInclude Include="EngineCodes\EventDispatcher\Events.h" />
+    <ClInclude Include="EngineCodes\Systems\AllSystems.h" />
+    <ClInclude Include="EngineCodes\Systems\AnimationSystem\AnimationSystem.h" />
+    <ClInclude Include="EngineCodes\Systems\AudioManager\AudioEvent.h" />
+    <ClInclude Include="EngineCodes\Systems\AudioManager\AudioManager.h" />
+    <ClInclude Include="EngineCodes\Systems\ECS\ECSTracker\lightComponentTracker.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\Assets_Window\Assets_Window.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\BananaEditor.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\Console_Window\Console_Window.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\EditorSystem\EditorSystem.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\EntityCommand\EntityCommand.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\EntityTag_Window\EntityTag_Window.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\FPS_Window\FPS_Window.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\Graphics_Window\Graphics_Window.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\Hierarchy_Window\Hierarchy_Window.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\ImguiStuff\IconFont\IconsFontaudio.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\ImguiStuff\IconFont\IconsFontAwesome4.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\ImguiStuff\IconFont\IconsFontAwesome5.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\ImguiStuff\IconFont\IconsFontAwesome5Brands.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\ImguiStuff\IconFont\IconsFontAwesome5Pro.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\ImguiStuff\IconFont\IconsFontAwesome5ProBrands.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\ImguiStuff\IconFont\IconsForkAwesome.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\ImguiStuff\IconFont\IconsKenney.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\ImguiStuff\IconFont\IconsMaterialDesign.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\ImguiStuff\imgui-master\imconfig.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\ImguiStuff\imgui-master\imgui.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\ImguiStuff\imgui-master\imgui_impl_glfw.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\ImguiStuff\imgui-master\imgui_impl_vulkan.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\ImguiStuff\imgui-master\imgui_internal.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\ImguiStuff\imgui-master\imstb_rectpack.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\ImguiStuff\imgui-master\imstb_textedit.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\ImguiStuff\imgui-master\imstb_truetype.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\ImguiStuff\ImGuizmo-master\GraphEditor.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\ImguiStuff\ImGuizmo-master\ImCurveEdit.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\ImguiStuff\ImGuizmo-master\ImGradient.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\ImguiStuff\ImGuizmo-master\ImGuizmo.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\ImguiStuff\ImGuizmo-master\ImSequencer.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\ImguiStuff\ImGuizmo-master\ImZoomSlider.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\ImGuiWindow\ImGuiWindow.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\Inspector_Window\Inspector_Window.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\Menu_Window\Menu_Window.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\Resources_Window\Resources_Window.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\Tool_Bar\Tool_Bar.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\UndoSystem\UndoSystem.h" />
+    <ClInclude Include="EngineCodes\Systems\ECS\ECSTracker\ParticleSystemTracker.h" />
+    <ClInclude Include="EngineCodes\Systems\GameLogicSystem\ScriptManager.h" />
+    <ClInclude Include="EngineCodes\Systems\Graphics\Be_utils.h" />
+    <ClInclude Include="EngineCodes\Systems\Graphics\Camera\Be_camera.hpp" />
+    <ClInclude Include="EngineCodes\Systems\GameLogicSystem\GameLogicSystem.h" />
+    <ClInclude Include="EngineCodes\Systems\ECS\ECSTracker\GameLogicTracker.h" />
+    <ClInclude Include="EngineCodes\Systems\ECS\ECS.h" />
+    <ClInclude Include="EngineCodes\Systems\ECS\ECS.hpp" />
+    <ClInclude Include="EngineCodes\Components\EntityInfo.h" />
+    <ClInclude Include="EngineCodes\Components\Transform.h" />
+    <ClInclude Include="EngineCodes\Components\ECSComponent.h" />
+    <ClInclude Include="EngineCodes\Systems\ECS\ECSComponent\ECSComponentArray.h" />
+    <ClInclude Include="EngineCodes\Systems\ECS\ECSComponent\ECSComponentArray.hpp" />
+    <ClInclude Include="EngineCodes\Systems\ECS\ECSComponent\ECSComponentMgr.h" />
+    <ClInclude Include="EngineCodes\Systems\ECS\ECSComponent\ECSComponentMgr.hpp" />
+    <ClInclude Include="EngineCodes\Systems\ECS\ECSConfig.h" />
+    <ClInclude Include="EngineCodes\Systems\ECS\ECSTracker\AnimationComponentTracker.h" />
+    <ClInclude Include="EngineCodes\Systems\ECS\ECSTracker\AudioListenerTracker.h" />
+    <ClInclude Include="EngineCodes\Systems\ECS\ECSTracker\ECSTracker.h" />
+    <ClInclude Include="EngineCodes\Systems\ECS\ECSTracker\ECSTrackerMgr.h" />
+    <ClInclude Include="EngineCodes\Systems\ECS\ECSTracker\ECSTrackerMgr.hpp" />
+    <ClInclude Include="EngineCodes\Systems\ECS\ECSTracker\RendererTracker.h" />
+    <ClInclude Include="EngineCodes\Systems\Graphics\Font\Area.h" />
+    <ClInclude Include="EngineCodes\Systems\Graphics\Font\AreaAllocator.h" />
+    <ClInclude Include="EngineCodes\Systems\Graphics\Font\AreaList.h" />
+    <ClInclude Include="EngineCodes\Systems\Graphics\Font\AtlasTexture.h" />
+    <ClInclude Include="EngineCodes\Systems\Graphics\Font\Font.h" />
+    <ClInclude Include="EngineCodes\Systems\Graphics\Font\FontTexture.h" />
+    <ClInclude Include="EngineCodes\Systems\Graphics\Font\Glyph.h" />
+    <ClInclude Include="EngineCodes\Systems\Graphics\Font\TextureAtlas.h" />
+    <ClInclude Include="EngineCodes\Systems\Graphics\Offscreen.h" />
+    <ClInclude Include="EngineCodes\Systems\Graphics\Systems\particle_render_system.hpp" />
+    <ClInclude Include="EngineCodes\Systems\Graphics\Systems\text_render_system.hpp" />
+    <ClInclude Include="EngineCodes\Systems\Graphics\Systems\ui_render_system.hpp" />
+    <ClInclude Include="EngineCodes\Systems\InputController\InputController.h" />
+    <ClInclude Include="EngineCodes\Systems\InputController\KeyCodes.h" />
+    <ClInclude Include="EngineCodes\EditorSystem\Graphics_Window\EditorCameraController.hpp" />
+    <ClInclude Include="EngineCodes\Systems\ISystem.h" />
+    <ClInclude Include="EngineCodes\Systems\ECS\ECSTracker\PhysicsTracker.h" />
+    <ClInclude Include="EngineCodes\Systems\Graphics\Be_bone.h" />
+    <ClInclude Include="EngineCodes\Systems\Graphics\Be_buffer.hpp" />
+    <ClInclude Include="EngineCodes\Systems\Graphics\Be_descriptors.hpp" />
+    <ClInclude Include="EngineCodes\Systems\Graphics\Be_device.hpp" />
+    <ClInclude Include="EngineCodes\Systems\Graphics\Be_frame_info.hpp" />
+    <ClInclude Include="EngineCodes\Systems\Graphics\Be_pipeline.hpp" />
+    <ClInclude Include="EngineCodes\Systems\Graphics\Be_renderer.hpp" />
+    <ClInclude Include="EngineCodes\Systems\Graphics\Be_swap_chain.hpp" />
+    <ClInclude Include="EngineCodes\Systems\Graphics\Systems\point_light_system.hpp" />
+    <ClInclude Include="EngineCodes\Systems\Graphics\Systems\simple_render_system.hpp" />
+    <ClInclude Include="EngineCodes\Systems\Graphics\GridSystem\Grid_System.hpp" />
+    <ClInclude Include="EngineCodes\Systems\PhysicsSystem\sPhysicsSystem.h" />
+    <ClInclude Include="EngineCodes\Systems\RendererSystem\RendererSystem.h" />
+    <ClInclude Include="EngineCodes\Systems\UIManager\UICanvas.h" />
+    <ClInclude Include="EngineCodes\Systems\UIManager\UIElement.h" />
+    <ClInclude Include="EngineCodes\Systems\UIManager\UIElements\UIButton.h" />
+    <ClInclude Include="EngineCodes\Systems\UIManager\UIElements\UIFontText.h" />
+    <ClInclude Include="EngineCodes\Systems\UIManager\UIElements\UIImage.h" />
+    <ClInclude Include="EngineCodes\Systems\UIManager\UIElements\UIProgressBar.h" />
+    <ClInclude Include="EngineCodes\Systems\UIManager\UIElements\UISlider.h" />
+    <ClInclude Include="EngineCodes\Systems\UIManager\UIElements\UIToggle.h" />
+    <ClInclude Include="EngineCodes\Systems\UIManager\UIManager.h" />
+    <ClInclude Include="EngineCodes\Systems\UIManager\UIManagerConfig.h" />
+    <ClInclude Include="EngineCodes\Systems\UIManager\UIScript.h" />
+    <ClInclude Include="EngineCodes\Systems\Window\Window.h" />
+    <ClInclude Include="EngineCodes\Systems\PhysicsSystem\EntityTagFilter.h" />
+    <ClInclude Include="EngineCodes\Utilities\Singleton\Singleton.h" />
+    <ClInclude Include="EngineCodes\Utilities\Singleton\Singleton.hpp" />
+    <ClInclude Include="EngineCodes\Systems\ECS\ECSEntity\ECSEntityMgr.h" />
+    <ClInclude Include="EngineCodes\Maths\MathLib.h" />
+    <ClInclude Include="EngineCodes\Maths\MathLib.hpp" />
+    <ClInclude Include="EngineCodes\Maths\Matrix3D.h" />
+    <ClInclude Include="EngineCodes\Maths\Matrix3D.hpp" />
+    <ClInclude Include="EngineCodes\Maths\Quaternion.h" />
+    <ClInclude Include="EngineCodes\Maths\Quaternion.hpp" />
+    <ClInclude Include="EngineCodes\Utilities\Random\Random.h" />
+    <ClInclude Include="EngineCodes\Utilities\Random\Random.hpp" />
+    <ClInclude Include="EngineCodes\Utilities\Utility.h" />
+    <ClInclude Include="EngineCodes\Maths\Vector3D.h" />
+    <ClInclude Include="EngineCodes\Maths\Vector3D.hpp" />
+    <ClInclude Include="EngineCodes\BananaEngine.h" />
+    <ClInclude Include="EngineCodes\Precompiled\pch.h" />
+    <ClInclude Include="EngineCodes\Utilities\BEID\BEID.h" />
+    <ClInclude Include="EngineCodes\EventDispatcher\EventDispatcher.h" />
+    <ClInclude Include="EngineCodes\Systems\SceneManager\Scene.h" />
+    <ClInclude Include="EngineCodes\Systems\SceneManager\SceneManager.h" />
+    <ClInclude Include="EngineCodes\Systems\UIManager\UIInteractable.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{5a89bed3-3c0a-47a1-a2cb-fe125d848123}</ProjectGuid>
+    <RootNamespace>BananaEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGameplay|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseGameplay|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGameplay|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseGameplay|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)\StaticLibs\</OutDir>
+    <IntDir>$(SolutionDir)\.tmp\$(Configuration)-$(Platform)\BananaEngine\</IntDir>
+    <TargetName>$(ProjectName)_$(Configuration)-$(Platform)</TargetName>
+    <IncludePath>$(SolutionDir)Extern\glfw\include;$(SolutionDir)Extern\glm;$(SolutionDir)Extern\JoltPhysics;$(SolutionDir)Extern\rapidjson;$(SolutionDir)Extern\rttr;$(SolutionDir)Extern\Vulkan\Include;$(SolutionDir)Extern\Fmod\inc;$(SolutionDir)BananaEngine\EngineCodes\Precompiled;$(SolutionDir)BananaEngine\EngineCodes;$(SolutionDir)BananaEngine\EngineCodes\EditorSystem\ImguiStuff\imgui-master;$(SolutionDir)Extern\tinyobjloader-master;$(SolutionDir)Extern\SOIL2\include;$(IncludePath);$(SolutionDir)Extern\assimp\include;$(SolutionDir)Extern\assimp\build\x64\include;$(SolutionDir)Extern\tinyddsloader;$(SolutionDir)BananaEngine\EngineCodes\EditorSystem\ImguiStuff\imgui-master;$(SolutionDir)BananaEngine\EngineCodes\EditorSystem\ImguiStuff\ImGuizmo-master;$(SolutionDir)Extern\Font;$(SolutionDir)Extern\Font</IncludePath>
+    <LibraryPath>$(SolutionDir)Extern\glfw\lib;$(SolutionDir)Extern\Vulkan\Lib;$(SolutionDir)Extern\JoltPhysics\Lib;$(SolutionDir)Extern\Fmod\lib;$(SolutionDir)Extern\SOIL2\lib;$(LibraryPath);$(SolutionDir)Extern\Font\freetype\lib\x64;$(SolutionDir)Extern\rttr\lib</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGameplay|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)\StaticLibs\</OutDir>
+    <IntDir>$(SolutionDir)\.tmp\$(Configuration)-$(Platform)\BananaEngine\</IntDir>
+    <TargetName>$(ProjectName)_$(Configuration)-$(Platform)</TargetName>
+    <IncludePath>$(SolutionDir)Extern\glfw\include;$(SolutionDir)Extern\glm;$(SolutionDir)Extern\JoltPhysics;$(SolutionDir)Extern\rapidjson;$(SolutionDir)Extern\rttr;$(SolutionDir)Extern\Vulkan\Include;$(SolutionDir)Extern\Fmod\inc;$(SolutionDir)BananaEngine\EngineCodes\Precompiled;$(SolutionDir)BananaEngine\EngineCodes;$(SolutionDir)BananaEngine\EngineCodes\EditorSystem\ImguiStuff\imgui-master;$(SolutionDir)Extern\tinyobjloader-master;$(SolutionDir)Extern\SOIL2\include;$(IncludePath);$(SolutionDir)Extern\assimp\include;$(SolutionDir)Extern\assimp\build\x64\include;$(SolutionDir)Extern\tinyddsloader;$(SolutionDir)BananaEngine\EngineCodes\EditorSystem\ImguiStuff\imgui-master;$(SolutionDir)BananaEngine\EngineCodes\EditorSystem\ImguiStuff\ImGuizmo-master;$(SolutionDir)Extern\Font;$(SolutionDir)Extern\Font</IncludePath>
+    <LibraryPath>$(SolutionDir)Extern\glfw\lib;$(SolutionDir)Extern\Vulkan\Lib;$(SolutionDir)Extern\JoltPhysics\Lib;$(SolutionDir)Extern\Fmod\lib;$(SolutionDir)Extern\SOIL2\lib;$(LibraryPath);$(SolutionDir)Extern\Font\freetype\lib\x64</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\StaticLibs\</OutDir>
+    <IntDir>$(SolutionDir)\.tmp\$(Configuration)-$(Platform)\BananaEngine\</IntDir>
+    <TargetName>$(ProjectName)_$(Configuration)-$(Platform)</TargetName>
+    <IncludePath>$(SolutionDir)Extern\glfw\include;$(SolutionDir)Extern\glm;$(SolutionDir)Extern\JoltPhysics;$(SolutionDir)Extern\rapidjson;$(SolutionDir)Extern\rttr;$(SolutionDir)Extern\Vulkan\Include;$(SolutionDir)Extern\Fmod\inc;$(SolutionDir)BananaEngine\EngineCodes\Precompiled;$(SolutionDir)BananaEngine\EngineCodes;$(SolutionDir)BananaEngine\EngineCodes\EditorSystem\ImguiStuff\imgui-master;$(SolutionDir)Extern\SOIL2\include;$(IncludePath);$(SolutionDir)Extern\assimp\include;$(SolutionDir)Extern\assimp\build\x64\include;$(SolutionDir)Extern\tinyddsloader;$(SolutionDir)BananaEngine\EngineCode\EditorSystem\ImguiStuff\imgui-master;$(SolutionDir)BananaEngine\EngineCodes\EditorSystem\ImguiStuff\ImGuizmo-master;$(SolutionDir)Extern\Font;$(SolutionDir)Extern\Font</IncludePath>
+    <LibraryPath>$(SolutionDir)Extern\glfw\lib;$(SolutionDir)Extern\Vulkan\Lib;$(SolutionDir)Extern\JoltPhysics\Lib;$(SolutionDir)Extern\Fmod\lib;$(LibraryPath);$(SolutionDir)Extern\Font\freetype\lib\x64</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseGameplay|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\StaticLibs\</OutDir>
+    <IntDir>$(SolutionDir)\.tmp\$(Configuration)-$(Platform)\BananaEngine\</IntDir>
+    <TargetName>$(ProjectName)_$(Configuration)-$(Platform)</TargetName>
+    <IncludePath>$(SolutionDir)Extern\glfw\include;$(SolutionDir)Extern\glm;$(SolutionDir)Extern\JoltPhysics;$(SolutionDir)Extern\rapidjson;$(SolutionDir)Extern\rttr;$(SolutionDir)Extern\Vulkan\Include;$(SolutionDir)Extern\Fmod\inc;$(SolutionDir)BananaEngine\EngineCodes\Precompiled;$(SolutionDir)BananaEngine\EngineCodes;$(SolutionDir)BananaEngine\EngineCodes\EditorSystem\ImguiStuff\imgui-master;$(SolutionDir)Extern\SOIL2\include;$(IncludePath);$(SolutionDir)Extern\assimp\include;$(SolutionDir)Extern\assimp\build\x64\include;$(SolutionDir)Extern\tinyddsloader;$(SolutionDir)BananaEngine\EngineCode\EditorSystem\ImguiStuff\imgui-master;$(SolutionDir)BananaEngine\EngineCodes\EditorSystem\ImguiStuff\ImGuizmo-master;$(SolutionDir)Extern\Font;$(SolutionDir)Extern\Font</IncludePath>
+    <LibraryPath>$(SolutionDir)Extern\glfw\lib;$(SolutionDir)Extern\Vulkan\Lib;$(SolutionDir)Extern\JoltPhysics\Lib;$(SolutionDir)Extern\Fmod\lib;$(LibraryPath);$(SolutionDir)Extern\Font\freetype\lib\x64</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;JPH_PROFILE_ENABLED;RTTR_DLL;%(PreprocessorDefinitions);RTTR_DLL</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalOptions>/Zm1000 /bigobj</AdditionalOptions>
+      <DisableSpecificWarnings>4840;4005;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugGameplay|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;JPH_PROFILE_ENABLED;_GAMEPLAY;RTTR_DLL;%(PreprocessorDefinitions);RTTR_DLL</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalOptions>/Zm1000 /bigobj</AdditionalOptions>
+      <DisableSpecificWarnings>4840;4005;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);RTTR_DLL</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalOptions>/Zm1000 /bigobj</AdditionalOptions>
+      <DisableSpecificWarnings>4840;4005;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseGameplay|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;_GAMEPLAY;%(PreprocessorDefinitions);RTTR_DLL</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalOptions>/Zm1000 /bigobj</AdditionalOptions>
+      <DisableSpecificWarnings>4840;4005;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

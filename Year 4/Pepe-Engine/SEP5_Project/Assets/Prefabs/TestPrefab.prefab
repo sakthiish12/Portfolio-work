@@ -1,0 +1,61 @@
+{
+    "prefab": {
+        "Transform": {
+            "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Rotation": {
+                "i": 0.0,
+                "j": 0.0,
+                "k": 0.0,
+                "r": 1.0
+            },
+            "Local Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Local Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Local Rotation": {
+                "i": 0.0,
+                "j": 0.0,
+                "k": 0.0,
+                "r": 1.0
+            },
+            "Children": [],
+            "Parent": {
+                "m_id": 0
+            }
+        },
+        "EntityInfo": {
+            "Entity Name": "New Entity3",
+            "Tags": [],
+            "Flags": 1
+        },
+        "AudioSource": {
+            "Volume": 0.5,
+            "Pitch": 20.0,
+            "Priority": 128,
+            "Is Looping": false,
+            "Is BGM": true,
+            "Is Muted": false,
+            "Is 3D Sound": true,
+            "Min Rolloff Distance": 1.0,
+            "Max Rolloff Distance": 20.0,
+            "AudioClip Asset": {
+                "m_id": 0
+            }
+        }
+    }
+}

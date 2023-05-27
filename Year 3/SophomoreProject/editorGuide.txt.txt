@@ -1,0 +1,17 @@
+~Pantry Party Editor~
+
+How to add a new gameobject/entity?
+
+How to Duplicate an entity?
+
+How to Create Text?
+
+How to change entity texture?
+
+How to load Scene?
+
+How to save Scene?
+
+How to Run Game?
+
+How to edit entity

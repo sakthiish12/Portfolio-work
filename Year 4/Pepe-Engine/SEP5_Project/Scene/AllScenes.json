@@ -1,0 +1,14 @@
+{
+    "Scenes": [
+        {
+            "Scene ID": 15950686199951607848,
+            "Scene Name": "Level1",
+            "Scene File": "../Scene/Level1New.json"
+        },
+        {
+            "Scene ID": 15950686199951607849,
+            "Scene Name": "MainMenu",
+            "Scene File": "../Scene/MainMenu.json"
+        }
+    ]
+}

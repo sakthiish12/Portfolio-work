@@ -1,0 +1,8 @@
+Framerate: 60
+WindowWidth: 1920
+WindowHeight: 1080
+IsFullScreen: 0
+Audiochannels: 16
+MusicVolume: 1
+SoundVolume: 1
+AppName: Banana Engine

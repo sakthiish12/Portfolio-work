@@ -1,0 +1,111 @@
+{
+    "prefab": {
+        "Transform": {
+            "Position": {
+                "x": 0.0,
+                "y": -0.55,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 3.0,
+                "y": 3.0,
+                "z": 3.0
+            },
+            "Rotation": {
+                "i": -0.7071065902709961,
+                "j": 0.0,
+                "k": 0.0,
+                "r": 0.7071070671081543
+            },
+            "Local Position": {
+                "x": 0.0,
+                "y": -0.55,
+                "z": 0.0
+            },
+            "Local Scale": {
+                "x": 3.0,
+                "y": 3.0,
+                "z": 3.0
+            },
+            "Local Rotation": {
+                "i": -0.7071065902709961,
+                "j": 0.0,
+                "k": 0.0,
+                "r": 0.7071070671081543
+            },
+            "Children": [],
+            "Parent": {
+                "m_id": 0
+            }
+        },
+        "EntityInfo": {
+            "Entity Name": "RobotModel",
+            "Tags": [],
+            "Flags": 1
+        },
+        "Renderer": {
+            "ModelID": {
+                "m_id": 12696638609616173051
+            },
+            "MeshInfoVector": [
+                {
+                    "meshName": "Cube",
+                    "hasTextures": false,
+                    "albedoAlphaMap": {
+                        "m_id": 15494140793058103983
+                    },
+                    "normalMap": {
+                        "m_id": 6029425027658917652
+                    },
+                    "ambientOcclusionMap": {
+                        "m_id": 9325648644030642117
+                    },
+                    "roughnessMap": {
+                        "m_id": 13478741579657588222
+                    },
+                    "emissiveMap": {
+                        "m_id": 13397823450569954756
+                    },
+                    "metallicMap": {
+                        "m_id": 5891349417313293064
+                    },
+                    "heightMap": {
+                        "m_id": 1843952903580723348
+                    },
+                    "textureStrength": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "brightnessFactor": 1.2209999561309814
+                }
+            ],
+            "opacity": 1.0,
+            "flickerDuration": 0.10000000149011612,
+            "flickerColor": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0,
+                "w": 1.0
+            },
+            "wireframeMode": false,
+            "wireframeColor": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0,
+                "w": 1.0
+            },
+            "ignoreLighting": false,
+            "reflectSpecular": false
+        },
+        "AnimationComponent": {
+            "Time": 0.0,
+            "AnimationName": "MRobotWalk.001",
+            "AnimationIdx": 4,
+            "TickOffset": 1.0
+        }
+    }
+}

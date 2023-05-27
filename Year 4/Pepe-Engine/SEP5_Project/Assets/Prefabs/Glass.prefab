@@ -1,0 +1,158 @@
+{
+    "prefab": {
+        "Transform": {
+            "Position": {
+                "x": 26.0,
+                "y": 4.906832695007324,
+                "z": 12.994035720825195
+            },
+            "Scale": {
+                "x": 20.0,
+                "y": 7.049628257751465,
+                "z": 0.19166497886180878
+            },
+            "Rotation": {
+                "i": 0.0,
+                "j": 0.0,
+                "k": 0.0,
+                "r": 1.0
+            },
+            "Local Position": {
+                "x": 26.0,
+                "y": 4.906832695007324,
+                "z": 12.994035720825195
+            },
+            "Local Scale": {
+                "x": 20.0,
+                "y": 7.049628257751465,
+                "z": 0.19166497886180878
+            },
+            "Local Rotation": {
+                "i": 0.0,
+                "j": 0.0,
+                "k": 0.0,
+                "r": 1.0
+            },
+            "Children": [],
+            "Parent": {
+                "m_id": 0
+            }
+        },
+        "EntityInfo": {
+            "Entity Name": "Glass",
+            "Tags": [
+                {
+                    "m_id": 2
+                }
+            ],
+            "Flags": 1
+        },
+        "Renderer": {
+            "ModelID": {
+                "m_id": 4387389176603137095
+            },
+            "MeshInfoVector": [
+                {
+                    "meshName": "Cube",
+                    "hasTextures": false,
+                    "albedoAlphaMap": {
+                        "m_id": 9010195458405400614
+                    },
+                    "normalMap": {
+                        "m_id": 5295242449649583581
+                    },
+                    "ambientOcclusionMap": {
+                        "m_id": 661955630329880524
+                    },
+                    "roughnessMap": {
+                        "m_id": 14525612286828974516
+                    },
+                    "emissiveMap": {
+                        "m_id": 7559141681301190761
+                    },
+                    "metallicMap": {
+                        "m_id": 8265130094951034005
+                    },
+                    "textureStrength": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "brightnessFactor": 1.0
+                }
+            ],
+            "opacity": 0.4690000116825104,
+            "flickerDuration": 0.10000000149011612,
+            "flickerColor": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0,
+                "w": 1.0
+            },
+            "wireframeMode": false,
+            "wireframeColor": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0,
+                "w": 1.0
+            }
+        },
+        "AudioSource": {
+            "Audio": []
+        },
+        "Physics": {
+            "Shape Enum": "Box",
+            "Shape Size": {
+                "x": 20.0,
+                "y": 7.049628257751465,
+                "z": 0.19166497886180878
+            },
+            "Motion Type Enum": "Static",
+            "Scale Binded": true,
+            "Motion Quality Enum": "Discrete",
+            "Max Angular Velocity": 0.0,
+            "Angular Damping": 0.0,
+            "Max Linear Velocity": 0.0,
+            "Linear Damping": 0.0,
+            "Friction": 0.20000000298023224,
+            "Restitution": 0.0,
+            "Gravity": 0.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Is Trigger": false,
+            "Can Push Character": true,
+            "Can Receive Character Impulse": true
+        },
+        "GameLogic": {
+            "Scripts": [
+                "CharacterScript",
+                "GlassScript"
+            ],
+            "Scripts Data": [
+                {
+                    "Key": "CharacterScript",
+                    "Value": {
+                        "cHealth_total": 100.0,
+                        "cHealth_current": 100.0,
+                        "cSpeed_Base": 3.0,
+                        "cAttack_Base": 10.0,
+                        "KnockBack Resistance": 0.0,
+                        "Destroy Delay": 0.009999999776482582,
+                        "Aggro Range": 4.0,
+                        "Invulnerable": false
+                    }
+                },
+                {
+                    "Key": "GlassScript",
+                    "Value": {}
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "struct transform2D": {
+        "pos": {
+            "x": -177.52745056152345,
+            "y": 45.05598449707031,
+            "z": 1.899999976158142
+        },
+        "rotation": 0.0,
+        "scale": {
+            "x": 150.0,
+            "y": 150.0
+        }
+    },
+    "struct material": {
+        "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+        "mesh": "square",
+        "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        }
+    },
+    "struct spriteCom": {
+        "textureId": "KettleBigSpriteSheet.png",
+        "textureSlotsId": 3.0,
+        "loop": true,
+        "toLoaded": true,
+        "rows": 4,
+        "columns": 4,
+        "speed": 100.0,
+        "isVisible": true,
+        "animationFilePath": "kettleHeadAnimation.json"
+    },
+    "struct rigidBody2D": {
+        "Mass": 1.0,
+        "restitution": 0.5,
+        "isGravityOn": false,
+        "Type": "Kinametics"
+    },
+    "struct AABB": {
+        "scale": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "offset_pos": {
+            "x": 0.0,
+            "y": 0.0
+        }
+    },
+    "struct controller": {},
+    "struct Com_FindPath": {},
+    "struct Com_type": {
+        "Type": 0
+    },
+    "struct Com_Health": {
+        "health": 100
+    },
+    "struct abilities": {
+        "active abilities": 0
+    },
+    "struct scriptComponent": {
+        "script_size": 2,
+        "ScriptName0": "DamagedScript",
+        "ScriptName1": "PlayerController"
+    }
+}

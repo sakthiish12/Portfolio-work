@@ -1,0 +1,334 @@
+{
+    "0": {
+        "Name": "Title",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 1361.364990234375,
+                    "y": 216.48199462890626,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1265.586669921875,
+                    "y": 188.5574493408203
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "KETTLE HERO.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 0,
+                "columns": 0,
+                "speed": 0.0,
+                "isVisible": false,
+                "animationFilePath": ""
+            }
+        }
+    },
+    "1": {
+        "Name": "Camera",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 120.00001525878906,
+                    "y": 120.00001525878906
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct camera2DCom": {
+                "height_change_val": 5,
+                "height": 500.0,
+                "min_height": 50.0,
+                "isFixedToPlayer": true,
+                "isPrimary": true
+            }
+        }
+    },
+    "2": {
+        "Name": "Background",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1790.0,
+                    "y": 1000.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 0.4690265655517578,
+                    "y": 0.46902185678482058,
+                    "z": 0.46902185678482058,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "MainMenunew.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 0,
+                "columns": 0,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            }
+        }
+    },
+    "3": {
+        "Name": "TitleShadow",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 194.13079833984376,
+                    "y": 328.31304931640627,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1293.364990234375,
+                    "y": 188.5574493408203
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "KETTLE HERO.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 0,
+                "columns": 0,
+                "speed": 0.0,
+                "isVisible": false,
+                "animationFilePath": ""
+            }
+        }
+    },
+    "4": {
+        "Name": "NoButton",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 212.37570190429688,
+                    "y": -134.9361572265625,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 325.0,
+                    "y": 95.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "noButton.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 0,
+                "columns": 0,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            },
+            "struct levelLoaderButton": {
+                "Target level": "Resources/SavedLevels/MainMenuLevel.json"
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "MouseHoverDarkScript"
+            }
+        }
+    },
+    "5": {
+        "Name": "Title",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 250.16012573242188,
+                    "y": 295.5094299316406,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1436.3309326171876,
+                    "y": 400.8419189453125
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Group 118.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 0,
+                "columns": 0,
+                "speed": 0.0,
+                "isVisible": false,
+                "animationFilePath": ""
+            }
+        }
+    },
+    "6": {
+        "Name": "YesButton",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": -215.09814453125,
+                    "y": -134.93600463867188,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 325.0,
+                    "y": 95.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "yesButton.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 0,
+                "columns": 0,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            },
+            "struct scriptComponent": {
+                "script_size": 2,
+                "ScriptName0": "LoseQuitGameScript",
+                "ScriptName1": "MouseHoverDarkScript"
+            }
+        }
+    },
+    "7": {
+        "Name": "quitbg",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.10000000149011612
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1100.0,
+                    "y": 550.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "newQuit.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 0,
+                "columns": 0,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            },
+            "struct Com_Font": {
+                "text": "Quitgame",
+                "isVisible": false,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            },
+            "struct scriptComponent": {
+                "script_size": 0
+            }
+        }
+    }
+}

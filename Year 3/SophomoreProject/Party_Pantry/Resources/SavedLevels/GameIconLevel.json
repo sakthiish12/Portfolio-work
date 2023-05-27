@@ -1,0 +1,175 @@
+{
+    "0": {
+        "Name": "GameLogo",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 580.25,
+                    "y": 263.2170104980469
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "gameIcon.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": true,
+                "animationFilePath": "NewEnemyAnimation.json"
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "GameIconScript"
+            }
+        }
+    },
+    "1": {
+        "Name": "Camera",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 1.899999976158142
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Tree3.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": true,
+                "animationFilePath": "NewPlayerAnimation.json"
+            },
+            "struct camera2DCom": {
+                "height_change_val": 5,
+                "height": 302.39801025390627,
+                "min_height": 50.0,
+                "isFixedToPlayer": true,
+                "isPrimary": true
+            },
+            "struct Com_type": {
+                "Type": 3
+            }
+        }
+    },
+    "2": {
+        "Name": "blackbackground",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": -0.050999999046325687,
+                    "y": 0.0,
+                    "z": 0.9169999957084656
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1085.8070068359376,
+                    "y": 615.4290161132813
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 9.999999974752428e-7,
+                    "y": 9.999899930335233e-7,
+                    "z": 9.999899930335233e-7,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Black Background.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": true,
+                "animationFilePath": "NewEnemyAnimation.json"
+            },
+            "struct scriptComponent": {
+                "script_size": 0
+            }
+        }
+    },
+    "3": {
+        "Name": "Copyright",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": -250.1901397705078,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 395.0654296875,
+                    "y": 17.349361419677736
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Copyright.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": true,
+                "animationFilePath": "NewEnemyAnimation.json"
+            }
+        }
+    }
+}

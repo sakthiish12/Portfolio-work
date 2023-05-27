@@ -1,0 +1,40 @@
+{
+    "struct transform2D": {
+        "pos": {
+            "x": 0.0,
+            "y": 0.6179999709129334,
+            "z": 1.9199999570846558
+        },
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.399999976158142,
+            "y": 0.3499999940395355
+        }
+    },
+    "struct material": {
+        "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+        "mesh": "square",
+        "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        }
+    },
+    "struct spriteCom": {
+        "textureId": "Resume.png",
+        "textureSlotsId": 1.0,
+        "loop": false,
+        "toLoaded": true,
+        "rows": 4,
+        "columns": 4,
+        "speed": 100.0,
+        "isVisible": false,
+        "animationFilePath": "NewEnemyAnimation.json"
+    },
+    "struct scriptComponent": {
+        "script_size": 2,
+        "ScriptName0": "MouseHoverDarkScript",
+        "ScriptName1": "PauseResumeScript"
+    }
+}

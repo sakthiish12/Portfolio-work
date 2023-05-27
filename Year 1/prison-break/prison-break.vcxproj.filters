@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Libraries\Console\Console.c">
+      <Filter>Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\StateMachine\StateMachine.c">
+      <Filter>StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\Global\Global.c">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\Main\PrisonBreak.c">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\Map\Map.c">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\Item\Item.c">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\Human\Human.c">
+      <Filter>Human</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\TxtFileReader\TxtFileReader.c">
+      <Filter>TxtFileReader</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\States\Game.c">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\States\GameOver.c">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\States\MainMenu.c">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\Clock\Clock.cpp">
+      <Filter>Clock</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\Guard\Guard.c">
+      <Filter>Guard</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\GameMenu\GameMenu.c">
+      <Filter>GameMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\DifficultySystem\DifficultySystem.c">
+      <Filter>DifficultySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\Guard\Pathfind.c">
+      <Filter>Guard</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\Credits\Credits.c">
+      <Filter>Credits</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\Sounds\GameSounds.c">
+      <Filter>Sounds</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\Tutorial\Tutorial.c">
+      <Filter>Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\DifficultySystem\DifficultySystem.c">
+      <Filter>DifficultySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\Highscore\Highscore.c">
+      <Filter>Highscore</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\Settings\Settings.c">
+      <Filter>Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\Instructions\Instructions.c">
+      <Filter>Instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\States\SplashScreen.c">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\Random\Random.c">
+      <Filter>Random</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Libraries\Console\Console.h">
+      <Filter>Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\StateMachine\StateMachine.h">
+      <Filter>StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\Global\Global.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\Map\Map.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\TxtFileReader\TxtFileReader.h">
+      <Filter>TxtFileReader</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\States\Game.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\States\GameOver.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\States\MainMenu.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\Human\Human.h">
+      <Filter>Human</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\Clock\Clock.h">
+      <Filter>Clock</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\Guard\Guard.h">
+      <Filter>Guard</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\Item\Item.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\GameMenu\GameMenu.h">
+      <Filter>GameMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\Credits\Credits.h">
+      <Filter>Credits</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\fmod\inc\fmod.h">
+      <Filter>fmod\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\fmod\inc\fmod.hpp">
+      <Filter>fmod\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\fmod\inc\fmod_codec.h">
+      <Filter>fmod\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\fmod\inc\fmod_common.h">
+      <Filter>fmod\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\fmod\inc\fmod_dsp.h">
+      <Filter>fmod\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\fmod\inc\fmod_dsp_effects.h">
+      <Filter>fmod\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\fmod\inc\fmod_errors.h">
+      <Filter>fmod\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\fmod\inc\fmod_output.h">
+      <Filter>fmod\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\DifficultySystem\DifficultySystem.h">
+      <Filter>DifficultySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\Guard\Pathfind.h">
+      <Filter>Guard</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\Credits\Credits.h">
+      <Filter>Credits</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\Sounds\GameSounds.h">
+      <Filter>Sounds</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\Tutorial\Tutorial.h">
+      <Filter>Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\Highscore\Highscore.h">
+      <Filter>Highscore</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\Settings\Settings.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\Instructions\Instructions.h">
+      <Filter>Instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\States\SplashScreen.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\Random\Random.h">
+      <Filter>Random</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Console">
+      <UniqueIdentifier>{3502ebf1-54ab-4ef9-8382-7b77c38df963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StateMachine">
+      <UniqueIdentifier>{458ed089-3fc2-4236-8eff-e3ca3c68210b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{bddadaf2-aa27-4b4b-bb91-7b40d15aba55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{df83f9aa-ecdd-4b51-b0c3-5cfdd35403c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{c886c09a-6234-40a0-808a-e06fd9795d08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item">
+      <UniqueIdentifier>{dd1b6448-f332-453a-a13f-0b6e7077b5d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Human">
+      <UniqueIdentifier>{86088dcb-122c-4600-bd19-fe17578c9a1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TxtFileReader">
+      <UniqueIdentifier>{2564845a-113a-485f-929d-e17c4e8ebdfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{6146e9a5-7731-4390-891a-45b998f47530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clock">
+      <UniqueIdentifier>{e3d71701-42d9-48ee-9806-f08fd66d0738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMenu">
+      <UniqueIdentifier>{b280a4ec-25ba-4bb3-8b6d-5f46797c9822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guard">
+      <UniqueIdentifier>{b71df923-5eb6-4309-b375-7445eb535629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DifficultySystem">
+      <UniqueIdentifier>{d4dc8d96-3f1a-49a5-922a-cca63114ffbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Credits">
+      <UniqueIdentifier>{fbbfdaf7-ddee-4b25-9f35-8a4e5127924f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sounds">
+      <UniqueIdentifier>{37f455f4-f041-47c4-baaf-27ead0537c5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tutorial">
+      <UniqueIdentifier>{d6b0ece8-af90-4b64-861a-7be545fea28a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Highscore">
+      <UniqueIdentifier>{32faaa2d-51b9-441d-8c5c-55948e93bfee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Instructions">
+      <UniqueIdentifier>{8064871f-6ebd-4fce-8775-fa1552c8fff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Settings">
+      <UniqueIdentifier>{5e851d45-35e0-4979-b940-4f785b2ce1c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fmod">
+      <UniqueIdentifier>{d7c1e595-e073-42e7-af9f-cd4d26baf784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fmod\inc">
+      <UniqueIdentifier>{250edc79-7382-44d5-9bf9-29edb9b188f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fmod\lib">
+      <UniqueIdentifier>{d639ae3d-67c4-4875-b104-42a95569cdc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fmod\lib\x64">
+      <UniqueIdentifier>{827f7eda-43da-4b7d-9f2b-b9048abaf225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fmod\lib\x86">
+      <UniqueIdentifier>{deaa3f9a-0687-4385-887d-75e818bfc1cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Random">
+      <UniqueIdentifier>{51d69089-0568-40c6-889f-13bb379c2e86}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Libraries\TxtResource\Level2.txt" />
+    <Text Include="Libraries\TxtResource\Level2.txt" />
+    <Text Include="Libraries\TxtResource\Level2.txt" />
+    <Text Include="Libraries\TxtResource\Level2.txt" />
+    <Text Include="Libraries\TxtResource\Level2.txt" />
+    <Text Include="Libraries\TxtResource\Level2.txt" />
+    <Text Include="Libraries\TxtResource\Level2.txt" />
+    <Text Include="Libraries\TxtResource\Level2.txt" />
+    <Text Include="Libraries\TxtResource\Level2.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Libraries\fmod\inc\fmod.cs">
+      <Filter>fmod\inc</Filter>
+    </None>
+    <None Include="Libraries\fmod\inc\fmod_dsp.cs">
+      <Filter>fmod\inc</Filter>
+    </None>
+    <None Include="Libraries\fmod\inc\fmod_errors.cs">
+      <Filter>fmod\inc</Filter>
+    </None>
+    <None Include="Libraries\fmod\lib\x86\fmod.dll">
+      <Filter>fmod\lib\x86</Filter>
+    </None>
+    <None Include="Libraries\fmod\lib\x86\fmodL.dll">
+      <Filter>fmod\lib\x86</Filter>
+    </None>
+    <None Include="Libraries\fmod\lib\x64\fmod.dll">
+      <Filter>fmod\lib\x64</Filter>
+    </None>
+    <None Include="Libraries\fmod\lib\x64\fmodL.dll">
+      <Filter>fmod\lib\x64</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Libraries\fmod\lib\x86\fmod_vc.lib">
+      <Filter>fmod\lib\x86</Filter>
+    </Library>
+    <Library Include="Libraries\fmod\lib\x86\fmodL_vc.lib">
+      <Filter>fmod\lib\x86</Filter>
+    </Library>
+    <Library Include="Libraries\fmod\lib\x86\libfmod.a">
+      <Filter>fmod\lib\x86</Filter>
+    </Library>
+    <Library Include="Libraries\fmod\lib\x86\libfmodL.a">
+      <Filter>fmod\lib\x86</Filter>
+    </Library>
+    <Library Include="Libraries\fmod\lib\x64\fmod_vc.lib">
+      <Filter>fmod\lib\x64</Filter>
+    </Library>
+    <Library Include="Libraries\fmod\lib\x64\fmodL_vc.lib">
+      <Filter>fmod\lib\x64</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Libraries\fmod\GameSounds\DoNotUse.wav">
+      <Filter>fmod</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,35 @@
+{
+    "struct transform2D": {
+        "pos": {
+            "x": -1.7669999599456788,
+            "y": 1.3209999799728394,
+            "z": 1.899999976158142
+        },
+        "rotation": 0.0,
+        "scale": {
+            "x": 0.25999999046325686,
+            "y": 0.25999999046325686
+        }
+    },
+    "struct material": {
+        "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+        "mesh": "square",
+        "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        }
+    },
+    "struct spriteCom": {
+        "textureId": "overlay.png",
+        "textureSlotsId": 1.0,
+        "loop": false,
+        "toLoaded": true,
+        "rows": 4,
+        "columns": 4,
+        "speed": 100.0,
+        "isVisible": true,
+        "animationFilePath": "NewEnemyAnimation.json"
+    }
+}

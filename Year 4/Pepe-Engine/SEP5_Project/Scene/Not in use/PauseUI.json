@@ -1,0 +1,274 @@
+{
+    "Tags": [],
+    "entities": [],
+    "Canvases": [
+        {
+            "ID": 16650967795309286389,
+            "Canvas Name": "PauseCanvas",
+            "IsActive": true,
+            "Sort Layer": 4,
+            "UI Elements": [
+                {
+                    "ID": 9316379858913159586,
+                    "Type Name": "UIImage",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Scale": {
+                        "x": 0.23999999463558197,
+                        "y": 0.4699999988079071,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "PauseScreenBG",
+                    "Scripts": {
+                        "Scripts": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "Image Texture ID": {
+                        "m_id": 13478741579657588232
+                    }
+                },
+                {
+                    "ID": 5879212872602328129,
+                    "Type Name": "UIButton",
+                    "Sort Layer": 1,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.3799999952316284,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.15000000596046448,
+                        "y": 0.07000000029802322,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "ResumeButton",
+                    "Scripts": {
+                        "Scripts": [
+                            "IGResumeGameButtonScript"
+                        ]
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "Textures": [
+                        {
+                            "m_id": 13478741579657588223
+                        },
+                        {
+                            "m_id": 13478741579657588225
+                        },
+                        {
+                            "m_id": 13478741579657588224
+                        },
+                        {
+                            "m_id": 13478741579657588223
+                        }
+                    ],
+                    "AudioQues": [
+                        {
+                            "m_id": 18346501213100808371
+                        },
+                        {
+                            "m_id": 18346501213100808370
+                        }
+                    ],
+                    "AudioQue Volume": 1.0,
+                    "AudioQue Pitch": 1.0,
+                    "AudioQue Priority": 128
+                },
+                {
+                    "ID": 11126719400524114659,
+                    "Type Name": "UIButton",
+                    "Sort Layer": 2,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.46000000834465027,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.15000000596046448,
+                        "y": 0.07000000029802322,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "RestartButton",
+                    "Scripts": {
+                        "Scripts": [
+                            "IGRestartButtonScript"
+                        ]
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "Textures": [
+                        {
+                            "m_id": 13478741579657588226
+                        },
+                        {
+                            "m_id": 13478741579657588228
+                        },
+                        {
+                            "m_id": 13478741579657588227
+                        },
+                        {
+                            "m_id": 13478741579657588226
+                        }
+                    ],
+                    "AudioQues": [
+                        {
+                            "m_id": 18346501213100808371
+                        },
+                        {
+                            "m_id": 18346501213100808370
+                        }
+                    ],
+                    "AudioQue Volume": 1.0,
+                    "AudioQue Pitch": 1.0,
+                    "AudioQue Priority": 128
+                },
+                {
+                    "ID": 13311661927295777480,
+                    "Type Name": "UIButton",
+                    "Sort Layer": 3,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5400000214576721,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.1599999964237213,
+                        "y": 0.07000000029802322,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "ControlsButton",
+                    "Scripts": {
+                        "Scripts": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "Textures": [
+                        {
+                            "m_id": 13478741579657588229
+                        },
+                        {
+                            "m_id": 13478741579657588231
+                        },
+                        {
+                            "m_id": 13478741579657588230
+                        },
+                        {
+                            "m_id": 13478741579657588229
+                        }
+                    ],
+                    "AudioQues": [
+                        {
+                            "m_id": 18346501213100808371
+                        },
+                        {
+                            "m_id": 18346501213100808370
+                        }
+                    ],
+                    "AudioQue Volume": 1.0,
+                    "AudioQue Pitch": 1.0,
+                    "AudioQue Priority": 128
+                },
+                {
+                    "ID": 8115449543898514397,
+                    "Type Name": "UIButton",
+                    "Sort Layer": 4,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.6200000047683716,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.15000000596046448,
+                        "y": 0.07000000029802322,
+                        "z": 0.0
+                    },
+                    "Flags": 1,
+                    "Name": "QuitButton",
+                    "Scripts": {
+                        "Scripts": [
+                            "IGQuitGameButtonScript"
+                        ]
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "Textures": [
+                        {
+                            "m_id": 18346501213100808377
+                        },
+                        {
+                            "m_id": 18346501213100808379
+                        },
+                        {
+                            "m_id": 18346501213100808378
+                        },
+                        {
+                            "m_id": 18346501213100808377
+                        }
+                    ],
+                    "AudioQues": [
+                        {
+                            "m_id": 18346501213100808371
+                        },
+                        {
+                            "m_id": 18346501213100808370
+                        }
+                    ],
+                    "AudioQue Volume": 1.0,
+                    "AudioQue Pitch": 1.0,
+                    "AudioQue Priority": 128
+                }
+            ]
+        }
+    ],
+    "Global Illumination setting": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "intentsity": 0.019999999552965164
+    }
+}

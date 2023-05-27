@@ -1,0 +1,1 @@
+C:\Users\Wilfred\Downloads\ft2110\freetype-2.11.0\objs\x64\Debug Static\freetype.lib

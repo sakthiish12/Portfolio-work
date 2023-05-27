@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DebugGameplay|x64">
+      <Configuration>DebugGameplay</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseGameplay|x64">
+      <Configuration>ReleaseGameplay</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{0a0f10d7-905b-4b75-a153-b1665886a206}</ProjectGuid>
+    <RootNamespace>BananaGame</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGameplay|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseGameplay|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGameplay|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseGameplay|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)\bin\</OutDir>
+    <IntDir>$(SolutionDir)\.tmp\$(Configuration)-$(Platform)\Game\</IntDir>
+    <TargetName>$(ProjectName)-$(Configuration)-$(Platform)</TargetName>
+    <IncludePath>$(SolutionDir)BananaEngine\EngineCodes\Precompiled;$(SolutionDir)BananaGame\GameCodes\BehaviourScripts;$(SolutionDir)BananaEngine\EngineCodes;$(SolutionDir)Extern\glfw\include;$(SolutionDir)Extern\glm;$(SolutionDir)Extern\Vulkan\Include;$(SolutionDir)Extern\JoltPhysics;$(SolutionDir)Extern\rapidjson;$(SolutionDir)Extern\rttr;$(SolutionDir)Extern\fmod\inc;$(SolutionDir)Extern\tinyobjloader-master;$(IncludePath);$(SolutionDir)Extern\assimp\build\x64\include;$(SolutionDir)Extern\assimp\include;$(SolutionDir)Extern\tinyddsloader;$(SolutionDir)Extern\SOIL2\include;$(SolutionDir)Extern\Font</IncludePath>
+    <LibraryPath>$(SolutionDir)StaticLibs;$(SolutionDir)Extern\glfw\lib;$(SolutionDir)Extern\Vulkan\Lib;$(SolutionDir)Extern\JoltPhysics\Lib;$(SolutionDir)Extern\rttr\lib;$(SolutionDir)Extern\Font\freetype\lib\x64;$(SolutionDir)Extern\fmod\lib;$(SolutionDir)Extern\SOIL2\lib;$(LibraryPath);$(SolutionDir)Extern\assimp\libs;$(SolutionDir)Extern\Font\freetype\lib\x64</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGameplay|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)\bin\</OutDir>
+    <IntDir>$(SolutionDir)\.tmp\$(Configuration)-$(Platform)\Game\</IntDir>
+    <TargetName>$(ProjectName)-$(Configuration)-$(Platform)</TargetName>
+    <IncludePath>$(SolutionDir)BananaEngine\EngineCodes\Precompiled;$(SolutionDir)BananaGame\GameCodes\BehaviourScripts;$(SolutionDir)BananaEngine\EngineCodes;$(SolutionDir)Extern\glfw\include;$(SolutionDir)Extern\glm;$(SolutionDir)Extern\Vulkan\Include;$(SolutionDir)Extern\JoltPhysics;$(SolutionDir)Extern\rapidjson;$(SolutionDir)Extern\rttr;$(SolutionDir)Extern\fmod\inc;$(SolutionDir)Extern\tinyobjloader-master;$(IncludePath);$(SolutionDir)Extern\assimp\build\x64\include;$(SolutionDir)Extern\assimp\include;$(SolutionDir)Extern\tinyddsloader;$(SolutionDir)Extern\SOIL2\include;$(SolutionDir)Extern\Font</IncludePath>
+    <LibraryPath>$(SolutionDir)StaticLibs;$(SolutionDir)Extern\glfw\lib;$(SolutionDir)Extern\Vulkan\Lib;$(SolutionDir)Extern\JoltPhysics\Lib;$(SolutionDir)Extern\rttr\lib;$(SolutionDir)Extern\Font\freetype\lib\x64;$(SolutionDir)Extern\fmod\lib;$(SolutionDir)Extern\SOIL2\lib;$(LibraryPath);$(SolutionDir)Extern\assimp\libs;$(SolutionDir)Extern\SOIL2\lib</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\bin\</OutDir>
+    <IntDir>$(SolutionDir)\.tmp\$(Configuration)-$(Platform)\Game\</IntDir>
+    <TargetName>$(ProjectName)-$(Configuration)-$(Platform)</TargetName>
+    <IncludePath>$(SolutionDir)BananaEngine\EngineCodes\Precompiled;$(SolutionDir)BananaGame\GameCodes\BehaviourScripts;$(SolutionDir)BananaEngine\EngineCodes;$(SolutionDir)Extern\glfw\include;$(SolutionDir)Extern\glm;$(SolutionDir)Extern\Vulkan\Include;$(SolutionDir)Extern\JoltPhysics;$(SolutionDir)Extern\rapidjson;$(SolutionDir)Extern\rttr;$(SolutionDir)Extern\fmod\inc;$(IncludePath);$(SolutionDir)Extern\assimp\build\x64\include;$(SolutionDir)Extern\assimp\include;$(SolutionDir)Extern\tinyddsloader;$(SolutionDir)Extern\SOIL2\include;$(SolutionDir)Extern\Font</IncludePath>
+    <LibraryPath>$(SolutionDir)StaticLibs;$(SolutionDir)Extern\glfw\lib;$(SolutionDir)Extern\Vulkan\Lib;$(SolutionDir)Extern\JoltPhysics\Lib;$(SolutionDir)Extern\rttr\lib;$(SolutionDir)Extern\Font\freetype\lib\x64;$(SolutionDir)Extern\fmod\lib;$(LibraryPath);$(SolutionDir)Extern\assimp\libs;$(SolutionDir)Extern\SOIL2\lib</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseGameplay|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\bin\</OutDir>
+    <IntDir>$(SolutionDir)\.tmp\$(Configuration)-$(Platform)\Game\</IntDir>
+    <TargetName>$(ProjectName)-$(Configuration)-$(Platform)</TargetName>
+    <IncludePath>$(SolutionDir)BananaEngine\EngineCodes\Precompiled;$(SolutionDir)BananaGame\GameCodes\BehaviourScripts;$(SolutionDir)BananaEngine\EngineCodes;$(SolutionDir)Extern\glfw\include;$(SolutionDir)Extern\glm;$(SolutionDir)Extern\Vulkan\Include;$(SolutionDir)Extern\JoltPhysics;$(SolutionDir)Extern\rapidjson;$(SolutionDir)Extern\rttr;$(SolutionDir)Extern\fmod\inc;$(IncludePath);$(SolutionDir)Extern\assimp\build\x64\include;$(SolutionDir)Extern\assimp\include;$(SolutionDir)Extern\tinyddsloader;$(SolutionDir)Extern\SOIL2\include;$(SolutionDir)Extern\Font</IncludePath>
+    <LibraryPath>$(SolutionDir)StaticLibs;$(SolutionDir)Extern\glfw\lib;$(SolutionDir)Extern\Vulkan\Lib;$(SolutionDir)Extern\JoltPhysics\Lib;$(SolutionDir)Extern\rttr\lib;$(SolutionDir)Extern\Font\freetype\lib\x64;$(SolutionDir)Extern\fmod\lib;$(LibraryPath);$(SolutionDir)Extern\assimp\libs;$(SolutionDir)Extern\SOIL2\lib</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;JPH_PROFILE_ENABLED;RTTR_DLL;%(PreprocessorDefinitions);RTTR_DLL</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableSpecificWarnings>4840;4005;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>BananaEngine_$(Configuration)-$(Platform).lib;glfw3dll.lib;vulkan-1.lib;freetype.lib;Advapi32.lib;Jolt_Debug.lib;rttr_core_d.lib;fmodL_vc.lib;%(AdditionalDependencies);opengl32.lib;soil2.lib;assimp-vc142-mtd.lib;zlibstaticd.lib;freetype.lib</AdditionalDependencies>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <IgnoreSpecificDefaultLibraries>msvcrt.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)Extern\glfw\lib\glfw3.dll" "$(TargetDir)glfw3.dll" /Y
+copy "$(SolutionDir)Extern\rttr\rttr_core_d.dll" "$(TargetDir)rttr_core_d.dll" /Y
+copy "$(SolutionDir)Extern\Fmod\lib\fmodL.dll" "$(TargetDir)fmodL.dll" /Y
+copy "$(SolutionDir)Extern\assimp\dll\assimp-vc142-mt.dll" "$(TargetDir)assimp-vc142-mt.dll" /Y
+copy "$(SolutionDir)Extern\assimp\dll\assimp-vc142-mtd.dll" "$(TargetDir)assimp-vc142-mtd.dll" /Y
+copy "$(SolutionDir)Extern\Font\freetype\x64dll\freetype.dll" "$(TargetDir)freetype.dll" /Y
+"$(SolutionDir)Assets\Shaders\compileShaders.bat"</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>"$(SolutionDir)Assets\Shaders\compileShaders.bat"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugGameplay|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;JPH_PROFILE_ENABLED;_GAMEPLAY;%(PreprocessorDefinitions);RTTR_DLL</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableSpecificWarnings>4840;4005;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>BananaEngine_$(Configuration)-$(Platform).lib;glfw3dll.lib;vulkan-1.lib;freetype.lib;Advapi32.lib;Jolt_Debug.lib;rttr_core_d.lib;fmodL_vc.lib;%(AdditionalDependencies);opengl32.lib;soil2.lib;assimp-vc142-mtd.lib;zlibstaticd.lib;freetype.lib</AdditionalDependencies>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <IgnoreSpecificDefaultLibraries>msvcrt.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)Extern\glfw\lib\glfw3.dll" "$(TargetDir)glfw3.dll" /Y
+copy "$(SolutionDir)Extern\rttr\rttr_core_d.dll" "$(TargetDir)rttr_core_d.dll" /Y
+copy "$(SolutionDir)Extern\Fmod\lib\fmodL.dll" "$(TargetDir)fmodL.dll" /Y
+copy "$(SolutionDir)Extern\assimp\dll\assimp-vc142-mt.dll" "$(TargetDir)assimp-vc142-mt.dll" /Y
+copy "$(SolutionDir)Extern\assimp\dll\assimp-vc142-mtd.dll" "$(TargetDir)assimp-vc142-mtd.dll" /Y
+copy "$(SolutionDir)Extern\Font\freetype\x64dll\freetype.dll" "$(TargetDir)freetype.dll" /Y
+"$(SolutionDir)Assets\Shaders\compileShaders.bat"</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>"$(SolutionDir)Assets\Shaders\compileShaders.bat"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);RTTR_DLL</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableSpecificWarnings>4840;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>BananaEngine_$(Configuration)-$(Platform).lib;glfw3dll.lib;vulkan-1.lib;freetype.lib;Jolt.lib;rttr_core.lib;fmod_vc.lib;%(AdditionalDependencies);opengl32.lib;soil2.lib;assimp-vc142-mt.lib;zlibstatic.lib;freetype.lib</AdditionalDependencies>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)Extern\glfw\lib\glfw3.dll" "$(TargetDir)glfw3.dll" /Y
+copy "$(SolutionDir)Extern\rttr\rttr_core.dll" "$(TargetDir)rttr_core.dll" /Y 
+copy "$(SolutionDir)Extern\Fmod\lib\fmod.dll" "$(TargetDir)fmod.dll" /Y
+copy "$(SolutionDir)Extern\assimp\dll\assimp-vc142-mt.dll" "$(TargetDir)assimp-vc142-mt.dll" /Y
+copy "$(SolutionDir)Extern\assimp\dll\assimp-vc142-mtd.dll" "$(TargetDir)assimp-vc142-mtd.dll" /Y
+copy "$(SolutionDir)Extern\Font\freetype\x64dll\freetype.dll" "$(TargetDir)freetype.dll" /Y
+"$(SolutionDir)Assets\Shaders\compileShaders.bat"</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>"$(SolutionDir)Assets\Shaders\compileShaders.bat"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseGameplay|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;_GAMEPLAY;RTTR_DLL;%(PreprocessorDefinitions);RTTR_DLL</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableSpecificWarnings>4840;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>BananaEngine_$(Configuration)-$(Platform).lib;glfw3dll.lib;vulkan-1.lib;freetype.lib;Jolt.lib;rttr_core.lib;fmod_vc.lib;%(AdditionalDependencies);opengl32.lib;soil2.lib;assimp-vc142-mt.lib;zlibstatic.lib;freetype.lib</AdditionalDependencies>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)Extern\glfw\lib\glfw3.dll" "$(TargetDir)glfw3.dll" /Y
+copy "$(SolutionDir)Extern\rttr\rttr_core.dll" "$(TargetDir)rttr_core.dll" /Y 
+copy "$(SolutionDir)Extern\Fmod\lib\fmod.dll" "$(TargetDir)fmod.dll" /Y
+copy "$(SolutionDir)Extern\assimp\dll\assimp-vc142-mt.dll" "$(TargetDir)assimp-vc142-mt.dll" /Y
+copy "$(SolutionDir)Extern\assimp\dll\assimp-vc142-mtd.dll" "$(TargetDir)assimp-vc142-mtd.dll" /Y
+copy "$(SolutionDir)Extern\Font\freetype\x64dll\freetype.dll" "$(TargetDir)freetype.dll" /Y
+"$(SolutionDir)Assets\Shaders\compileShaders.bat"</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>"$(SolutionDir)Assets\Shaders\compileShaders.bat"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="GameCodes\BehaviourScripts\Boss\BossDecoy.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Boss\BossMinionSpawner.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Boss\ElectricTowers.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Boss\RobotBoss.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Boss\SpinningLasers.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Environment\DOTObject.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Environment\InteractableConsole.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Level\AreaZone.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Level\Checkpoint.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Misc\AmbienceSFX.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Misc\AnimatedTexture.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Misc\BasicTransformations.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Misc\OffRobot.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Misc\Timers.cpp" />
+    <ClCompile Include="GameCodes\UserInterface\InGameUIScripts\BabyPointerUI.cpp" />
+    <ClCompile Include="GameCodes\Application\Application.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Enemies\EnemyManagers.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Environment\Glass.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Level\LevelFinisher.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Level\PathFinder.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Misc\SFXPlayer.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Player\BabyMonkey.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Character\BaseSkill.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Camera\CameraController.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Character\CharacterPather.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Character\CharacterScript.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Environment\Door.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Enemies\EnemyRobot.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Enemies\EnemyScientist.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Enemies\EnemyScript.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Environment\Interactable.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Level\Level1.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Level\LevelEvents.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Level\LevelManager.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Environment\PickUps.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Player\PlayerInteract.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Player\PlayerScript.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Misc\StressTest.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Level\Triggers.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Character\VirtualCharacterScript.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Player\PlayerSurround.cpp" />
+    <ClCompile Include="GameCodes\DialogueCutsceneObjectivesControl\CDOTriggers.cpp" />
+    <ClCompile Include="GameCodes\DialogueCutsceneObjectivesControl\DialogueController.cpp" />
+    <ClCompile Include="GameCodes\DialogueCutsceneObjectivesControl\CutsceneController.cpp" />
+    <ClCompile Include="GameCodes\DialogueCutsceneObjectivesControl\ObjectivesController.cpp" />
+    <ClCompile Include="GameCodes\main.cpp" />
+    <ClCompile Include="GameCodes\MusicPlayer\MusicPlayer.cpp" />
+    <ClCompile Include="GameCodes\UserInterface\InGameUIScripts\AbilityMenu.cpp" />
+    <ClCompile Include="GameCodes\UserInterface\InGameUIScripts\InGameUIScripts.cpp" />
+    <ClCompile Include="GameCodes\UserInterface\MainMenu\MainMenuScripts.cpp" />
+    <ClCompile Include="GameCodes\UserInterface\InGameUIScripts\MilkBottleUIController.cpp" />
+    <ClCompile Include="GameCodes\UserInterface\InGameUIScripts\TutorialUIController.cpp" />
+    <ClCompile Include="GameCodes\BehaviourScripts\Enemies\Turret.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BananaEngine\BananaEngine.vcxproj">
+      <Project>{5a89bed3-3c0a-47a1-a2cb-fe125d848123}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameCodes\BehaviourScripts\Boss\BossDecoy.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Boss\BossMinionSpawner.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Boss\ElectricTowers.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Boss\RobotBoss.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Boss\SpinningLasers.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Environment\DOTObject.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Environment\InteractableConsole.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Level\AreaZone.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Level\Checkpoint.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Misc\AmbienceSFX.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Misc\AnimatedTexture.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Misc\BasicTransformations.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Misc\OffRobot.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Misc\Timers.h" />
+    <ClInclude Include="GameCodes\UserInterface\InGameUIScripts\BabyPointerUI.h" />
+    <ClInclude Include="GameCodes\Application\Application.h" />
+    <ClInclude Include="GameCodes\Application\GameConfig.h" />
+    <ClInclude Include="GameCodes\AllBehaviour.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\AttacksManager.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Enemies\EnemyManagers.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Environment\Glass.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Level\LevelFinisher.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Level\PathFinder.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Misc\SFXPlayer.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Player\BabyMonkey.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Character\CharacterPather.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Character\CharacterScript.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Environment\Door.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Enemies\EnemyScientist.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Enemies\EnemyScript.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Enemies\EnemySpecialized.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Environment\Interactable.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Level\Level1.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Level\LevelEvents.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Level\LevelManager.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Environment\PickUps.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Player\PlayerInteract.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Player\PlayerScript.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Camera\CameraController.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Character\BaseSkill.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Enemies\EnemyRobot.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Misc\StressTest.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Level\Triggers.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Character\VirtualCharacterScript.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Player\PlayerSurround.h" />
+    <ClInclude Include="GameCodes\DialogueCutsceneObjectivesControl\CDOTriggers.h" />
+    <ClInclude Include="GameCodes\DialogueCutsceneObjectivesControl\DialogueController.h" />
+    <ClInclude Include="GameCodes\DialogueCutsceneObjectivesControl\CutsceneController.h" />
+    <ClInclude Include="GameCodes\DialogueCutsceneObjectivesControl\ObjectivesController.h" />
+    <ClInclude Include="GameCodes\MusicPlayer\MusicPlayer.h" />
+    <ClInclude Include="GameCodes\UserInterface\InGameUIScripts\AbilityMenu.h" />
+    <ClInclude Include="GameCodes\UserInterface\InGameUIScripts\InGameUIScripts.h" />
+    <ClInclude Include="GameCodes\UserInterface\MainMenu\MainMenuScripts.h" />
+    <ClInclude Include="GameCodes\UserInterface\InGameUIScripts\MilkBottleUIController.h" />
+    <ClInclude Include="GameCodes\UserInterface\InGameUIScripts\TutorialUIController.h" />
+    <ClInclude Include="GameCodes\BehaviourScripts\Enemies\Turret.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

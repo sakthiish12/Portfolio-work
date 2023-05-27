@@ -1,0 +1,48 @@
+{
+    "struct transform2D": {
+        "pos": {
+            "x": 3.11899995803833,
+            "y": -1.8040000200271607,
+            "z": 1.899999976158142
+        },
+        "rotation": 0.0,
+        "scale": {
+            "x": 0.004000000189989805,
+            "y": 0.004000000189989805
+        }
+    },
+    "struct material": {
+        "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+        "mesh": "square",
+        "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        }
+    },
+    "struct spriteCom": {
+        "textureId": "Ketchup_Pistol.png",
+        "textureSlotsId": 1.0,
+        "loop": false,
+        "toLoaded": true,
+        "rows": 4,
+        "columns": 4,
+        "speed": 100.0,
+        "isVisible": false,
+        "animationFilePath": "NewEnemyAnimation.json"
+    },
+    "struct Com_Font": {
+        "text": "22",
+        "isVisible": true,
+        "color": {
+            "x": 9.999999974752428e-7,
+            "y": 9.999899930335233e-7,
+            "z": 9.999899930335233e-7
+        }
+    },
+    "struct scriptComponent": {
+        "script_size": 1,
+        "ScriptName0": "MushroomCountScript"
+    }
+}

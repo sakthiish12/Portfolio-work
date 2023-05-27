@@ -1,0 +1,13 @@
+{
+    "m_windowSize": {
+        "x": 1600,
+        "y": 900
+    },
+    "m_windowTitle": "Kettle Hero",
+    "m_WindowConfigurations": [
+        {
+            "Key": "Test",
+            "Value": 4
+        }
+    ]
+}

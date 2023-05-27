@@ -1,0 +1,45 @@
+{
+    "struct transform2D": {
+        "pos": {
+            "x": -177.52745056152345,
+            "y": 45.05598449707031,
+            "z": 1.899999976158142
+        },
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        }
+    },
+    "struct material": {
+        "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+        "mesh": "square",
+        "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        }
+    },
+    "struct spriteCom": {
+        "textureId": "Tree3.png",
+        "textureSlotsId": 1.0,
+        "loop": false,
+        "toLoaded": true,
+        "rows": 4,
+        "columns": 4,
+        "speed": 100.0,
+        "isVisible": true,
+        "animationFilePath": "NewPlayerAnimation.json"
+    },
+    "struct camera2DCom": {
+        "height_change_val": 5,
+        "height": 302.39801025390627,
+        "min_height": 50.0,
+        "isFixedToPlayer": true,
+        "isPrimary": true
+    },
+    "struct Com_type": {
+        "Type": 3
+    }
+}

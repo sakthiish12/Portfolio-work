@@ -1,0 +1,80 @@
+{
+    "Tags": [],
+    "entities": {
+        "8813438870629801056": {
+            "EntityID": 8813438870629801056,
+            "Transform": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Local Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Local Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Local Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Children": [],
+                "Parent": {
+                    "m_id": 0
+                }
+            },
+            "EntityInfo": {
+                "Entity Name": "New Entity",
+                "Tags": [],
+                "Flags": 1
+            },
+            "Renderer": {
+                "ModelID": {
+                    "m_id": 15718283505368646699
+                },
+                "MeshInfoVector": [],
+                "opacity": 1.0,
+                "flickerDuration": 0.10000000149011612,
+                "flickerColor": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "wireframeMode": false,
+                "wireframeColor": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "ignoreLighting": false
+            }
+        }
+    },
+    "Canvases": [],
+    "Global Illumination setting": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "intentsity": 0.019999999552965164
+    }
+}

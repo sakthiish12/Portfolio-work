@@ -1,0 +1,48 @@
+{
+    "struct transform2D": {
+        "pos": {
+            "x": 1.6979999542236329,
+            "y": 1.687999963760376,
+            "z": 1.0
+        },
+        "rotation": 0.0,
+        "scale": {
+            "x": 0.003200000151991844,
+            "y": 0.003200000151991844
+        }
+    },
+    "struct material": {
+        "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+        "mesh": "square",
+        "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        }
+    },
+    "struct spriteCom": {
+        "textureId": "Tree3.png",
+        "textureSlotsId": 1.0,
+        "loop": false,
+        "toLoaded": true,
+        "rows": 4,
+        "columns": 4,
+        "speed": 100.0,
+        "isVisible": false,
+        "animationFilePath": "NewEnemyAnimation.json"
+    },
+    "struct Com_Font": {
+        "text": "Collect 5 Tomatoes",
+        "isVisible": true,
+        "color": {
+            "x": 9.999999974752428e-7,
+            "y": 9.999899930335233e-7,
+            "z": 9.999899930335233e-7
+        }
+    },
+    "struct scriptComponent": {
+        "script_size": 1,
+        "ScriptName0": "TaskListScript"
+    }
+}

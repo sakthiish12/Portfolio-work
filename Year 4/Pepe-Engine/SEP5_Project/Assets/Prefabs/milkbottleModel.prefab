@@ -1,0 +1,105 @@
+{
+    "prefab": {
+        "Transform": {
+            "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.356100082397461,
+                "y": 1.3561002016067505,
+                "z": 1.3561002016067505
+            },
+            "Rotation": {
+                "i": -0.41525477170944214,
+                "j": 0.433214396238327,
+                "k": 0.23529693484306335,
+                "r": 0.7645418047904968
+            },
+            "Local Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Local Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Local Rotation": {
+                "i": -0.4772852063179016,
+                "j": 0.0,
+                "k": 0.0,
+                "r": 0.8787484765052795
+            },
+            "Children": [],
+            "Parent": {
+                "m_id": 0
+            }
+        },
+        "EntityInfo": {
+            "Entity Name": "milkbottleModel",
+            "Tags": [],
+            "Flags": 1
+        },
+        "Renderer": {
+            "ModelID": {
+                "m_id": 17131079196358345104
+            },
+            "MeshInfoVector": [
+                {
+                    "meshName": "Plane",
+                    "hasTextures": false,
+                    "albedoAlphaMap": {
+                        "m_id": 12679309636311460426
+                    },
+                    "normalMap": {
+                        "m_id": 1953913495632634075
+                    },
+                    "ambientOcclusionMap": {
+                        "m_id": 12679309636311460426
+                    },
+                    "roughnessMap": {
+                        "m_id": 8258256965526425616
+                    },
+                    "emissiveMap": {
+                        "m_id": 4689643295061529200
+                    },
+                    "metallicMap": {
+                        "m_id": 9864341944654519884
+                    },
+                    "heightMap": {
+                        "m_id": 15229976575828128425
+                    },
+                    "textureStrength": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "brightnessFactor": 3.809999942779541
+                }
+            ],
+            "opacity": 1.0,
+            "flickerDuration": 0.10000000149011612,
+            "flickerColor": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0,
+                "w": 1.0
+            },
+            "wireframeMode": false,
+            "wireframeColor": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0,
+                "w": 1.0
+            },
+            "ignoreLighting": false,
+            "reflectSpecular": false
+        }
+    }
+}

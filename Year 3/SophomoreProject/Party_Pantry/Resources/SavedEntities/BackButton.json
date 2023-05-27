@@ -1,0 +1,43 @@
+{
+    "struct transform2D": {
+        "pos": {
+            "x": 688.9979858398438,
+            "y": -436.6159973144531,
+            "z": 1.0
+        },
+        "rotation": 0.0,
+        "scale": {
+            "x": 339.8089904785156,
+            "y": 97.3270034790039
+        }
+    },
+    "struct material": {
+        "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+        "mesh": "square",
+        "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        }
+    },
+    "struct spriteCom": {
+        "textureId": "Back Button.png",
+        "textureSlotsId": 1.0,
+        "loop": false,
+        "toLoaded": true,
+        "rows": 4,
+        "columns": 4,
+        "speed": 0.0,
+        "isVisible": true,
+        "animationFilePath": ""
+    },
+    "struct levelLoaderButton": {
+        "Target level": "Resources/SavedLevels/ThroneRoomLevel.json"
+    },
+    "struct scriptComponent": {
+        "script_size": 2,
+        "ScriptName0": "MouseHoverDarkScript",
+        "ScriptName1": "UpgradeBodyScript"
+    }
+}

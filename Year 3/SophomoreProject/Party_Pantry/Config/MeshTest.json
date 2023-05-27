@@ -1,0 +1,31 @@
+{
+    "Square": {
+      "m_vertices": [
+        -0.5,
+        -0.5,
+        0.5,
+        -0.5,
+        0.5,
+        0.5,
+        -0.5,
+        0.5
+      ],
+      "m_indices": [
+        0,
+        1,
+        2,
+        2,
+        3,
+        0
+      ]
+    },
+    "Triangle": {
+      "m_vertices": [],
+      "m_indices": []
+    },
+    "Circle": {
+      "m_vertices": [],
+      "m_indices": []
+    }
+  
+}

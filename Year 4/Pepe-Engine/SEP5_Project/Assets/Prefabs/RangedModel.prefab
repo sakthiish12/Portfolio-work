@@ -1,0 +1,107 @@
+{
+    "prefab": {
+        "Transform": {
+            "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 3.0,
+                "y": 3.0,
+                "z": 3.0
+            },
+            "Rotation": {
+                "i": -0.7071065902709961,
+                "j": 5.322005449670542e-7,
+                "k": 5.32200203906541e-7,
+                "r": 0.7071070671081543
+            },
+            "Local Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Local Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Local Rotation": {
+                "i": -0.7071065902709961,
+                "j": 4.2146837131440407e-8,
+                "k": 4.2146837131440407e-8,
+                "r": 0.7071070671081543
+            },
+            "Children": [],
+            "Parent": {
+                "m_id": 0
+            }
+        },
+        "EntityInfo": {
+            "Entity Name": "RangedModel",
+            "Tags": [],
+            "Flags": 1
+        },
+        "Renderer": {
+            "ModelID": {
+                "m_id": 12515666099887935860
+            },
+            "MeshInfoVector": [
+                {
+                    "meshName": "Cube.008",
+                    "hasTextures": false,
+                    "albedoAlphaMap": {
+                        "m_id": 1816178433860464615
+                    },
+                    "normalMap": {
+                        "m_id": 12625901694060857832
+                    },
+                    "ambientOcclusionMap": {
+                        "m_id": 5878545844998334270
+                    },
+                    "roughnessMap": {
+                        "m_id": 2196613981213415951
+                    },
+                    "emissiveMap": {
+                        "m_id": 10672098834392870157
+                    },
+                    "metallicMap": {
+                        "m_id": 924862650048098045
+                    },
+                    "textureStrength": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "brightnessFactor": 3.0
+                }
+            ],
+            "opacity": 1.0,
+            "flickerDuration": 0.10000000149011612,
+            "flickerColor": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0,
+                "w": 1.0
+            },
+            "wireframeMode": false,
+            "wireframeColor": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0,
+                "w": 1.0
+            },
+            "ignoreLighting": false
+        },
+        "AnimationComponent": {
+            "Time": 0.0,
+            "AnimationName": "",
+            "AnimationIdx": 0,
+            "TickOffset": 1.0
+        }
+    }
+}

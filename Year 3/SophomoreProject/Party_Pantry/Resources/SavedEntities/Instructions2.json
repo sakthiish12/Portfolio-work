@@ -1,0 +1,39 @@
+{
+    "struct transform2D": {
+        "pos": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.9800000190734864
+        },
+        "rotation": 0.0,
+        "scale": {
+            "x": 7.182000160217285,
+            "y": 4.078000068664551
+        }
+    },
+    "struct material": {
+        "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+        "mesh": "square",
+        "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        }
+    },
+    "struct spriteCom": {
+        "textureId": "Instruction2.png",
+        "textureSlotsId": 1.0,
+        "loop": false,
+        "toLoaded": true,
+        "rows": 4,
+        "columns": 4,
+        "speed": 100.0,
+        "isVisible": false,
+        "animationFilePath": "NewEnemyAnimation.json"
+    },
+    "struct scriptComponent": {
+        "script_size": 1,
+        "ScriptName0": "PauseInstrucSecondScript"
+    }
+}

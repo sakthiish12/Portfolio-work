@@ -1,0 +1,294 @@
+{
+    "AssetList": [
+        {
+            "Key": 17179323926830448687,
+            "Value": {
+                "Flag": 1,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Teehee/MonkeyHeadUV2.dds"
+                }
+            }
+        },
+        {
+            "Key": 4439141802884227402,
+            "Value": {
+                "Flag": 1,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Model&Materials/Teehee.fbx"
+                }
+            }
+        },
+        {
+            "Key": 69420,
+            "Value": {
+                "Flag": 1,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Model&Materials/GAM300_XRay_Ver2.fbx"
+                }
+            }
+        },
+        {
+            "Key": 69430,
+            "Value": {
+                "Flag": 1,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Model&Materials/Level1WithVents.fbx"
+                }
+            }
+        },
+        {
+            "Key": 4679866430436725359,
+            "Value": {
+                "Flag": 1,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Teehee/HairTexture.dds"
+                }
+            }
+        },
+        {
+            "Key": 157625699973065058,
+            "Value": {
+                "Flag": 1,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Teehee/HairUV2.dds"
+                }
+            }
+        },
+        {
+            "Key": 4116135425088960029,
+            "Value": {
+                "Flag": 1,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Teehee/MonkeyBodyTexture.dds"
+                }
+            }
+        },
+        {
+            "Key": 18305905716893270437,
+            "Value": {
+                "Flag": 1,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Teehee/MonkeyHeadTexture.dds"
+                }
+            }
+        },
+        {
+            "Key": 11345272234809647099,
+            "Value": {
+                "Flag": 1,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Teehee/MonkeyBodyUV2.dds"
+                }
+            }
+        },
+        {
+            "Key": 7447875506983315919,
+            "Value": {
+                "Flag": 1,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Teehee/EyeUV2.dds"
+                }
+            }
+        },
+        {
+            "Key": 9902012554750114517,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/FootstepGrass.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        {
+            "Key": 17436059455473426570,
+            "Value": {
+                "Flag": 1,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Teehee/EyeTexture.dds"
+                }
+            }
+        },
+        {
+            "Key": 11419724310317894134,
+            "Value": {
+                "Flag": 1,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Teehee/EarUV2.dds"
+                }
+            }
+        },
+        {
+            "Key": 10530504741461427915,
+            "Value": {
+                "Flag": 1,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Teehee/EarTexture.dds"
+                }
+            }
+        },
+        {
+            "Key": 17785473473659491997,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/message.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        {
+            "Key": 9137934747900684892,
+            "Value": {
+                "Flag": 1,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Teehee/BootsUV2.dds"
+                }
+            }
+        },
+        {
+            "Key": 14410238018408608493,
+            "Value": {
+                "Flag": 1,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Teehee/BootsTexture.dds"
+                }
+            }
+        },
+        {
+            "Key": 1542450323875244535,
+            "Value": {
+                "Flag": 1,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/box/roughness.dds"
+                }
+            }
+        },
+        {
+            "Key": 10358084292948004851,
+            "Value": {
+                "Flag": 1,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/box/metallic.dds"
+                }
+            }
+        },
+        {
+            "Key": 16755402367590386007,
+            "Value": {
+                "Flag": 1,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/box/normal.dds"
+                }
+            }
+        },
+        {
+            "Key": 10256092302324353756,
+            "Value": {
+                "Flag": 1,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/box/albedo.dds"
+                }
+            }
+        },
+        {
+            "Key": 5007275810486532155,
+            "Value": {
+                "Flag": 1,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/box/ao.dds"
+                }
+            }
+        },
+        {
+            "Key": 1917121284047883535,
+            "Value": {
+                "Flag": 1,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/car/diffuse.dds"
+                }
+            }
+        },
+        {
+            "Key": 2046970763229707367,
+            "Value": {
+                "Flag": 1,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/skull/roughness.dds"
+                }
+            }
+        },
+        {
+            "Key": 13865977474834119812,
+            "Value": {
+                "Flag": 1,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/skull/normal.dds"
+                }
+            }
+        },
+        {
+            "Key": 10612747224710524007,
+            "Value": {
+                "Flag": 1,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/skull/glossiness.dds"
+                }
+            }
+        },
+        {
+            "Key": 9948514954077080529,
+            "Value": {
+                "Flag": 1,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/skull/emissive.dds"
+                }
+            }
+        },
+        {
+            "Key": 18206776502099020864,
+            "Value": {
+                "Flag": 1,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/skull/diffuse.dds"
+                }
+            }
+        },
+        {
+            "Key": 4387389176603137095,
+            "Value": {
+                "Flag": 1,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Model&Materials/box.fbx"
+                }
+            }
+        },
+        {
+            "Key": 4321,
+            "Value": {
+                "Flag": 1,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Model&Materials/TeeheeRigwAnim.fbx"
+                }
+            }
+        },
+        {
+            "Key": 13727294690267745798,
+            "Value": {
+                "Flag": 1,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/skull/ambientocclusion.dds"
+                }
+            }
+        },
+        {
+            "Key": 8816457200927206,
+            "Value": {
+                "Flag": 1,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Model&Materials/dance74.fbx"
+                }
+            }
+        }
+    ]
+}

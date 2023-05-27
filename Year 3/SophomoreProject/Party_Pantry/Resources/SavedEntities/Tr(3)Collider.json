@@ -1,0 +1,45 @@
+{
+    "struct transform2D": {
+        "pos": {
+            "x": -370.06549072265627,
+            "y": 90.38458251953125,
+            "z": 1.0
+        },
+        "rotation": 0.0,
+        "scale": {
+            "x": 200.0,
+            "y": 200.0
+        }
+    },
+    "struct material": {
+        "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+        "mesh": "square",
+        "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        }
+    },
+    "struct spriteCom": {
+        "textureId": "New Tree 2.png",
+        "textureSlotsId": 1.0,
+        "loop": false,
+        "toLoaded": true,
+        "rows": 4,
+        "columns": 4,
+        "speed": 0.0,
+        "isVisible": true,
+        "animationFilePath": ""
+    },
+    "struct AABB": {
+        "scale": {
+            "x": 0.5,
+            "y": 3.0
+        },
+        "offset_pos": {
+            "x": 0.0,
+            "y": 0.0
+        }
+    }
+}

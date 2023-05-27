@@ -1,0 +1,37 @@
+#StartContent#
+	#LevelMap#
+		\Level0.txt
+		\Level1.txt
+		\Level2.txt
+		\Level3.txt
+	#CharSprite#
+		\PlayerSprite.txt
+	#ItemMap#
+		\ItemLvl0.txt
+		\ItemLvl1.txt
+		\ItemLvl2.txt
+		\ItemLvl3.txt
+	#ItemSprite#
+		\Door0.txt
+		\Door1.txt
+		\Door2.txt
+		\Door3.txt
+		\Door4.txt
+		\Door5.txt
+		\Door6.txt
+		\Door7.txt
+		\TutShopEntry.txt
+		\TutShopExit.txt
+	#UIData#
+		\SideBar.txt	
+	#SplashScreen#
+		\GameLogo.txt
+		\GameLRun0.txt
+		\GameLRun1.txt
+		\GameLRun2.txt
+		\GameLRun3.txt
+		\GameLRun4.txt
+		\GameLRun5.txt
+		\DigipenLogo.txt
+		\ScrubsLogo.txt
+#EndContent#

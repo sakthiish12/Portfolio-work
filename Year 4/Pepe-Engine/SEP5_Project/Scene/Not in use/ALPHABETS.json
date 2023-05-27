@@ -1,0 +1,104 @@
+{
+    "Tags": [],
+    "entities": {},
+    "Canvases": [
+        {
+            "ID": 12886312778510540495,
+            "Canvas Name": "New Canvas",
+            "IsActive": true,
+            "Sort Layer": 0,
+            "UI Elements": [
+                {
+                    "ID": 15474949833615812691,
+                    "Type Name": "UIFontText",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Scale": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Flags": 1,
+                    "Name": "New Font Text",
+                    "UIScripts": {
+                        "UIScripts": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Text": "abcdefghijklmnopqrstuvwxyz",
+                    "Font File ID": {
+                        "m_id": 4368087601361646543
+                    },
+                    "Alignment": "",
+                    "Size": 1,
+                    "Colour": {}
+                },
+                {
+                    "ID": 2169919529008172471,
+                    "Type Name": "UIFontText",
+                    "Sort Layer": 0,
+                    "Horizontal Alignment": "middle",
+                    "Vertical Alignment": "middle",
+                    "Position": {
+                        "x": 0.5,
+                        "y": 0.7200000286102295,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Flags": 1,
+                    "Name": "New Font Text",
+                    "UIScripts": {
+                        "UIScripts": []
+                    },
+                    "Brightness": 1.0,
+                    "color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "RGBintensity": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "Text": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                    "Font File ID": {
+                        "m_id": 4368087601361646543
+                    },
+                    "Alignment": "",
+                    "Size": 1,
+                    "Colour": {}
+                }
+            ]
+        }
+    ],
+    "Global Illumination setting": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "intentsity": 0.019999999552965164
+    }
+}

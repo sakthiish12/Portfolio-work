@@ -1,0 +1,52 @@
+{
+    "struct transform2D": {
+        "pos": {
+            "x": 300.0,
+            "y": 300.0,
+            "z": 0.0010000000474974514
+        },
+        "rotation": 0.0,
+        "scale": {
+            "x": 200.0,
+            "y": 200.0
+        }
+    },
+    "struct material": {
+        "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+        "mesh": "square",
+        "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        }
+    },
+    "struct spriteCom": {
+        "textureId": "Field 11.png",
+        "textureSlotsId": 1.0,
+        "loop": false,
+        "toLoaded": true,
+        "rows": 4,
+        "columns": 4,
+        "speed": 100.0,
+        "isVisible": true
+    },
+    "struct AABB": {
+        "scale": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "offset_pos": {
+            "x": 0.0,
+            "y": 0.0
+        }
+    },
+    "struct Com_type": {
+        "Type": 7
+    },
+    "struct EnemySpawner": {
+        "numOfSpawns": 2,
+        "timeDelay": 20.0,
+        "typeOfEnemy": 1
+    }
+}

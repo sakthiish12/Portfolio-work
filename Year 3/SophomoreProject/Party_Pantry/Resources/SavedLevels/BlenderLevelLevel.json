@@ -1,0 +1,660 @@
+{
+    "0": {
+        "Name": "Camera",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct camera2DCom": {
+                "height_change_val": 5,
+                "height": 500.0,
+                "min_height": 50.0,
+                "isFixedToPlayer": true,
+                "isPrimary": true
+            }
+        }
+    },
+    "1": {
+        "Name": "Background",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1785.031982421875,
+                    "y": 1000.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Blender Room.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            }
+        }
+    },
+    "2": {
+        "Name": "Blender",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 23.703514099121095,
+                    "y": -56.677433013916019,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 556.9156494140625,
+                    "y": 850.3668212890625
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Big_Blender No Cover.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            },
+            "struct AABB": {
+                "scale": {
+                    "x": 0.4000000059604645,
+                    "y": 0.20000000298023225
+                },
+                "offset_pos": {
+                    "x": 0.0,
+                    "y": -100.0
+                }
+            }
+        }
+    },
+    "3": {
+        "Name": "Tube",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 6.392723083496094,
+                    "y": 528.1756591796875,
+                    "z": 1.100000023841858
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 607.0571899414063,
+                    "y": 440.75018310546877
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "tube.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "BlenderOutputScript"
+            }
+        }
+    },
+    "4": {
+        "Name": "Lid",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": -589.2711181640625,
+                    "y": -359.9496154785156,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 284.6303405761719,
+                    "y": 82.87442779541016
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Blender_Lid.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "BlenderCapDragScript"
+            }
+        }
+    },
+    "5": {
+        "Name": "FoodLeftTomato",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": -780.7429809570313,
+                    "y": 20.899999618530275,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct Com_Font": {
+                "text": "0",
+                "isVisible": true,
+                "color": {
+                    "x": 9.999999974752428e-7,
+                    "y": 9.999899930335233e-7,
+                    "z": 9.999899930335233e-7
+                }
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "BlenderTextScript"
+            }
+        }
+    },
+    "6": {
+        "Name": "Q",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 8.619560241699219,
+                    "y": 416.2866516113281,
+                    "z": 1.100000023841858
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 866.8941040039063,
+                    "y": 55.66037368774414
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Press.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "BlenderSceneTextScript"
+            }
+        }
+    },
+    "8": {
+        "Name": "WarningSign",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 9.932720184326172,
+                    "y": -28.710098266601564,
+                    "z": 1.100000023841858
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 145.7083282470703,
+                    "y": 136.3807830810547
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "Warning.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "BlenderWarningScript"
+            }
+        }
+    },
+    "10": {
+        "Name": "WarningText",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 18.91613006591797,
+                    "y": -442.78167724609377,
+                    "z": 1.100000023841858
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 782.8720703125,
+                    "y": 108.60174560546875
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "WarningText.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": true,
+                "animationFilePath": ""
+            }
+        }
+    },
+    "11": {
+        "Name": "FoodLeftChilli",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": -470.0,
+                    "y": 20.899999618530275,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct Com_Font": {
+                "text": "0",
+                "isVisible": true,
+                "color": {
+                    "x": 9.999999974752428e-7,
+                    "y": 9.999899930335233e-7,
+                    "z": 9.999899930335233e-7
+                }
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "ChilliesBlenderTextScript"
+            }
+        }
+    },
+    "13": {
+        "Name": "FoodLeftMushroom",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 402.7749938964844,
+                    "y": 20.899999618530275,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct Com_Font": {
+                "text": "0",
+                "isVisible": true,
+                "color": {
+                    "x": 9.999999974752428e-7,
+                    "y": 9.999899930335233e-7,
+                    "z": 9.999899930335233e-7
+                }
+            },
+            "struct scriptComponent": {
+                "script_size": 1,
+                "ScriptName0": "MushroomBlenderTextScript"
+            }
+        }
+    },
+    "14": {
+        "Name": "BlenderBase",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 0.0,
+                    "y": -238.0469970703125,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 554.093994140625,
+                    "y": 294.5740051269531
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "BigButton.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": false,
+                "animationFilePath": ""
+            },
+            "struct Poly": {
+                "offset_pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "angle_offset": 0.0,
+                "scale_ratio": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "model_size": 4,
+                "modelPoint0": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "modelPoint1": {
+                    "x": 0.5,
+                    "y": -0.5
+                },
+                "modelPoint2": {
+                    "x": -0.5,
+                    "y": -0.5
+                },
+                "modelPoint3": {
+                    "x": -0.5,
+                    "y": 0.5
+                }
+            }
+        }
+    },
+    "15": {
+        "Name": "BlenderWall",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 262.39801025390627,
+                    "y": 19.17799949645996,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 300.0,
+                    "y": 1600.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "BigButton.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": false,
+                "animationFilePath": ""
+            },
+            "struct Poly": {
+                "offset_pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "angle_offset": 0.0,
+                "scale_ratio": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "model_size": 4,
+                "modelPoint0": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "modelPoint1": {
+                    "x": 0.5,
+                    "y": -0.5
+                },
+                "modelPoint2": {
+                    "x": -0.5,
+                    "y": -0.5
+                },
+                "modelPoint3": {
+                    "x": -0.5,
+                    "y": 0.5
+                }
+            }
+        }
+    },
+    "16": {
+        "Name": "BlenderWall",
+        "Depth": 0,
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": -248.36199951171876,
+                    "y": 19.17799949645996,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 300.0,
+                    "y": 1600.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "BigButton.png",
+                "textureSlotsId": 1.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 0.0,
+                "isVisible": false,
+                "animationFilePath": ""
+            },
+            "struct Poly": {
+                "offset_pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "angle_offset": 0.0,
+                "scale_ratio": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "model_size": 4,
+                "modelPoint0": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "modelPoint1": {
+                    "x": 0.5,
+                    "y": -0.5
+                },
+                "modelPoint2": {
+                    "x": -0.5,
+                    "y": -0.5
+                },
+                "modelPoint3": {
+                    "x": -0.5,
+                    "y": 0.5
+                }
+            }
+        }
+    }
+}

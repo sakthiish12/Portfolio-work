@@ -1,0 +1,118 @@
+{
+    "prefab": {
+        "EntityInfo": {
+            "Entity Name": "CapsuleContainer1",
+            "Tags": [],
+            "Flags": 1
+        },
+        "Transform": {
+            "Position": {
+                "x": 32.87699890136719,
+                "y": 0.33899998664855957,
+                "z": 36.549381256103516
+            },
+            "Scale": {
+                "x": 3.0,
+                "y": 3.0,
+                "z": 6.0
+            },
+            "Rotation": {
+                "i": -0.7071065902709961,
+                "j": 0.0,
+                "k": 0.0,
+                "r": 0.7071070671081543
+            },
+            "Local Position": {
+                "x": 32.87699890136719,
+                "y": 0.33899998664855957,
+                "z": 36.549381256103516
+            },
+            "Local Scale": {
+                "x": 3.0,
+                "y": 3.0,
+                "z": 6.0
+            },
+            "Local Rotation": {
+                "i": -0.7071065902709961,
+                "j": 0.0,
+                "k": 0.0,
+                "r": 0.7071070671081543
+            },
+            "Children": [
+                {
+                    "m_id": 16537911606919127777
+                }
+            ],
+            "Parent": {
+                "m_id": 2139839634931561470
+            }
+        },
+        "Renderer": {
+            "ModelID": {
+                "m_id": 1269011074571717067
+            },
+            "MeshInfoVector": [
+                {
+                    "meshName": "Cylinder",
+                    "hasTextures": false,
+                    "albedoAlphaMap": {
+                        "m_id": 11600227823628288872
+                    },
+                    "normalMap": {
+                        "m_id": 5295242449649583581
+                    },
+                    "ambientOcclusionMap": {
+                        "m_id": 661955630329880524
+                    },
+                    "roughnessMap": {
+                        "m_id": 14525612286828974516
+                    },
+                    "emissiveMap": {
+                        "m_id": 15813672578405477652
+                    },
+                    "metallicMap": {
+                        "m_id": 8265130094951034005
+                    },
+                    "textureStrength": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "brightnessFactor": 1.0
+                }
+            ],
+            "opacity": 1.0,
+            "flickerDuration": 0.10000000149011612,
+            "flickerColor": {}
+        },
+        "Physics": {
+            "Shape Enum": "Mesh",
+            "Shape Size": {
+                "x": 3.0,
+                "y": 3.0,
+                "z": 6.0
+            },
+            "Motion Type Enum": "Static",
+            "Scale Binded": true,
+            "Motion Quality Enum": "Discrete",
+            "Max Angular Velocity": 0.0,
+            "Angular Damping": 0.0,
+            "Max Linear Velocity": 0.0,
+            "Linear Damping": 0.0,
+            "Friction": 0.20000000298023224,
+            "Restitution": 0.0,
+            "Gravity": 0.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Is Trigger": false,
+            "Can Push Character": true,
+            "Can Receive Character Impulse": true
+        }
+    }
+}

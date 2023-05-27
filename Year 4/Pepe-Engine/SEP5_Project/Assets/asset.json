@@ -1,0 +1,5367 @@
+{
+    "AssetList": {
+        "10782868113603841116": {
+            "Key": 10782868113603841116,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Props/Box1.bananaModel"
+                }
+            }
+        },
+        "17631762420267050194": {
+            "Key": 17631762420267050194,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/FloorPiece_DefaultMaterial_Roughness.1001.dds"
+                }
+            }
+        },
+        "10210675003471560135": {
+            "Key": 10210675003471560135,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/RobotEnemy/RobotDamaged.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "12679309636311460426": {
+            "Key": 12679309636311460426,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/MilkBottle/MilkBottle_DefaultMaterial_BaseColor.dds"
+                }
+            }
+        },
+        "15229976575828128425": {
+            "Key": 15229976575828128425,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/MilkBottle/MilkBottle_DefaultMaterial_Height.dds"
+                }
+            }
+        },
+        "13612323249178820946": {
+            "Key": 13612323249178820946,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/FloorPiece_DefaultMaterial_Normal.1001.dds"
+                }
+            }
+        },
+        "1128874301672397989": {
+            "Key": 1128874301672397989,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/FloorPiece_DefaultMaterial_BaseColor.1001.dds"
+                }
+            }
+        },
+        "5675463898567176497": {
+            "Key": 5675463898567176497,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Tutorial/CheckboxGreyBG.dds"
+                }
+            }
+        },
+        "13528284658495700749": {
+            "Key": 13528284658495700749,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/FloorPiece_DefaultMaterial_Metallic.1001.dds"
+                }
+            }
+        },
+        "17642160463763851988": {
+            "Key": 17642160463763851988,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/Game/DoorOpen.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "1250191546275382355": {
+            "Key": 1250191546275382355,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/FloorPiece_DefaultMaterial_Height.1001.dds"
+                }
+            }
+        },
+        "13478741579657588228": {
+            "Key": 13478741579657588228,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/PopUps/RestartButton_Hover.dds"
+                }
+            }
+        },
+        "3983396991733496997": {
+            "Key": 3983396991733496997,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Primitives/CapsuleRotated.bananaModel"
+                }
+            }
+        },
+        "3225174624197948281": {
+            "Key": 3225174624197948281,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/RoomPieces/StandardWall.bananaModel"
+                }
+            }
+        },
+        "13478741579657588223": {
+            "Key": 13478741579657588223,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/PopUps/ResumeButton.dds"
+                }
+            }
+        },
+        "10724240345437803990": {
+            "Key": 10724240345437803990,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Boss/Firewall_Body1.bananaModel"
+                }
+            }
+        },
+        "7231165034570768335": {
+            "Key": 7231165034570768335,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Level/StandardDoor.bananaModel"
+                }
+            }
+        },
+        "7165586056594163046": {
+            "Key": 7165586056594163046,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/MainMenu/CreditsButton_Clicked.dds"
+                }
+            }
+        },
+        "8326165124444956581": {
+            "Key": 8326165124444956581,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Level/WallsV5.bananaModel"
+                }
+            }
+        },
+        "2303738217858713134": {
+            "Key": 2303738217858713134,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Props/Drawer2.bananaModel"
+                }
+            }
+        },
+        "10672098834392870157": {
+            "Key": 10672098834392870157,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Enemies/RangedRobot/Ranged_Emissive.dds"
+                }
+            }
+        },
+        "4439141802884227402": {
+            "Key": 4439141802884227402,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Characters/Teehee(CE).bananaModel"
+                }
+            }
+        },
+        "9816850757371258478": {
+            "Key": 9816850757371258478,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Props/ControlPanel.bananaModel"
+                }
+            }
+        },
+        "7382184512830564115": {
+            "Key": 7382184512830564115,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Level/Level1Mesh.bananaModel"
+                }
+            }
+        },
+        "2277508780167968881": {
+            "Key": 2277508780167968881,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/Pipe.bananaModel"
+                }
+            }
+        },
+        "16436413967144297208": {
+            "Key": 16436413967144297208,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/StaircasePieces/4PieceRailing.bananaModel"
+                }
+            }
+        },
+        "15633187581266028097": {
+            "Key": 15633187581266028097,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Characters/Enemy_MRobot_YesTex.bananaModel"
+                }
+            }
+        },
+        "15865267162280391270": {
+            "Key": 15865267162280391270,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Props/Box1_V2.bananaModel"
+                }
+            }
+        },
+        "5148948901545909474": {
+            "Key": 5148948901545909474,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/FlatWallBlue.dds"
+                }
+            }
+        },
+        "1763176242022": {
+            "Key": 1763176242022,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Decorations/Poster_Ads3.dds"
+                }
+            }
+        },
+        "2376278522782985506": {
+            "Key": 2376278522782985506,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/AbilityIcons/OuterRing.dds"
+                }
+            }
+        },
+        "18346501213100808376": {
+            "Key": 18346501213100808376,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/UI/GameWin.wav",
+                    "m_mode": 9
+                }
+            }
+        },
+        "7864769552064756292": {
+            "Key": 7864769552064756292,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/TallWall.dds"
+                }
+            }
+        },
+        "16787938116723467444": {
+            "Key": 16787938116723467444,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Objectives/Objective_03.dds"
+                }
+            }
+        },
+        "15953236481647628284": {
+            "Key": 15953236481647628284,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS5/Panel2.dds"
+                }
+            }
+        },
+        "11459834239921491645": {
+            "Key": 11459834239921491645,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Props/Drawer1.bananaModel"
+                }
+            }
+        },
+        "9902012554750114517": {
+            "Key": 9902012554750114517,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/BGM/MainMenuBGM.wav",
+                    "m_mode": 10
+                }
+            }
+        },
+        "14693729534952367626": {
+            "Key": 14693729534952367626,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/HologramProjector/HologramProjector_DefaultMaterial_Emissive.1001.dds"
+                }
+            }
+        },
+        "18102313616173317419": {
+            "Key": 18102313616173317419,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/ResurrectionDevice/PanelGreen/ResurrectionControlPanel_DefaultMaterial_Metallic.1001.dds"
+                }
+            }
+        },
+        "17197716863404279269": {
+            "Key": 17197716863404279269,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/misc/blankGray.dds"
+                }
+            }
+        },
+        "8202348199852787880": {
+            "Key": 8202348199852787880,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Level/EnemyContainer/EnemyContainer_DefaultMaterial_BaseColor.1001.dds"
+                }
+            }
+        },
+        "12905914022835908664": {
+            "Key": 12905914022835908664,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Props/BananaFlesh.bananaModel"
+                }
+            }
+        },
+        "14913876080024735590": {
+            "Key": 14913876080024735590,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/XrayMachine/Xray_Texture.dds"
+                }
+            }
+        },
+        "1542450323875244535": {
+            "Key": 1542450323875244535,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/box/metallic.dds"
+                }
+            }
+        },
+        "3090791231545107633": {
+            "Key": 3090791231545107633,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/Box1/Box1_Material.022_Metallic.dds"
+                }
+            }
+        },
+        "2773954843876887764": {
+            "Key": 2773954843876887764,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/Baby/BabyScream3.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "16755402367590386007": {
+            "Key": 16755402367590386007,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/box/normal.dds"
+                }
+            }
+        },
+        "10063945652407866220": {
+            "Key": 10063945652407866220,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Props/CeilingDoor.bananaModel"
+                }
+            }
+        },
+        "10256092302324353756": {
+            "Key": 10256092302324353756,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/box/albedo.dds"
+                }
+            }
+        },
+        "18238446651902061008": {
+            "Key": 18238446651902061008,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/StandardDoor.bananaModel"
+                }
+            }
+        },
+        "2719714462473500273": {
+            "Key": 2719714462473500273,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Dialogue/Level1/Dialogue5_2.dds"
+                }
+            }
+        },
+        "800415170318655724": {
+            "Key": 800415170318655724,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/WallVentBlue.dds"
+                }
+            }
+        },
+        "12696638609616173051": {
+            "Key": 12696638609616173051,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Characters/MeleeEnemy_Anim&UV.bananaModel"
+                }
+            }
+        },
+        "5007275810486532155": {
+            "Key": 5007275810486532155,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/box/ao.dds"
+                }
+            }
+        },
+        "6127718305137174847": {
+            "Key": 6127718305137174847,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Dialogue/Level1/Dialogue2_1.dds"
+                }
+            }
+        },
+        "5555590018903842823": {
+            "Key": 5555590018903842823,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/VendingMachine/CoinSlot.dds"
+                }
+            }
+        },
+        "18346501213100808374": {
+            "Key": 18346501213100808374,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/UI/Beep2.wav",
+                    "m_mode": 9
+                }
+            }
+        },
+        "16494689716389387974": {
+            "Key": 16494689716389387974,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Characters/Cornelius.bananaModel"
+                }
+            }
+        },
+        "9325648644030642117": {
+            "Key": 9325648644030642117,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Enemies/MeleeRobot/Robot_Height.dds"
+                }
+            }
+        },
+        "4387389176603137095": {
+            "Key": 4387389176603137095,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Primitives/Cube.bananaModel"
+                }
+            }
+        },
+        "15953236481647628290": {
+            "Key": 15953236481647628290,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS5/Panel8.dds"
+                }
+            }
+        },
+        "4321": {
+            "Key": 4321,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Characters/TeeheeRigwAnim.bananaModel"
+                }
+            }
+        },
+        "12898736346765841075": {
+            "Key": 12898736346765841075,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/Computer1.bananaModel"
+                }
+            }
+        },
+        "731599671926073763": {
+            "Key": 731599671926073763,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/WallVent.dds"
+                }
+            }
+        },
+        "1763176250011": {
+            "Key": 1763176250011,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Turret/TurretBase_Roughness.dds"
+                }
+            }
+        },
+        "5306492635371288978": {
+            "Key": 5306492635371288978,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/JailPlatform.bananaModel"
+                }
+            }
+        },
+        "9918158468495024733": {
+            "Key": 9918158468495024733,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Level/Vent1.fbx"
+                }
+            }
+        },
+        "6993498863668505435": {
+            "Key": 6993498863668505435,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Primitives/Sphere.bananaModel"
+                }
+            }
+        },
+        "17574040075608796267": {
+            "Key": 17574040075608796267,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Primitives/Capsule.bananaModel"
+                }
+            }
+        },
+        "3968593041493112065": {
+            "Key": 3968593041493112065,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS4/Panel10.dds"
+                }
+            }
+        },
+        "10230281106935617206": {
+            "Key": 10230281106935617206,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/NewLevel/Ceiling.bananaModel"
+                }
+            }
+        },
+        "15843829729192062009": {
+            "Key": 15843829729192062009,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Level/BossWall/BossWalls_DefaultMaterial_BaseColor.1001.dds"
+                }
+            }
+        },
+        "17560851362774768175": {
+            "Key": 17560851362774768175,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Firewall/LaserRing/Firewall_RingNoTex_Firewall_LaserRing_Emissive.dds"
+                }
+            }
+        },
+        "8489331680930034789": {
+            "Key": 8489331680930034789,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Props/Lights.bananaModel"
+                }
+            }
+        },
+        "10267887709755569005": {
+            "Key": 10267887709755569005,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/misc/yellow.dds"
+                }
+            }
+        },
+        "17800790814067925573": {
+            "Key": 17800790814067925573,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/Ambience/WhooshCartoon CTE02_88.4.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "6088558019023465783": {
+            "Key": 6088558019023465783,
+            "Value": {
+                "Flag": 0,
+                "PrefabAssetInitializer": {
+                    "filePath": "../Assets/Prefabs/ExplosionSphere.prefab"
+                }
+            }
+        },
+        "6789717557592050099": {
+            "Key": 6789717557592050099,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cornelius/PacifierTexture.dds"
+                }
+            }
+        },
+        "8883746458767080901": {
+            "Key": 8883746458767080901,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/PopUps/RetryButton.dds"
+                }
+            }
+        },
+        "1953913495632634083": {
+            "Key": 1953913495632634083,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/PopUps/OptionsButton_Clicked.dds"
+                }
+            }
+        },
+        "16974097250069817208": {
+            "Key": 16974097250069817208,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Level/Vent2.fbx"
+                }
+            }
+        },
+        "18346501213100808370": {
+            "Key": 18346501213100808370,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/UI/ButtonHover.wav",
+                    "m_mode": 9
+                }
+            }
+        },
+        "15485138538182531086": {
+            "Key": 15485138538182531086,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/Door(EasyVersion).dds"
+                }
+            }
+        },
+        "13737338391263096848": {
+            "Key": 13737338391263096848,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Props/Chair.bananaModel"
+                }
+            }
+        },
+        "6099201371617927317": {
+            "Key": 6099201371617927317,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/Ambience/SciFiBeep CTE02_34.1Edited.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "6328619547030852006": {
+            "Key": 6328619547030852006,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/StandardWallBlue.dds"
+                }
+            }
+        },
+        "4746013252057567717": {
+            "Key": 4746013252057567717,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Props/SecurityPost.bananaModel"
+                }
+            }
+        },
+        "11600227823628288872": {
+            "Key": 11600227823628288872,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/CapsuleContainer/Capsule_Texture.dds"
+                }
+            }
+        },
+        "1763176250013": {
+            "Key": 1763176250013,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Turret/TurretBase.bananaModel"
+                }
+            }
+        },
+        "3172062967606469775": {
+            "Key": 3172062967606469775,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Props/Xray_Machine.bananaModel"
+                }
+            }
+        },
+        "12339347460069446444": {
+            "Key": 12339347460069446444,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/FlatCornerPiece.dds"
+                }
+            }
+        },
+        "11790596573877784476": {
+            "Key": 11790596573877784476,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/TallWallBlue.dds"
+                }
+            }
+        },
+        "1310004886447955895": {
+            "Key": 1310004886447955895,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/FlatWall.dds"
+                }
+            }
+        },
+        "17894351804069137361": {
+            "Key": 17894351804069137361,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/ResurrectionDevice/PanelGreen/ResurrectionControlPanel_DefaultMaterial_BaseColor.1001.dds"
+                }
+            }
+        },
+        "6163246683610979147": {
+            "Key": 6163246683610979147,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/VendingMachine/VMBase.dds"
+                }
+            }
+        },
+        "11604908863084540384": {
+            "Key": 11604908863084540384,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/MainMenu/PlayButton.dds"
+                }
+            }
+        },
+        "8023080234099123798": {
+            "Key": 8023080234099123798,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/Floor.dds"
+                }
+            }
+        },
+        "12478108602032408678": {
+            "Key": 12478108602032408678,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/StandardWall.dds"
+                }
+            }
+        },
+        "5675463898567176492": {
+            "Key": 5675463898567176492,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/BabyPointer/BabyRange_BG.dds"
+                }
+            }
+        },
+        "3255029209426207788": {
+            "Key": 3255029209426207788,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/VendingMachine/VMBack.dds"
+                }
+            }
+        },
+        "9613703777222341175": {
+            "Key": 9613703777222341175,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/WallMountedTV/WallMountedTv.dds"
+                }
+            }
+        },
+        "4677525532942603061": {
+            "Key": 4677525532942603061,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/PopUps/ContinueButton_Hover.dds"
+                }
+            }
+        },
+        "2467041128235698285": {
+            "Key": 2467041128235698285,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/Lights/Lights_DefaultMaterial_BaseColor.dds"
+                }
+            }
+        },
+        "6843459847924330307": {
+            "Key": 6843459847924330307,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS1/Panel6.dds"
+                }
+            }
+        },
+        "14785228816188581560": {
+            "Key": 14785228816188581560,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/ShortDrawer/Drawer1.dds"
+                }
+            }
+        },
+        "924862650048098045": {
+            "Key": 924862650048098045,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Enemies/RangedRobot/Ranged_Metallic.dds"
+                }
+            }
+        },
+        "1164805704058592701": {
+            "Key": 1164805704058592701,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/ShortDrawer/DrawerHandle.dds"
+                }
+            }
+        },
+        "2768342813057419648": {
+            "Key": 2768342813057419648,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/RadialMenu/Shield_Disabled.dds"
+                }
+            }
+        },
+        "4496924799757850298": {
+            "Key": 4496924799757850298,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Enemies/MeleeRobot/Robot_Color_Off.dds"
+                }
+            }
+        },
+        "11001758995403717142": {
+            "Key": 11001758995403717142,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/PopUps/GameOver.dds"
+                }
+            }
+        },
+        "1953913495632634079": {
+            "Key": 1953913495632634079,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/MainMenu/OptionsBar.dds"
+                }
+            }
+        },
+        "10391256254953784906": {
+            "Key": 10391256254953784906,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/SecurityPost/security_Texture.dds"
+                }
+            }
+        },
+        "1780105953022451738": {
+            "Key": 1780105953022451738,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/Game/ForceFieldPowerDown2.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "13108819316220641775": {
+            "Key": 13108819316220641775,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/LongDrawer/Drawer2.dds"
+                }
+            }
+        },
+        "2699977948340572035": {
+            "Key": 2699977948340572035,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/RoomPieces/PrisonPlatform.bananaModel"
+                }
+            }
+        },
+        "17423256495362164043": {
+            "Key": 17423256495362164043,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/LongDrawer/DrawerHandle.dds"
+                }
+            }
+        },
+        "881495705680642051": {
+            "Key": 881495705680642051,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/Teehee/Teehee.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "3194291630439159555": {
+            "Key": 3194291630439159555,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/JailThingys/JailThings.dds"
+                }
+            }
+        },
+        "11655019498384010242": {
+            "Key": 11655019498384010242,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/Box2/Box2.dds"
+                }
+            }
+        },
+        "8774382897247037753": {
+            "Key": 8774382897247037753,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cornelius/BabyfaceTexture2.dds"
+                }
+            }
+        },
+        "3995581963378163480": {
+            "Key": 3995581963378163480,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/Box1/Box1.dds"
+                }
+            }
+        },
+        "4421238097971128282": {
+            "Key": 4421238097971128282,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Characters/MeleeRobot/MeleeRobot2.bananaModel"
+                }
+            }
+        },
+        "17389594155204699263": {
+            "Key": 17389594155204699263,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/NewLevel/FloorPiece.bananaModel"
+                }
+            }
+        },
+        "2741979178674132690": {
+            "Key": 2741979178674132690,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Teehee/BootsUV2.dds"
+                }
+            }
+        },
+        "8137023652208694195": {
+            "Key": 8137023652208694195,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Enemies/Robot/Robot_Color.dds"
+                }
+            }
+        },
+        "9399515237491993057": {
+            "Key": 9399515237491993057,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Teehee/EarUV2.dds"
+                }
+            }
+        },
+        "10768350402728571467": {
+            "Key": 10768350402728571467,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Teehee/EyeUV2.dds"
+                }
+            }
+        },
+        "5688834816551907179": {
+            "Key": 5688834816551907179,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Objectives/Objective_04.dds"
+                }
+            }
+        },
+        "14093332943828104114": {
+            "Key": 14093332943828104114,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Teehee/HairUV2.dds"
+                }
+            }
+        },
+        "15287353452872245677": {
+            "Key": 15287353452872245677,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS4/Panel3.dds"
+                }
+            }
+        },
+        "13918518916449235010": {
+            "Key": 13918518916449235010,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Teehee/MonkeyBodyUV2.dds"
+                }
+            }
+        },
+        "12069279149698117969": {
+            "Key": 12069279149698117969,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/RoomPieces/Staircase.bananaModel"
+                }
+            }
+        },
+        "1953913495632634080": {
+            "Key": 1953913495632634080,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/MainMenu/OptionsBar_Fill.dds"
+                }
+            }
+        },
+        "9925304704769177560": {
+            "Key": 9925304704769177560,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Teehee/MonkeyHeadUV2.dds"
+                }
+            }
+        },
+        "15335698413972611879": {
+            "Key": 15335698413972611879,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/default/default_albedo.dds"
+                }
+            }
+        },
+        "661955630329880524": {
+            "Key": 661955630329880524,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/default/default_ao.dds"
+                }
+            }
+        },
+        "7559141681301190761": {
+            "Key": 7559141681301190761,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/default/default_emissive.dds"
+                }
+            }
+        },
+        "374507233994107511": {
+            "Key": 374507233994107511,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/RadialMenu/Shield_Button.dds"
+                }
+            }
+        },
+        "8265130094951034005": {
+            "Key": 8265130094951034005,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/default/default_metallic.dds"
+                }
+            }
+        },
+        "7493061323999415994": {
+            "Key": 7493061323999415994,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/Server/Server_DefaultMaterial_Emissive.dds"
+                }
+            }
+        },
+        "11979685100351951453": {
+            "Key": 11979685100351951453,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/CeilingPiece_DefaultMaterial_Roughness.1001.dds"
+                }
+            }
+        },
+        "5295242449649583581": {
+            "Key": 5295242449649583581,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/default/default_normal.dds"
+                }
+            }
+        },
+        "15892438947823868342": {
+            "Key": 15892438947823868342,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Boss/Firewall_Lower.bananaModel"
+                }
+            }
+        },
+        "14525612286828974516": {
+            "Key": 14525612286828974516,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/default/default_roughness.dds"
+                }
+            }
+        },
+        "8945946143128081534": {
+            "Key": 8945946143128081534,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/MainMenu/MainMenuBackground.dds"
+                }
+            }
+        },
+        "8826327662048743664": {
+            "Key": 8826327662048743664,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/NewLevel/StaircaseSet.bananaModel"
+                }
+            }
+        },
+        "9998942322698346150": {
+            "Key": 9998942322698346150,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Characters/Enemy_MRobot_NoTex.bananaModel"
+                }
+            }
+        },
+        "1113975255888953197": {
+            "Key": 1113975255888953197,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Level/WindowPieces/Window_DefaultMaterial_BaseColor.1001.dds"
+                }
+            }
+        },
+        "8920795755502087395": {
+            "Key": 8920795755502087395,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Level/FloorV4.bananaModel"
+                }
+            }
+        },
+        "940010040847513577": {
+            "Key": 940010040847513577,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Props/GAM300_LabTableVer2.bananaModel"
+                }
+            }
+        },
+        "1953913495632634084": {
+            "Key": 1953913495632634084,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/PopUps/OptionsButton.dds"
+                }
+            }
+        },
+        "10641333218868801826": {
+            "Key": 10641333218868801826,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Props/Server.bananaModel"
+                }
+            }
+        },
+        "16340833697196766194": {
+            "Key": 16340833697196766194,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/ResurrectionDevice/PanelGreen/ResurrectionControlPanel_DefaultMaterial_Emissive.1001.dds"
+                }
+            }
+        },
+        "11387500590094467120": {
+            "Key": 11387500590094467120,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Characters/Cornelius(CE).bananaModel"
+                }
+            }
+        },
+        "13120178699040930271": {
+            "Key": 13120178699040930271,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/AbilityIcons/LaserEyes_Icon.dds"
+                }
+            }
+        },
+        "1269011074571717067": {
+            "Key": 1269011074571717067,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Props/CapsuleContainer_Textured.bananaModel"
+                }
+            }
+        },
+        "14354555667596348962": {
+            "Key": 14354555667596348962,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/ControlPanel/ControlPanel_Text.dds"
+                }
+            }
+        },
+        "12447344082713997826": {
+            "Key": 12447344082713997826,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/HoverTrolley/HoverTrolley_DefaultMaterial_Emissive.dds"
+                }
+            }
+        },
+        "6743635289720717716": {
+            "Key": 6743635289720717716,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Props/GAM300_ControlPanelV2.bananaModel"
+                }
+            }
+        },
+        "18014652573878802389": {
+            "Key": 18014652573878802389,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/misc/defaultNormal.dds"
+                }
+            }
+        },
+        "13684805996423837123": {
+            "Key": 13684805996423837123,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/MainMenu/Ape Pattern.dds"
+                }
+            }
+        },
+        "2423027673567276475": {
+            "Key": 2423027673567276475,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/MainMenu/Border.dds"
+                }
+            }
+        },
+        "5544542264649443821": {
+            "Key": 5544542264649443821,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/MainMenu/ControlsButton.dds"
+                }
+            }
+        },
+        "1179441208845632376": {
+            "Key": 1179441208845632376,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/MainMenu/ControlsButton_Clicked.dds"
+                }
+            }
+        },
+        "2782231997909978077": {
+            "Key": 2782231997909978077,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/MainMenu/ControlsButton_Hover.dds"
+                }
+            }
+        },
+        "7989017270944816836": {
+            "Key": 7989017270944816836,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/MainMenu/CreditsButton.dds"
+                }
+            }
+        },
+        "13342839652874937072": {
+            "Key": 13342839652874937072,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/Baby/BabyCry1.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "14811767061200978623": {
+            "Key": 14811767061200978623,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Objectives/Objective_UI_01.dds"
+                }
+            }
+        },
+        "2767342763514797232": {
+            "Key": 2767342763514797232,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/MainMenu/CreditsButton_Hover.dds"
+                }
+            }
+        },
+        "10218602432530014839": {
+            "Key": 10218602432530014839,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/4Walls_DefaultMaterial_BaseColor.1001.dds"
+                }
+            }
+        },
+        "14058384415428710527": {
+            "Key": 14058384415428710527,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/MainMenu/OptionsButton.dds"
+                }
+            }
+        },
+        "13182855884240989846": {
+            "Key": 13182855884240989846,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/PopUps/LevelComplete.dds"
+                }
+            }
+        },
+        "5907129177755478955": {
+            "Key": 5907129177755478955,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/MainMenu/OptionsButton_Clicked.dds"
+                }
+            }
+        },
+        "4588557280301885294": {
+            "Key": 4588557280301885294,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/Teehee/OOAA.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "632817222075590669": {
+            "Key": 632817222075590669,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/Banana/BananaSkinUV.dds"
+                }
+            }
+        },
+        "10069649460538681527": {
+            "Key": 10069649460538681527,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/MainMenu/OptionsButton_Hover.dds"
+                }
+            }
+        },
+        "11970571335353807821": {
+            "Key": 11970571335353807821,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/RadialMenu/LaserEyes_Pressed.dds"
+                }
+            }
+        },
+        "13286186169837629656": {
+            "Key": 13286186169837629656,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/MainMenu/PlayButton_Clicked.dds"
+                }
+            }
+        },
+        "7585979134921161120": {
+            "Key": 7585979134921161120,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/MainMenu/PlayButton_Hover.dds"
+                }
+            }
+        },
+        "14790915210524414765": {
+            "Key": 14790915210524414765,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/MainMenu/QuitButton.dds"
+                }
+            }
+        },
+        "12180067096033144121": {
+            "Key": 12180067096033144121,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/Cleanup_Wall_Textures/CleanedUpWalls_DefaultMaterial_BaseColor.1001.dds"
+                }
+            }
+        },
+        "15318098044036381662": {
+            "Key": 15318098044036381662,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/MainMenu/QuitButton_Clicked.dds"
+                }
+            }
+        },
+        "15953236481647628283": {
+            "Key": 15953236481647628283,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS5/Panel1.dds"
+                }
+            }
+        },
+        "4831761259961905709": {
+            "Key": 4831761259961905709,
+            "Value": {
+                "Flag": 0,
+                "PrefabAssetInitializer": {
+                    "filePath": "../Assets/Prefabs/milkbottlelight.prefab"
+                }
+            }
+        },
+        "11666763256496600864": {
+            "Key": 11666763256496600864,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/Vent/ventCover.dds"
+                }
+            }
+        },
+        "18160236160997987362": {
+            "Key": 18160236160997987362,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/MainMenu/QuitButton_Hover.dds"
+                }
+            }
+        },
+        "7309070213581249519": {
+            "Key": 7309070213581249519,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/MainMenu/TeeheePortrait.dds"
+                }
+            }
+        },
+        "17075238427604058136": {
+            "Key": 17075238427604058136,
+            "Value": {
+                "Flag": 0,
+                "PrefabAssetInitializer": {
+                    "filePath": "../Assets/Prefabs/Enemy_Scientist.prefab"
+                }
+            }
+        },
+        "7309070213581249520": {
+            "Key": 7309070213581249520,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Logos/TRLogo.dds"
+                }
+            }
+        },
+        "13642961823450955576": {
+            "Key": 13642961823450955576,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/DoorPiece.dds"
+                }
+            }
+        },
+        "5878545844998334270": {
+            "Key": 5878545844998334270,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Enemies/RangedRobot/Ranged_Height.dds"
+                }
+            }
+        },
+        "12737139915249712436": {
+            "Key": 12737139915249712436,
+            "Value": {
+                "Flag": 0,
+                "PrefabAssetInitializer": {
+                    "filePath": "../Assets/Prefabs/LaserSource.prefab"
+                }
+            }
+        },
+        "9388779895833774420": {
+            "Key": 9388779895833774420,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Level/LobbyEnemyDoor.bananaModel"
+                }
+            }
+        },
+        "2028999274763248375": {
+            "Key": 2028999274763248375,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/Game/DoorClose.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "7620548371767218364": {
+            "Key": 7620548371767218364,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Level/CorridoorDoor.bananaModel"
+                }
+            }
+        },
+        "13478741579657588224": {
+            "Key": 13478741579657588224,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/PopUps/ResumeButton_Clicked.dds"
+                }
+            }
+        },
+        "15700234053049339283": {
+            "Key": 15700234053049339283,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Level/HollowFloorTile/HollowFloorTile_DefaultMaterial_BaseColor.1001.dds"
+                }
+            }
+        },
+        "8682776349717560184": {
+            "Key": 8682776349717560184,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Props/WallMountedTVTest.bananaModel"
+                }
+            }
+        },
+        "5602551787267187971": {
+            "Key": 5602551787267187971,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/misc/red.dds"
+                }
+            }
+        },
+        "5675463898567176496": {
+            "Key": 5675463898567176496,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Tutorial/CheckboxBG.dds"
+                }
+            }
+        },
+        "16305503256703705502": {
+            "Key": 16305503256703705502,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Characters/TeeheeRigwAnimV6.bananaModel"
+                }
+            }
+        },
+        "18311394439851157727": {
+            "Key": 18311394439851157727,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/RadialMenu/Melee_Disabled.dds"
+                }
+            }
+        },
+        "1772120234930960782": {
+            "Key": 1772120234930960782,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS3/Panel5.dds"
+                }
+            }
+        },
+        "16034909319468208964": {
+            "Key": 16034909319468208964,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Characters/EnemyMRobotAnim.bananaModel"
+                }
+            }
+        },
+        "6183492049814594111": {
+            "Key": 6183492049814594111,
+            "Value": {
+                "Flag": 0,
+                "PrefabAssetInitializer": {
+                    "filePath": "../Assets/Prefabs/RangedRobot.prefab"
+                }
+            }
+        },
+        "14258134810772641457": {
+            "Key": 14258134810772641457,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Characters/TeeheeAnim3.bananaModel"
+                }
+            }
+        },
+        "10496812925337454488": {
+            "Key": 10496812925337454488,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Level/RisingPlatformn/RisingPlatform_DefaultMaterial_Normal.1001.dds"
+                }
+            }
+        },
+        "15813672578405477652": {
+            "Key": 15813672578405477652,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/CapsuleContainer/Capsule_Emissive.dds"
+                }
+            }
+        },
+        "15254171908327527725": {
+            "Key": 15254171908327527725,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/Ambience/WhooshCartoon CTE02_89.5.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "18346501213100808378": {
+            "Key": 18346501213100808378,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/PopUps/QuitButton2_Clicked.dds"
+                }
+            }
+        },
+        "3653236525343142129": {
+            "Key": 3653236525343142129,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/ControlPanel/ControlPanel_Emissive.dds"
+                }
+            }
+        },
+        "3883103126561651973": {
+            "Key": 3883103126561651973,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS4/Panel9.dds"
+                }
+            }
+        },
+        "1763176242030": {
+            "Key": 1763176242030,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Decorations/Poster_RestrictedArea.dds"
+                }
+            }
+        },
+        "14855957061456287214": {
+            "Key": 14855957061456287214,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/Server/Server_DefaultMaterial_BaseColor.dds"
+                }
+            }
+        },
+        "2215628564637522556": {
+            "Key": 2215628564637522556,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/FlatWall_DefaultMaterial_BaseColor.1001.dds"
+                }
+            }
+        },
+        "9010195458405400614": {
+            "Key": 9010195458405400614,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/Blue_Wall.dds"
+                }
+            }
+        },
+        "5840008463418161198": {
+            "Key": 5840008463418161198,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS2/Panel4.dds"
+                }
+            }
+        },
+        "176317624202672": {
+            "Key": 176317624202672,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Decorations/Poster_Exit.dds"
+                }
+            }
+        },
+        "18222550340667399627": {
+            "Key": 18222550340667399627,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/PopUps/ContinueButton.dds"
+                }
+            }
+        },
+        "2538405372378996358": {
+            "Key": 2538405372378996358,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/Gray_Wall.dds"
+                }
+            }
+        },
+        "15984530306319295020": {
+            "Key": 15984530306319295020,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/Lights/Lights_DefaultMaterial_Emissive.dds"
+                }
+            }
+        },
+        "10999456949415589827": {
+            "Key": 10999456949415589827,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/PopUps/ContinueButton_Clicked.dds"
+                }
+            }
+        },
+        "7540011357948925065": {
+            "Key": 7540011357948925065,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Game/HealthBar.dds"
+                }
+            }
+        },
+        "15075575627052037773": {
+            "Key": 15075575627052037773,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Game/HealthFill.dds"
+                }
+            }
+        },
+        "1129351588760121445": {
+            "Key": 1129351588760121445,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/PopUps/RetryButton_Clicked.dds"
+                }
+            }
+        },
+        "1763176250005": {
+            "Key": 1763176250005,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Turret/Turret_Roughness.dds"
+                }
+            }
+        },
+        "16175751077927556881": {
+            "Key": 16175751077927556881,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Level/BossWall/BossWalls_DefaultMaterial_Height.1001.dds"
+                }
+            }
+        },
+        "7239580390790440851": {
+            "Key": 7239580390790440851,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/PopUps/RetryButton_Hover.dds"
+                }
+            }
+        },
+        "15749069127010626440": {
+            "Key": 15749069127010626440,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/Box1/Box1_Material.022_Normal.dds"
+                }
+            }
+        },
+        "10238550844285709810": {
+            "Key": 10238550844285709810,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS3/Panel4.dds"
+                }
+            }
+        },
+        "9832298664131413725": {
+            "Key": 9832298664131413725,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/VO/FireWall_VO6.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "12500372424087373306": {
+            "Key": 12500372424087373306,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Game/StressBarMarks.dds"
+                }
+            }
+        },
+        "18419506430867857978": {
+            "Key": 18419506430867857978,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Game/StressBar.dds"
+                }
+            }
+        },
+        "4054102081384738114": {
+            "Key": 4054102081384738114,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/Teehee/Banana!.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "14265113451618874333": {
+            "Key": 14265113451618874333,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Game/StressBarFill.dds"
+                }
+            }
+        },
+        "8095285866842116854": {
+            "Key": 8095285866842116854,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/NewComputer/Computer1_DefaultMaterial_BaseColor.1001.dds"
+                }
+            }
+        },
+        "1763176250008": {
+            "Key": 1763176250008,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Turret/TurretBase_Height.dds"
+                }
+            }
+        },
+        "5098804540308273771": {
+            "Key": 5098804540308273771,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Game/TeeheePortrait.dds"
+                }
+            }
+        },
+        "2580914688694758969": {
+            "Key": 2580914688694758969,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/ResurrectionDevice/PanelGreen/ResurrectionControlPanel_DefaultMaterial_Roughness.1001.dds"
+                }
+            }
+        },
+        "5411041646771282366": {
+            "Key": 5411041646771282366,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/ElectricFloor/ElectricFloor2.dds"
+                }
+            }
+        },
+        "6302417482719592231": {
+            "Key": 6302417482719592231,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Props/BananaSkin.bananaModel"
+                }
+            }
+        },
+        "6642762375399989463": {
+            "Key": 6642762375399989463,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/VO/Prime-Ape_5.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "14559977671230902046": {
+            "Key": 14559977671230902046,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/Teehee/TeeheeFootStep.wav",
+                    "m_mode": 2621458
+                }
+            }
+        },
+        "6989067297642829995": {
+            "Key": 6989067297642829995,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Props/HoverTrolleyV2.bananaModel"
+                }
+            }
+        },
+        "13478741579657588225": {
+            "Key": 13478741579657588225,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/PopUps/ResumeButton_Hover.dds"
+                }
+            }
+        },
+        "7930349632822774644": {
+            "Key": 7930349632822774644,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/Banana/BananaFleshUV.dds"
+                }
+            }
+        },
+        "11295828875988965758": {
+            "Key": 11295828875988965758,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/Teehee/Giggle.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "5549178850497316513": {
+            "Key": 5549178850497316513,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Dialogue/Level1/Dialogue1_5.dds"
+                }
+            }
+        },
+        "12706146807193085749": {
+            "Key": 12706146807193085749,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Teehee/MonkeyBodyUV2Flipped.dds"
+                }
+            }
+        },
+        "3839279925770916234": {
+            "Key": 3839279925770916234,
+            "Value": {
+                "Flag": 0,
+                "PrefabAssetInitializer": {
+                    "filePath": "../Assets/Prefabs/BananaSkin.prefab"
+                }
+            }
+        },
+        "11257506550891018748": {
+            "Key": 11257506550891018748,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/MainMenu/BackButton.dds"
+                }
+            }
+        },
+        "5999381398450237735": {
+            "Key": 5999381398450237735,
+            "Value": {
+                "Flag": 0,
+                "PrefabAssetInitializer": {
+                    "filePath": "../Assets/Prefabs/BananaFlesh.prefab"
+                }
+            }
+        },
+        "10401561821496565145": {
+            "Key": 10401561821496565145,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Characters/EnemyRobotV2.bananaModel"
+                }
+            }
+        },
+        "1763176242028": {
+            "Key": 1763176242028,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Decorations/Poster_LostKeycards.dds"
+                }
+            }
+        },
+        "17150157353315042287": {
+            "Key": 17150157353315042287,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Props/Locker.bananaModel"
+                }
+            }
+        },
+        "14349161038828812526": {
+            "Key": 14349161038828812526,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/CapsuleContainer/Capsule2_Texture.dds"
+                }
+            }
+        },
+        "8388480816663391163": {
+            "Key": 8388480816663391163,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/StaircasePieces/10PieceStaircase.bananaModel"
+                }
+            }
+        },
+        "18346501213100808373": {
+            "Key": 18346501213100808373,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/UI/Beep.wav",
+                    "m_mode": 9
+                }
+            }
+        },
+        "8258256965526425616": {
+            "Key": 8258256965526425616,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/MilkBottle/MilkBottle_DefaultMaterial_Roughness.dds"
+                }
+            }
+        },
+        "804747765078872382": {
+            "Key": 804747765078872382,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/HoverTrolley/HoverTrolley_DefaultMaterial_BaseColor.dds"
+                }
+            }
+        },
+        "8683924950375640910": {
+            "Key": 8683924950375640910,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/CapsuleContainer/Capsule2_Emissive.dds"
+                }
+            }
+        },
+        "3334239312220269218": {
+            "Key": 3334239312220269218,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Characters/Enemy_FRobot_NoTex.bananaModel"
+                }
+            }
+        },
+        "15953236481647628286": {
+            "Key": 15953236481647628286,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS5/Panel4.dds"
+                }
+            }
+        },
+        "5728910493575496982": {
+            "Key": 5728910493575496982,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/VO/Prime-Ape_4.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "18346501213100808365": {
+            "Key": 18346501213100808365,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/Locker/Locker_DefaultMaterial_BaseColor.dds"
+                }
+            }
+        },
+        "9428477929946944185": {
+            "Key": 9428477929946944185,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/StaircaseTextures/Railing/Railing_DefaultMaterial_BaseColor.1001.dds"
+                }
+            }
+        },
+        "18120493688517009703": {
+            "Key": 18120493688517009703,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/Box1/Box1_Material.022_BaseColor.dds"
+                }
+            }
+        },
+        "2196325005824899273": {
+            "Key": 2196325005824899273,
+            "Value": {
+                "Flag": 0,
+                "PrefabAssetInitializer": {
+                    "filePath": "../Assets/Prefabs/MilkBottle.prefab"
+                }
+            }
+        },
+        "11969174617384115826": {
+            "Key": 11969174617384115826,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/Box1/Box1_Material.022_Height.dds"
+                }
+            }
+        },
+        "13616499519442763059": {
+            "Key": 13616499519442763059,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/Box1/Box1_Material.022_Roughness.dds"
+                }
+            }
+        },
+        "18346501213100808371": {
+            "Key": 18346501213100808371,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/UI/ButtonSelect.wav",
+                    "m_mode": 9
+                }
+            }
+        },
+        "1796234501513755049": {
+            "Key": 1796234501513755049,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/RadialMenu/RadialMenu_Base.dds"
+                }
+            }
+        },
+        "15830241883562601540": {
+            "Key": 15830241883562601540,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS1/Panel8.dds"
+                }
+            }
+        },
+        "1763176250002": {
+            "Key": 1763176250002,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Turret/Turret_Height.dds"
+                }
+            }
+        },
+        "18346501213100808375": {
+            "Key": 18346501213100808375,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/UI/GameOver.wav",
+                    "m_mode": 9
+                }
+            }
+        },
+        "18346501213100808377": {
+            "Key": 18346501213100808377,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/PopUps/QuitButton2.dds"
+                }
+            }
+        },
+        "18346501213100808379": {
+            "Key": 18346501213100808379,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/PopUps/QuitButton2_Hover.dds"
+                }
+            }
+        },
+        "13806083505021939052": {
+            "Key": 13806083505021939052,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/Game/ForceFieldHit.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "289892750197749472": {
+            "Key": 289892750197749472,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/VO/Teehee_1.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "6185398957942009025": {
+            "Key": 6185398957942009025,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/SecurityPost/security_TextureV2.dds"
+                }
+            }
+        },
+        "9622001127756918018": {
+            "Key": 9622001127756918018,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/HoverTrolley/HoverTrolley_DefaultMaterial_BaseColorV2.dds"
+                }
+            }
+        },
+        "8019658770557800846": {
+            "Key": 8019658770557800846,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/Teehee/Baby!.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "17521126164417407763": {
+            "Key": 17521126164417407763,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/Ambience/HumanBurp CTE03_01.1.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "2952037352432953771": {
+            "Key": 2952037352432953771,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/Teehee/BananaShoot.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "6763339111441426031": {
+            "Key": 6763339111441426031,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Props/JailDeviceV3.bananaModel"
+                }
+            }
+        },
+        "9622001127756918019": {
+            "Key": 9622001127756918019,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Cursor/Crosshair.dds"
+                }
+            }
+        },
+        "1661649760549127214": {
+            "Key": 1661649760549127214,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/Teehee/BananaPeelThrow.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "8445055125817947540": {
+            "Key": 8445055125817947540,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS1/Panel2.dds"
+                }
+            }
+        },
+        "16809120577359584698": {
+            "Key": 16809120577359584698,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Boss/Firewall_Upper2.bananaModel"
+                }
+            }
+        },
+        "6364739416240978156": {
+            "Key": 6364739416240978156,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Props/newvent.bananaModel"
+                }
+            }
+        },
+        "7466100391818487463": {
+            "Key": 7466100391818487463,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/SolidColours/BlackBG.dds"
+                }
+            }
+        },
+        "3150220890452341998": {
+            "Key": 3150220890452341998,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/BGM/BattleMusicBGM.wav",
+                    "m_mode": 10
+                }
+            }
+        },
+        "10314355125321005166": {
+            "Key": 10314355125321005166,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/Teehee/BabyLaser.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "16458239009066609882": {
+            "Key": 16458239009066609882,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/RadialMenu/LaserEyes_Hover.dds"
+                }
+            }
+        },
+        "4307377399436950751": {
+            "Key": 4307377399436950751,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/ResurrectionDevice/Base/ResurrectionBase_DefaultMaterial_Metallic.1001.dds"
+                }
+            }
+        },
+        "7724172033775916945": {
+            "Key": 7724172033775916945,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/Vent/newvent_Material.001_BaseColor.dds"
+                }
+            }
+        },
+        "13478741579657588231": {
+            "Key": 13478741579657588231,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/PopUps/ControlsButton_Hover.dds"
+                }
+            }
+        },
+        "10459800365630706080": {
+            "Key": 10459800365630706080,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Enemies/Robot/Robot_Emissive.dds"
+                }
+            }
+        },
+        "8787539593519921425": {
+            "Key": 8787539593519921425,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/WallMountedTV/WallMountedTV_Material.024_Emissive.dds"
+                }
+            }
+        },
+        "16795574813936197580": {
+            "Key": 16795574813936197580,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Characters/RangedEnemy_Anim&UV.bananaModel"
+                }
+            }
+        },
+        "4631109197447615634": {
+            "Key": 4631109197447615634,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Objectives/Objective_UI_03.dds"
+                }
+            }
+        },
+        "1816178433860464615": {
+            "Key": 1816178433860464615,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Enemies/RangedRobot/Ranged_Color.dds"
+                }
+            }
+        },
+        "2196613981213415951": {
+            "Key": 2196613981213415951,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Enemies/RangedRobot/Ranged_Roughness.dds"
+                }
+            }
+        },
+        "12625901694060857832": {
+            "Key": 12625901694060857832,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Enemies/RangedRobot/Ranged_Normal.dds"
+                }
+            }
+        },
+        "13581490306393359831": {
+            "Key": 13581490306393359831,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Characters/Cornelius/Cornelius1.bananaModel"
+                }
+            }
+        },
+        "1878643478652924868": {
+            "Key": 1878643478652924868,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/MainMenu/TeeheePortrait_Flipped.dds"
+                }
+            }
+        },
+        "13536336949102106062": {
+            "Key": 13536336949102106062,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cornelius/BabyBodyTexture2.dds"
+                }
+            }
+        },
+        "3285790228065116563": {
+            "Key": 3285790228065116563,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cornelius/BabyEarsTexture2.dds"
+                }
+            }
+        },
+        "16036622205550913700": {
+            "Key": 16036622205550913700,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cornelius/BabyEyeTexture3.dds"
+                }
+            }
+        },
+        "5891349417313293064": {
+            "Key": 5891349417313293064,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Enemies/MeleeRobot/Robot_Metallic.dds"
+                }
+            }
+        },
+        "7706740667497323402": {
+            "Key": 7706740667497323402,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cornelius/ZipperbaseTexture.dds"
+                }
+            }
+        },
+        "12725668882014566877": {
+            "Key": 12725668882014566877,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Level/BossWall/BossWalls_DefaultMaterial_Metallic.1001.dds"
+                }
+            }
+        },
+        "11743657099054564030": {
+            "Key": 11743657099054564030,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cornelius/ZipperTexture.dds"
+                }
+            }
+        },
+        "8067401697241052206": {
+            "Key": 8067401697241052206,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Characters/MeleeRobot/MeleeRobot.bananaModel"
+                }
+            }
+        },
+        "8498168834058803049": {
+            "Key": 8498168834058803049,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/NewLevel/WallSetV2.bananaModel"
+                }
+            }
+        },
+        "15494140793058103983": {
+            "Key": 15494140793058103983,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Enemies/MeleeRobot/Robot_Color.dds"
+                }
+            }
+        },
+        "13397823450569954756": {
+            "Key": 13397823450569954756,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Enemies/MeleeRobot/Robot_Emissive.dds"
+                }
+            }
+        },
+        "5675463898567176499": {
+            "Key": 5675463898567176499,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Tutorial/TutorialUI2.dds"
+                }
+            }
+        },
+        "12838919692646389559": {
+            "Key": 12838919692646389559,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/ResurrectionDevice/Base/ResurrectionBase_DefaultMaterial_Normal.1001.dds"
+                }
+            }
+        },
+        "6029425027658917652": {
+            "Key": 6029425027658917652,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Enemies/MeleeRobot/Robot_Normal.dds"
+                }
+            }
+        },
+        "13478741579657588222": {
+            "Key": 13478741579657588222,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Enemies/MeleeRobot/Robot_Roughness.dds"
+                }
+            }
+        },
+        "165968077060401443": {
+            "Key": 165968077060401443,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Characters/RangedRobot/GunAnim.bananaModel"
+                }
+            }
+        },
+        "13478741579657588226": {
+            "Key": 13478741579657588226,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/PopUps/RestartButton.dds"
+                }
+            }
+        },
+        "11465357449148116611": {
+            "Key": 11465357449148116611,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/AbilityIcons/BananaAbilityIcon.dds"
+                }
+            }
+        },
+        "13478741579657588227": {
+            "Key": 13478741579657588227,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/PopUps/RestartButton_Clicked.dds"
+                }
+            }
+        },
+        "13478741579657588229": {
+            "Key": 13478741579657588229,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/PopUps/ControlsButton.dds"
+                }
+            }
+        },
+        "13478741579657588230": {
+            "Key": 13478741579657588230,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/PopUps/ControlsButton_Clicked.dds"
+                }
+            }
+        },
+        "13478741579657588232": {
+            "Key": 13478741579657588232,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/PopUps/PauseScreen.dds"
+                }
+            }
+        },
+        "10400503852312599108": {
+            "Key": 10400503852312599108,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/Baby/BabyCry3.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "17131079196358345104": {
+            "Key": 17131079196358345104,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Props/MilkBottle.bananaModel"
+                }
+            }
+        },
+        "1958017969286768020": {
+            "Key": 1958017969286768020,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/Game/MediumObjectMoved.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "4368087601361646543": {
+            "Key": 4368087601361646543,
+            "Value": {
+                "Flag": 0,
+                "FontInitialiser": {
+                    "filePath": "../Assets/Fonts/paladinscond.ttf"
+                }
+            }
+        },
+        "5788026978855070157": {
+            "Key": 5788026978855070157,
+            "Value": {
+                "Flag": 0,
+                "PrefabAssetInitializer": {
+                    "filePath": "../Assets/Prefabs/RobotModel.prefab"
+                }
+            }
+        },
+        "1687248600695309944": {
+            "Key": 1687248600695309944,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/RadialMenu/Banana_Pressed.dds"
+                }
+            }
+        },
+        "176317624202670": {
+            "Key": 176317624202670,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Objectives/Objective_06.dds"
+                }
+            }
+        },
+        "6327990150884486454": {
+            "Key": 6327990150884486454,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Game/BabyPortrait.dds"
+                }
+            }
+        },
+        "16754810366861521257": {
+            "Key": 16754810366861521257,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/AbilityIcons/MeleeAbilityIcon.dds"
+                }
+            }
+        },
+        "9184905262364862594": {
+            "Key": 9184905262364862594,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/RadialMenu/ApeIcon.dds"
+                }
+            }
+        },
+        "7867820421663363555": {
+            "Key": 7867820421663363555,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/MeetingRoomChair/Chair_DefaultMaterial_BaseColor.1001.dds"
+                }
+            }
+        },
+        "684695257256964940": {
+            "Key": 684695257256964940,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/RadialMenu/Banana_Button.dds"
+                }
+            }
+        },
+        "6391733205919930915": {
+            "Key": 6391733205919930915,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/RadialMenu/Banana_Disabled.dds"
+                }
+            }
+        },
+        "1314534205531075584": {
+            "Key": 1314534205531075584,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/RadialMenu/Banana_Hover.dds"
+                }
+            }
+        },
+        "2177934352980491808": {
+            "Key": 2177934352980491808,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/RadialMenu/LaserEyes_Button.dds"
+                }
+            }
+        },
+        "16666071859659764348": {
+            "Key": 16666071859659764348,
+            "Value": {
+                "Flag": 0,
+                "PrefabAssetInitializer": {
+                    "filePath": "../Assets/Prefabs/BananaCrate1.prefab"
+                }
+            }
+        },
+        "1957121340498629525": {
+            "Key": 1957121340498629525,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/RadialMenu/LaserEyes_Disabled.dds"
+                }
+            }
+        },
+        "1953913495632634081": {
+            "Key": 1953913495632634081,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/MainMenu/OptionsBar_Knob.dds"
+                }
+            }
+        },
+        "15953236481647628293": {
+            "Key": 15953236481647628293,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS6/Panel3.dds"
+                }
+            }
+        },
+        "17708219333615923046": {
+            "Key": 17708219333615923046,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/RadialMenu/Melee_Button.dds"
+                }
+            }
+        },
+        "15150763973989861709": {
+            "Key": 15150763973989861709,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/RadialMenu/Melee_Hover.dds"
+                }
+            }
+        },
+        "1763176250014": {
+            "Key": 1763176250014,
+            "Value": {
+                "Flag": 0,
+                "PrefabAssetInitializer": {
+                    "filePath": "../Assets/Prefabs/TurretBullet.prefab"
+                }
+            }
+        },
+        "10722997168802414535": {
+            "Key": 10722997168802414535,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/RadialMenu/Shield_Hover.dds"
+                }
+            }
+        },
+        "12973648906660877557": {
+            "Key": 12973648906660877557,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS4/Panel2.dds"
+                }
+            }
+        },
+        "13376393024595002785": {
+            "Key": 13376393024595002785,
+            "Value": {
+                "Flag": 0,
+                "PrefabAssetInitializer": {
+                    "filePath": "../Assets/Prefabs/Glass.prefab"
+                }
+            }
+        },
+        "8347657209204466346": {
+            "Key": 8347657209204466346,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/RadialMenu/Melee_Pressed.dds"
+                }
+            }
+        },
+        "6628869859723502890": {
+            "Key": 6628869859723502890,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/Teehee/BananaSplat.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "15666935368711188352": {
+            "Key": 15666935368711188352,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/RadialMenu/Shield_Pressed.dds"
+                }
+            }
+        },
+        "1953913495632634082": {
+            "Key": 1953913495632634082,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/PopUps/OptionsButton_Hover.dds"
+                }
+            }
+        },
+        "6876170348177822076": {
+            "Key": 6876170348177822076,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/RoomPieces/WallNewVersion.bananaModel"
+                }
+            }
+        },
+        "1137840095149514623": {
+            "Key": 1137840095149514623,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/CeilingDoor/CeilingDoor_Material.013_BaseColor.dds"
+                }
+            }
+        },
+        "15293340384263473626": {
+            "Key": 15293340384263473626,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Primitives/Cylinder.bananaModel"
+                }
+            }
+        },
+        "7719742880424839371": {
+            "Key": 7719742880424839371,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Objectives/Objective_01.dds"
+                }
+            }
+        },
+        "8765742741924297417": {
+            "Key": 8765742741924297417,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS2/Panel1.dds"
+                }
+            }
+        },
+        "11632355644841073489": {
+            "Key": 11632355644841073489,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Objectives/Objective_02.dds"
+                }
+            }
+        },
+        "17379022525595178888": {
+            "Key": 17379022525595178888,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS2/Panel3.dds"
+                }
+            }
+        },
+        "10426929252304076541": {
+            "Key": 10426929252304076541,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Firewall/UpperBody/Firewall_Upper_Firewall_Body2_Height.dds"
+                }
+            }
+        },
+        "3492848261049429602": {
+            "Key": 3492848261049429602,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Objectives/Objective_05.dds"
+                }
+            }
+        },
+        "13573876166204752336": {
+            "Key": 13573876166204752336,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Objectives/Objective_UI_02.dds"
+                }
+            }
+        },
+        "4407046289168627596": {
+            "Key": 4407046289168627596,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Objectives/Objective_UI_04.dds"
+                }
+            }
+        },
+        "7596791411911475527": {
+            "Key": 7596791411911475527,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Objectives/Objective_UI_05.dds"
+                }
+            }
+        },
+        "17003699477153096103": {
+            "Key": 17003699477153096103,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/BossRoom/EnemyContainerDoor.bananaModel"
+                }
+            }
+        },
+        "9276819416031058356": {
+            "Key": 9276819416031058356,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Level/RisingPlatformn/RisingPlatform_DefaultMaterial_Height.1001.dds"
+                }
+            }
+        },
+        "1086358731751608403": {
+            "Key": 1086358731751608403,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/VO/Teehee_2.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "677861013964606667": {
+            "Key": 677861013964606667,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Dialogue/Dialogue_LockedDoor.dds"
+                }
+            }
+        },
+        "10490901327220546571": {
+            "Key": 10490901327220546571,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Dialogue/Level1/Dialogue1_1.dds"
+                }
+            }
+        },
+        "7126095115582306227": {
+            "Key": 7126095115582306227,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS1/Panel10.dds"
+                }
+            }
+        },
+        "10177613899769329736": {
+            "Key": 10177613899769329736,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Dialogue/Level1/Dialogue1_2.dds"
+                }
+            }
+        },
+        "7071341943995262261": {
+            "Key": 7071341943995262261,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS3/Panel1.dds"
+                }
+            }
+        },
+        "15005932803736110985": {
+            "Key": 15005932803736110985,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Dialogue/Level1/Dialogue1_3.dds"
+                }
+            }
+        },
+        "9478285538543025274": {
+            "Key": 9478285538543025274,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/CleanedUpWallsV2.bananaModel"
+                }
+            }
+        },
+        "12014657957254358643": {
+            "Key": 12014657957254358643,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Dialogue/Level1/Dialogue1_4.dds"
+                }
+            }
+        },
+        "11339706108779959322": {
+            "Key": 11339706108779959322,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Dialogue/Level1/Dialogue1_6.dds"
+                }
+            }
+        },
+        "10029726785257504691": {
+            "Key": 10029726785257504691,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS2/Panel5.dds"
+                }
+            }
+        },
+        "7915251539922004168": {
+            "Key": 7915251539922004168,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/StaircasePieces/27PieceStaircase.bananaModel"
+                }
+            }
+        },
+        "6678469896061799648": {
+            "Key": 6678469896061799648,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/Ambience/AUTO-HIT_GEN-HDF-01863.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "17547657000168751225": {
+            "Key": 17547657000168751225,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Dialogue/Level1/Dialogue2_2.dds"
+                }
+            }
+        },
+        "8777257673336226675": {
+            "Key": 8777257673336226675,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Dialogue/Level1/Dialogue3_1.dds"
+                }
+            }
+        },
+        "14973744139799400386": {
+            "Key": 14973744139799400386,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Boss/Firewall.bananaModel"
+                }
+            }
+        },
+        "2185973688413639239": {
+            "Key": 2185973688413639239,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Dialogue/Level1/Dialogue3_2.dds"
+                }
+            }
+        },
+        "14038442959530087640": {
+            "Key": 14038442959530087640,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/FireWall/PlatformStop.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "8789208746356346": {
+            "Key": 8789208746356346,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/ResurrectionDevice/PanelRed/ResurrectionControlPanel_DefaultMaterial_Roughness.1001.dds"
+                }
+            }
+        },
+        "14759058113631186209": {
+            "Key": 14759058113631186209,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/FireWall/BossDamaged.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "12346298112454029651": {
+            "Key": 12346298112454029651,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Dialogue/Level1/Dialogue4_1.dds"
+                }
+            }
+        },
+        "7115558856627557517": {
+            "Key": 7115558856627557517,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Props/HologramTable.bananaModel"
+                }
+            }
+        },
+        "14065333755724280157": {
+            "Key": 14065333755724280157,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Dialogue/Level1/Dialogue4_2.dds"
+                }
+            }
+        },
+        "2755140670931502438": {
+            "Key": 2755140670931502438,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Dialogue/Level1/Dialogue4_3.dds"
+                }
+            }
+        },
+        "6621938562386537897": {
+            "Key": 6621938562386537897,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/FloorCube.bananaModel"
+                }
+            }
+        },
+        "8562414301453828395": {
+            "Key": 8562414301453828395,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Dialogue/Level1/Dialogue5_1.dds"
+                }
+            }
+        },
+        "10867542757731464375": {
+            "Key": 10867542757731464375,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Props/HologramProjector.bananaModel"
+                }
+            }
+        },
+        "709428836604954060": {
+            "Key": 709428836604954060,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/HologramProjector/HologramProjector_DefaultMaterial_BaseColor.1001.dds"
+                }
+            }
+        },
+        "12368803028187271589": {
+            "Key": 12368803028187271589,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/HologramTable/HologramTable_DefaultMaterial_BaseColor.1001.dds"
+                }
+            }
+        },
+        "9655584313333769997": {
+            "Key": 9655584313333769997,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/BossRoom/EnemyContainer.bananaModel"
+                }
+            }
+        },
+        "8663745166519100452": {
+            "Key": 8663745166519100452,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/MainMenu/BackButton_Clicked.dds"
+                }
+            }
+        },
+        "2642567751545024839": {
+            "Key": 2642567751545024839,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/NewLevel/Floor.bananaModel"
+                }
+            }
+        },
+        "3014124475049673470": {
+            "Key": 3014124475049673470,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/MainMenu/BackButton_Hover.dds"
+                }
+            }
+        },
+        "16144886168315644444": {
+            "Key": 16144886168315644444,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/MainMenu/Controls.dds"
+                }
+            }
+        },
+        "16436185553668767186": {
+            "Key": 16436185553668767186,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/MainMenu/Credits.dds"
+                }
+            }
+        },
+        "15550989640120665685": {
+            "Key": 15550989640120665685,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS1/Panel1.dds"
+                }
+            }
+        },
+        "5949197322246279882": {
+            "Key": 5949197322246279882,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS1/Panel3.dds"
+                }
+            }
+        },
+        "15461044942019116733": {
+            "Key": 15461044942019116733,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS1/Panel4.dds"
+                }
+            }
+        },
+        "15732323008520637659": {
+            "Key": 15732323008520637659,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS1/Panel5.dds"
+                }
+            }
+        },
+        "1763176242021": {
+            "Key": 1763176242021,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Decorations/Poster_Ads2.dds"
+                }
+            }
+        },
+        "13865786199304927027": {
+            "Key": 13865786199304927027,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Firewall/LaserRing/Firewall_RingNoTex_Firewall_LaserRing_Height.dds"
+                }
+            }
+        },
+        "1737406685480626174": {
+            "Key": 1737406685480626174,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS1/Panel7.dds"
+                }
+            }
+        },
+        "16724851507579169219": {
+            "Key": 16724851507579169219,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/StandardDoorNew.bananaModel"
+                }
+            }
+        },
+        "16594177748826441063": {
+            "Key": 16594177748826441063,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS1/Panel9.dds"
+                }
+            }
+        },
+        "16404025300730223556": {
+            "Key": 16404025300730223556,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS2/Panel2.dds"
+                }
+            }
+        },
+        "4400858788309816434": {
+            "Key": 4400858788309816434,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/StaircaseTextures/Staircase/Staircase_DefaultMaterial_BaseColor.1001.dds"
+                }
+            }
+        },
+        "12342707348980998905": {
+            "Key": 12342707348980998905,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS3/Panel3.dds"
+                }
+            }
+        },
+        "1763176250007": {
+            "Key": 1763176250007,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Turret/TurretBase_Emissive.dds"
+                }
+            }
+        },
+        "17673747689584763563": {
+            "Key": 17673747689584763563,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS3/Panel2.dds"
+                }
+            }
+        },
+        "9864341944654519884": {
+            "Key": 9864341944654519884,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/MilkBottle/MilkBottle_DefaultMaterial_Metallic.dds"
+                }
+            }
+        },
+        "14572863875446999557": {
+            "Key": 14572863875446999557,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS4/Panel1.dds"
+                }
+            }
+        },
+        "13070988837664014116": {
+            "Key": 13070988837664014116,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS4/Panel4.dds"
+                }
+            }
+        },
+        "6895668702952953111": {
+            "Key": 6895668702952953111,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS4/Panel5.dds"
+                }
+            }
+        },
+        "15557048063851306300": {
+            "Key": 15557048063851306300,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Level/Bridge/Bridge_DefaultMaterial_BaseColor.1001.dds"
+                }
+            }
+        },
+        "16697023131793075977": {
+            "Key": 16697023131793075977,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS4/Panel6.dds"
+                }
+            }
+        },
+        "1763176250006": {
+            "Key": 1763176250006,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Turret/TurretBase_BaseColor.dds"
+                }
+            }
+        },
+        "2101779319682509937": {
+            "Key": 2101779319682509937,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS4/Panel7.dds"
+                }
+            }
+        },
+        "16737505243296056352": {
+            "Key": 16737505243296056352,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS4/Panel8.dds"
+                }
+            }
+        },
+        "16445428990737608268": {
+            "Key": 16445428990737608268,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/PressSpaceBar.dds"
+                }
+            }
+        },
+        "13523538297554428988": {
+            "Key": 13523538297554428988,
+            "Value": {
+                "Flag": 0,
+                "PrefabAssetInitializer": {
+                    "filePath": "../Assets/Prefabs/RangedModel.prefab"
+                }
+            }
+        },
+        "15721592280536017539": {
+            "Key": 15721592280536017539,
+            "Value": {
+                "Flag": 0,
+                "PrefabAssetInitializer": {
+                    "filePath": "../Assets/Prefabs/Gun Model.prefab"
+                }
+            }
+        },
+        "5908635313167515298": {
+            "Key": 5908635313167515298,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/AbilityIcons/Shield_Icon.dds"
+                }
+            }
+        },
+        "1763176242027": {
+            "Key": 1763176242027,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Decorations/Poster_LockDoor.dds"
+                }
+            }
+        },
+        "6858617929177233832": {
+            "Key": 6858617929177233832,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/BossRoom/BossFloorTIle.bananaModel"
+                }
+            }
+        },
+        "15300463267994365381": {
+            "Key": 15300463267994365381,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/Turret/TurretShooting.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "4858043425951410682": {
+            "Key": 4858043425951410682,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Level/CleanupWalls/CleanedUpWallsV2_DefaultMaterial_BaseColor.1001.dds"
+                }
+            }
+        },
+        "10728032176172088924": {
+            "Key": 10728032176172088924,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Game/PressE.dds"
+                }
+            }
+        },
+        "12641783195356455997": {
+            "Key": 12641783195356455997,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Primitives/flatPlane.bananaModel"
+                }
+            }
+        },
+        "10728032176172088925": {
+            "Key": 10728032176172088925,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/AbilityIcons/BananaCounter_Base.dds"
+                }
+            }
+        },
+        "5675463898567176502": {
+            "Key": 5675463898567176502,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Tutorial/TutorialUI5.dds"
+                }
+            }
+        },
+        "508381872067764522": {
+            "Key": 508381872067764522,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/WallSetV2_DefaultMaterial_Roughness.1001.dds"
+                }
+            }
+        },
+        "12515666099887935860": {
+            "Key": 12515666099887935860,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Characters/RangedRobot/RangedRobot4.bananaModel"
+                }
+            }
+        },
+        "1953913495632634086": {
+            "Key": 1953913495632634086,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Boss/BossHealth_Fill.dds"
+                }
+            }
+        },
+        "12416878289185485970": {
+            "Key": 12416878289185485970,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/FlatWall_DefaultMaterial_Roughness.1001.dds"
+                }
+            }
+        },
+        "7399776628561547699": {
+            "Key": 7399776628561547699,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/NewLevel/Walls.bananaModel"
+                }
+            }
+        },
+        "15444290808261644778": {
+            "Key": 15444290808261644778,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/4x4Floor_DefaultMaterial_BaseColor.1001.dds"
+                }
+            }
+        },
+        "10822910510865831357": {
+            "Key": 10822910510865831357,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/WallSetV2_DefaultMaterial_Normal.1001.dds"
+                }
+            }
+        },
+        "10113288394811923630": {
+            "Key": 10113288394811923630,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/Bridge.bananaModel"
+                }
+            }
+        },
+        "4746694539610784725": {
+            "Key": 4746694539610784725,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/CeilingPiece_DefaultMaterial_BaseColor.1001.dds"
+                }
+            }
+        },
+        "10348040939824112670": {
+            "Key": 10348040939824112670,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/4Walls_DefaultMaterial_Roughness.1001.dds"
+                }
+            }
+        },
+        "9717013560244565160": {
+            "Key": 9717013560244565160,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/RoomPieces/WallSetV2_DefaultMaterial_BaseColor.1001.dds"
+                }
+            }
+        },
+        "5675463898567176491": {
+            "Key": 5675463898567176491,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/StandardDoor/StandardDoor_Material.005_BaseColor.1001.dds"
+                }
+            }
+        },
+        "5675463898567176493": {
+            "Key": 5675463898567176493,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/BabyPointer/BabyRange_Fill.dds"
+                }
+            }
+        },
+        "1763176242023": {
+            "Key": 1763176242023,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Decorations/Poster_AstroMeal.dds"
+                }
+            }
+        },
+        "5675463898567176494": {
+            "Key": 5675463898567176494,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/BabyPointer/BabyRange_Arrow.dds"
+                }
+            }
+        },
+        "5675463898567176495": {
+            "Key": 5675463898567176495,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Game/MilkBottleUI.dds"
+                }
+            }
+        },
+        "15030600669098362738": {
+            "Key": 15030600669098362738,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/ResurrectionDevice/Base/ResurrectionBase_DefaultMaterial_BaseColor.1001.dds"
+                }
+            }
+        },
+        "17802904438606626052": {
+            "Key": 17802904438606626052,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/ResurrectionDevice/Base/ResurrectionBase_DefaultMaterial_Roughness.1001.dds"
+                }
+            }
+        },
+        "5675463898567176498": {
+            "Key": 5675463898567176498,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Tutorial/TutorialUI1.dds"
+                }
+            }
+        },
+        "5675463898567176500": {
+            "Key": 5675463898567176500,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Tutorial/TutorialUI3.dds"
+                }
+            }
+        },
+        "5675463898567176501": {
+            "Key": 5675463898567176501,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Tutorial/TutorialUI4.dds"
+                }
+            }
+        },
+        "5675463898567176503": {
+            "Key": 5675463898567176503,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Tutorial/TutorialUI6.dds"
+                }
+            }
+        },
+        "15953236481647628294": {
+            "Key": 15953236481647628294,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS6/Panel4.dds"
+                }
+            }
+        },
+        "5675463898567176504": {
+            "Key": 5675463898567176504,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Tutorial/TutorialWindow.dds"
+                }
+            }
+        },
+        "12263056372647680216": {
+            "Key": 12263056372647680216,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/StaircasePieces/14piecerailing.bananaModel"
+                }
+            }
+        },
+        "8268319546490239259": {
+            "Key": 8268319546490239259,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/StaircasePieces/16piecerailing.bananaModel"
+                }
+            }
+        },
+        "11027149957959855747": {
+            "Key": 11027149957959855747,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/StaircasePieces/4PieceStairs.bananaModel"
+                }
+            }
+        },
+        "4716375294463621634": {
+            "Key": 4716375294463621634,
+            "Value": {
+                "Flag": 0,
+                "PrefabAssetInitializer": {
+                    "filePath": "../Assets/Prefabs/MeleeRobot.prefab"
+                }
+            }
+        },
+        "10587595353582130800": {
+            "Key": 10587595353582130800,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/StaircasePieces/Railing.bananaModel"
+                }
+            }
+        },
+        "3861209379069743978": {
+            "Key": 3861209379069743978,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/Baby/BabyScream1.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "7479157560265248309": {
+            "Key": 7479157560265248309,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/StaircasePieces/Staircase.bananaModel"
+                }
+            }
+        },
+        "13394265671490887605": {
+            "Key": 13394265671490887605,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/StaircasePieces/StaircaseStart.bananaModel"
+                }
+            }
+        },
+        "1924409036995944617": {
+            "Key": 1924409036995944617,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/StaircaseTextures/StaircaseStart/StaircaseStart_DefaultMaterial_BaseColor.1001.dds"
+                }
+            }
+        },
+        "855803147696631115": {
+            "Key": 855803147696631115,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/StaircaseTextures/Railing/RailingFloor/RailingFloor_DefaultMaterial_BaseColor.1001.dds"
+                }
+            }
+        },
+        "1940211280258143434": {
+            "Key": 1940211280258143434,
+            "Value": {
+                "Flag": 0,
+                "PrefabAssetInitializer": {
+                    "filePath": "../Assets/Prefabs/LaserBeam.prefab"
+                }
+            }
+        },
+        "14376242776261498596": {
+            "Key": 14376242776261498596,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/Window.bananaModel"
+                }
+            }
+        },
+        "8483087149280973511": {
+            "Key": 8483087149280973511,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/Window2.bananaModel"
+                }
+            }
+        },
+        "1843952903580723348": {
+            "Key": 1843952903580723348,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/default/default_height.dds"
+                }
+            }
+        },
+        "8357721341070695844": {
+            "Key": 8357721341070695844,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Props/MeleeRobot4.bananaModel"
+                }
+            }
+        },
+        "5476624418228863490": {
+            "Key": 5476624418228863490,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Enemies/MeleeRobot/Robot_Emissive_Off.dds"
+                }
+            }
+        },
+        "5348416422448476105": {
+            "Key": 5348416422448476105,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/VO/FireWall_VO2.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "5989399499413804103": {
+            "Key": 5989399499413804103,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/VO/Prime-Ape_1.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "1674820362315021364": {
+            "Key": 1674820362315021364,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/VO/Prime-Ape_2.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "12072854050109443631": {
+            "Key": 12072854050109443631,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/VO/Prime-Ape_3.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "1763176242020": {
+            "Key": 1763176242020,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Decorations/Poster_Ads1.dds"
+                }
+            }
+        },
+        "1763176242024": {
+            "Key": 1763176242024,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Decorations/Poster_DoNotFeed.dds"
+                }
+            }
+        },
+        "1763176242025": {
+            "Key": 1763176242025,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Decorations/Poster_DoNotLitter.dds"
+                }
+            }
+        },
+        "1763176242026": {
+            "Key": 1763176242026,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Decorations/Poster_Laser.dds"
+                }
+            }
+        },
+        "7055220857129425407": {
+            "Key": 7055220857129425407,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Level/BossWall/BossWalls_DefaultMaterial_Normal.1001.dds"
+                }
+            }
+        },
+        "1763176242029": {
+            "Key": 1763176242029,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Decorations/Poster_Quiet.dds"
+                }
+            }
+        },
+        "1763176242031": {
+            "Key": 1763176242031,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Decorations/Poster_SafetyFirst.dds"
+                }
+            }
+        },
+        "1763176250000": {
+            "Key": 1763176250000,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Turret/Turret_BaseColor.dds"
+                }
+            }
+        },
+        "1763176250001": {
+            "Key": 1763176250001,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Turret/Turret_Emissive.dds"
+                }
+            }
+        },
+        "3150220890452341999": {
+            "Key": 3150220890452341999,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/BGM/FireWallTheme.wav",
+                    "m_mode": 10
+                }
+            }
+        },
+        "1763176250003": {
+            "Key": 1763176250003,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Turret/Turret_Metallic.dds"
+                }
+            }
+        },
+        "1763176250004": {
+            "Key": 1763176250004,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Turret/Turret_Normal.dds"
+                }
+            }
+        },
+        "1763176250009": {
+            "Key": 1763176250009,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Turret/TurretBase_Metallic.dds"
+                }
+            }
+        },
+        "1763176250010": {
+            "Key": 1763176250010,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Turret/TurretBase_Normal.dds"
+                }
+            }
+        },
+        "1350139768661516050": {
+            "Key": 1350139768661516050,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/ResurrectionDevice/PanelRed/ResurrectionControlPanel_DefaultMaterial_Emissive.1001.dds"
+                }
+            }
+        },
+        "1763176250012": {
+            "Key": 1763176250012,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Turret/Turret.bananaModel"
+                }
+            }
+        },
+        "4689643295061529200": {
+            "Key": 4689643295061529200,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/MilkBottle/MilkBottle_DefaultMaterial_Emissive.dds"
+                }
+            }
+        },
+        "6652379327096777522": {
+            "Key": 6652379327096777522,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/Game/VentOpen.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "1953913495632634075": {
+            "Key": 1953913495632634075,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/MilkBottle/MilkBottle_DefaultMaterial_Normal.dds"
+                }
+            }
+        },
+        "1953913495632634076": {
+            "Key": 1953913495632634076,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Game/MilkBottle_BG.dds"
+                }
+            }
+        },
+        "1953913495632634077": {
+            "Key": 1953913495632634077,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Game/MilkBottle_Fill.dds"
+                }
+            }
+        },
+        "1953913495632634078": {
+            "Key": 1953913495632634078,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/MainMenu/Options.dds"
+                }
+            }
+        },
+        "14079363658526716051": {
+            "Key": 14079363658526716051,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/FireWall/BossLands.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "11883407106505620529": {
+            "Key": 11883407106505620529,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/CleanedUpWalls.bananaModel"
+                }
+            }
+        },
+        "3337711979047515103": {
+            "Key": 3337711979047515103,
+            "Value": {
+                "Flag": 0,
+                "PrefabAssetInitializer": {
+                    "filePath": "../Assets/Prefabs/milkbottleModel.prefab"
+                }
+            }
+        },
+        "14492733788028491254": {
+            "Key": 14492733788028491254,
+            "Value": {
+                "Flag": 0,
+                "PrefabAssetInitializer": {
+                    "filePath": "../Assets/Prefabs/BananaLight.prefab"
+                }
+            }
+        },
+        "1953913495632634085": {
+            "Key": 1953913495632634085,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Boss/BossHealth_Bar.dds"
+                }
+            }
+        },
+        "10210675003471560136": {
+            "Key": 10210675003471560136,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/Teehee/HitSound1.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "1953913495632634087": {
+            "Key": 1953913495632634087,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Boss/Firewall.dds"
+                }
+            }
+        },
+        "2084028157836329394": {
+            "Key": 2084028157836329394,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/BossRoom/BossWalls.bananaModel"
+                }
+            }
+        },
+        "14674688031160033017": {
+            "Key": 14674688031160033017,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/BossRoom/BossRoomDoor.bananaModel"
+                }
+            }
+        },
+        "9143212214344907346": {
+            "Key": 9143212214344907346,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Level/BossWall/BossWalls_DefaultMaterial_Roughness.1001.dds"
+                }
+            }
+        },
+        "10657213132546184430": {
+            "Key": 10657213132546184430,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/BossRoom/HollowFloorTile.bananaModel"
+                }
+            }
+        },
+        "9605551201805374923": {
+            "Key": 9605551201805374923,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/BossRoom/RisingPlatform.bananaModel"
+                }
+            }
+        },
+        "7228326682100261134": {
+            "Key": 7228326682100261134,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/ResurrectionBase.bananaModel"
+                }
+            }
+        },
+        "3076781872099667167": {
+            "Key": 3076781872099667167,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/ResurrectionControlPanel.bananaModel"
+                }
+            }
+        },
+        "14121268825969033174": {
+            "Key": 14121268825969033174,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/ResurrectionDevice/Base/ResurrectionBase_DefaultMaterial_Emissive.1001.dds"
+                }
+            }
+        },
+        "2070724455917007407": {
+            "Key": 2070724455917007407,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/ResurrectionDevice/Base/ResurrectionBase_DefaultMaterial_Height.1001.dds"
+                }
+            }
+        },
+        "8256615417976525788": {
+            "Key": 8256615417976525788,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/ResurrectionDevice/PanelGreen/ResurrectionControlPanel_DefaultMaterial_Height.1001.dds"
+                }
+            }
+        },
+        "2897001593952977266": {
+            "Key": 2897001593952977266,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/ResurrectionDevice/PanelGreen/ResurrectionControlPanel_DefaultMaterial_Normal.1001.dds"
+                }
+            }
+        },
+        "15342556748901227234": {
+            "Key": 15342556748901227234,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/ResurrectionDevice/PanelRed/ResurrectionControlPanel_DefaultMaterial_BaseColor.1001.dds"
+                }
+            }
+        },
+        "18345290179469884362": {
+            "Key": 18345290179469884362,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/ResurrectionDevice/PanelRed/ResurrectionControlPanel_DefaultMaterial_Height.1001.dds"
+                }
+            }
+        },
+        "6868891355404405196": {
+            "Key": 6868891355404405196,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/ResurrectionDevice/PanelRed/ResurrectionControlPanel_DefaultMaterial_Metallic.1001.dds"
+                }
+            }
+        },
+        "2455995897970806462": {
+            "Key": 2455995897970806462,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/ResurrectionDevice/PanelRed/ResurrectionControlPanel_DefaultMaterial_Normal.1001.dds"
+                }
+            }
+        },
+        "14307787029274893513": {
+            "Key": 14307787029274893513,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/BossRoom/BossWalls_New.bananaModel"
+                }
+            }
+        },
+        "15953236481647628282": {
+            "Key": 15953236481647628282,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Level/RisingPlatformn/RisingPlatform_DefaultMaterial_BaseColor.1001.dds"
+                }
+            }
+        },
+        "9803020158957526312": {
+            "Key": 9803020158957526312,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/BossRoom/BossSingleWall.bananaModel"
+                }
+            }
+        },
+        "16838751316172194618": {
+            "Key": 16838751316172194618,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/ElectricFloor/ElectricFloor3.dds"
+                }
+            }
+        },
+        "15953236481647628285": {
+            "Key": 15953236481647628285,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS5/Panel3.dds"
+                }
+            }
+        },
+        "15953236481647628287": {
+            "Key": 15953236481647628287,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS5/Panel5.dds"
+                }
+            }
+        },
+        "15953236481647628288": {
+            "Key": 15953236481647628288,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS5/Panel6.dds"
+                }
+            }
+        },
+        "15953236481647628289": {
+            "Key": 15953236481647628289,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS5/Panel7.dds"
+                }
+            }
+        },
+        "15953236481647628291": {
+            "Key": 15953236481647628291,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS6/Panel1.dds"
+                }
+            }
+        },
+        "15953236481647628292": {
+            "Key": 15953236481647628292,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Cutscene/CS6/Panel2.dds"
+                }
+            }
+        },
+        "11149932010456394698": {
+            "Key": 11149932010456394698,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Boss/Firewall_RingNoTex.bananaModel"
+                }
+            }
+        },
+        "12567609635974339516": {
+            "Key": 12567609635974339516,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Firewall/Base/Firewall_BaseUV.dds"
+                }
+            }
+        },
+        "14610775722085929217": {
+            "Key": 14610775722085929217,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Firewall/Body1/Firewall_Body1_Firewall_Body1_BaseColor.dds"
+                }
+            }
+        },
+        "2282484511915295649": {
+            "Key": 2282484511915295649,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Firewall/Body1/Firewall_Body1_Firewall_Body1_Emissive.dds"
+                }
+            }
+        },
+        "8497611962047042651": {
+            "Key": 8497611962047042651,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Firewall/Body1/Firewall_Body1_Firewall_Body1_Height.dds"
+                }
+            }
+        },
+        "11646351672911007810": {
+            "Key": 11646351672911007810,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Firewall/Body1/Firewall_Body1_Firewall_Body1_Metallic.dds"
+                }
+            }
+        },
+        "17542643789225177370": {
+            "Key": 17542643789225177370,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Firewall/Body1/Firewall_Body1_Firewall_Body1_Normal.dds"
+                }
+            }
+        },
+        "12265370829329769841": {
+            "Key": 12265370829329769841,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Firewall/Body1/Firewall_Body1_Firewall_Body1_Roughness.dds"
+                }
+            }
+        },
+        "4027464397421664937": {
+            "Key": 4027464397421664937,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Firewall/LaserRing/Firewall_RingNoTex_Firewall_LaserRing_BaseColor.dds"
+                }
+            }
+        },
+        "4617064220191020872": {
+            "Key": 4617064220191020872,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Firewall/LaserRing/Firewall_RingNoTex_Firewall_LaserRing_Metallic.dds"
+                }
+            }
+        },
+        "18197381231982813249": {
+            "Key": 18197381231982813249,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Firewall/LaserRing/Firewall_RingNoTex_Firewall_LaserRing_Normal.dds"
+                }
+            }
+        },
+        "6235902536074881169": {
+            "Key": 6235902536074881169,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Firewall/LaserRing/Firewall_RingNoTex_Firewall_LaserRing_Roughness.dds"
+                }
+            }
+        },
+        "8494876587477478932": {
+            "Key": 8494876587477478932,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/Ambience/SCI-FI-ALARM_GEN-HDF-20483.wav",
+                    "m_mode": 2621458
+                }
+            }
+        },
+        "6497532860751393468": {
+            "Key": 6497532860751393468,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Firewall/UpperBody/Firewall_Upper_Firewall_Body2_BaseColor.dds"
+                }
+            }
+        },
+        "8186683162576037237": {
+            "Key": 8186683162576037237,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Firewall/UpperBody/Firewall_Upper_Firewall_Body2_Emissive.dds"
+                }
+            }
+        },
+        "17015655403984116777": {
+            "Key": 17015655403984116777,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Firewall/UpperBody/Firewall_Upper_Firewall_Body2_Metallic.dds"
+                }
+            }
+        },
+        "3359662833944658441": {
+            "Key": 3359662833944658441,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Firewall/UpperBody/Firewall_Upper_Firewall_Body2_Normal.dds"
+                }
+            }
+        },
+        "1089078641367104835": {
+            "Key": 1089078641367104835,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Firewall/UpperBody/Firewall_Upper_Firewall_Body2_Roughness.dds"
+                }
+            }
+        },
+        "5535257091486974901": {
+            "Key": 5535257091486974901,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/Ambience/TELEMETRY_GEN-HDF-22743.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "8977411895274234169": {
+            "Key": 8977411895274234169,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/Ambience/AUTO-DRIVE_GEN-HDF-01741.wav",
+                    "m_mode": 10
+                }
+            }
+        },
+        "8629549385509738384": {
+            "Key": 8629549385509738384,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/Ambience/WATER-SIZZLE_GEN-HDF-25610edited.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "12462557363087520511": {
+            "Key": 12462557363087520511,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/SmallStairs/SmallStairs_DefaultMaterial_BaseColor.1001.dds"
+                }
+            }
+        },
+        "6598723740543853190": {
+            "Key": 6598723740543853190,
+            "Value": {
+                "Flag": 0,
+                "ModelFileInitialiser": {
+                    "filePath": "../Assets/Models/Latest_Level/SmallStairs.bananaModel"
+                }
+            }
+        },
+        "16898740530569656966": {
+            "Key": 16898740530569656966,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/JailPlatform/JailPlatform_DefaultMaterial_BaseColor.1001.dds"
+                }
+            }
+        },
+        "5462190683536476834": {
+            "Key": 5462190683536476834,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/Pipe/Pipe_DefaultMaterial_BaseColor.1001.dds"
+                }
+            }
+        },
+        "7076813877860890136": {
+            "Key": 7076813877860890136,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/Props/NewComputer/Computer1_DefaultMaterial_Emissive.1001.dds"
+                }
+            }
+        },
+        "16289799732136086222": {
+            "Key": 16289799732136086222,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/ElectricFloor/ElectricFloor1.dds"
+                }
+            }
+        },
+        "10314839122526932402": {
+            "Key": 10314839122526932402,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/ElectricFloor/ElectricFloor4.dds"
+                }
+            }
+        },
+        "14816775223190181185": {
+            "Key": 14816775223190181185,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/ElectricFloor/ElectricFloor5.dds"
+                }
+            }
+        },
+        "1094066534678320215": {
+            "Key": 1094066534678320215,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/ElectricFloor/ElectricFloor6.dds"
+                }
+            }
+        },
+        "10210675003471560137": {
+            "Key": 10210675003471560137,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/Teehee/HitSound2.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "10210675003471560138": {
+            "Key": 10210675003471560138,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/Teehee/TeeheeDeath.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "10210675003471560139": {
+            "Key": 10210675003471560139,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/Teehee/MilkForBaby.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "9395880562869272380": {
+            "Key": 9395880562869272380,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/FireWall/BossFlyDown.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "1342811344480189752": {
+            "Key": 1342811344480189752,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/FireWall/BossHover.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "15982946267233202529": {
+            "Key": 15982946267233202529,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/FireWall/PlatformRising.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "3789064965570303426": {
+            "Key": 3789064965570303426,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/FireWall/ElectricFloor.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "4209584761553053619": {
+            "Key": 4209584761553053619,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/RobotEnemy/RobotDeath.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "176317624202671": {
+            "Key": 176317624202671,
+            "Value": {
+                "Flag": 0,
+                "TextureInitialiser": {
+                    "filePath": "../Assets/Textures/UI_Assets/Objectives/Objective_UI_06.dds"
+                }
+            }
+        },
+        "11480235183548728303": {
+            "Key": 11480235183548728303,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/VO/FireWall_VO5.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "14980488254007229132": {
+            "Key": 14980488254007229132,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/VO/FireWall_VO1.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "4251258056058411229": {
+            "Key": 4251258056058411229,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/VO/FireWall_VO3.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "9587519300879731171": {
+            "Key": 9587519300879731171,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/VO/FireWall_VO4.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "15651211174197394720": {
+            "Key": 15651211174197394720,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/VO/FireWall_VO7.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "5083137900985624292": {
+            "Key": 5083137900985624292,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/VO/FireWall_VO8.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "9902012554750114518": {
+            "Key": 9902012554750114518,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/BGM/CutsceneBGM.wav",
+                    "m_mode": 10
+                }
+            }
+        },
+        "2470535914051851891": {
+            "Key": 2470535914051851891,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/Ambience/AUTO-HIT_GEN-HDF-01849.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "7859595392513741910": {
+            "Key": 7859595392513741910,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/Ambience/AUTO-HIT_GEN-HDF-01875.wav",
+                    "m_mode": 2621457
+                }
+            }
+        },
+        "4325699621427970484": {
+            "Key": 4325699621427970484,
+            "Value": {
+                "Flag": 0,
+                "AudioClipInitialiser": {
+                    "filePath": "../Assets/AudioClips/SFX/Ambience/WhooshCartoon CTE02_88.3.wav",
+                    "m_mode": 2621457
+                }
+            }
+        }
+    }
+}

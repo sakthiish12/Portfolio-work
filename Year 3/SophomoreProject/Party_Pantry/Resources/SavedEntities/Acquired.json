@@ -1,0 +1,35 @@
+{
+    "struct transform2D": {
+        "pos": {
+            "x": -271.8037109375,
+            "y": 98.58158874511719,
+            "z": 1.0
+        },
+        "rotation": 0.0,
+        "scale": {
+            "x": 275.885986328125,
+            "y": 275.885986328125
+        }
+    },
+    "struct material": {
+        "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+        "mesh": "square",
+        "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        }
+    },
+    "struct spriteCom": {
+        "textureId": "-ACQUIRED-.png",
+        "textureSlotsId": 1.0,
+        "loop": false,
+        "toLoaded": true,
+        "rows": 4,
+        "columns": 4,
+        "speed": 0.0,
+        "isVisible": true,
+        "animationFilePath": ""
+    }
+}

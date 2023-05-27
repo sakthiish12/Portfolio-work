@@ -1,0 +1,168 @@
+{
+    "Tags": [],
+    "entities": {
+        "12476896408005947291": {
+            "EntityID": 12476896408005947291,
+            "Transform": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Local Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Local Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Local Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Children": [],
+                "Parent": {
+                    "m_id": 0
+                }
+            },
+            "EntityInfo": {
+                "Entity Name": "New Entity",
+                "Tags": [],
+                "Flags": 1
+            },
+            "Renderer": {
+                "ModelID": {
+                    "m_id": 15865267162280391270
+                },
+                "MeshInfoVector": [
+                    {
+                        "meshName": "Cube.185",
+                        "hasTextures": false,
+                        "albedoAlphaMap": {
+                            "m_id": 18120493688517009703
+                        },
+                        "normalMap": {
+                            "m_id": 15749069127010626440
+                        },
+                        "ambientOcclusionMap": {
+                            "m_id": 661955630329880524
+                        },
+                        "roughnessMap": {
+                            "m_id": 13616499519442763059
+                        },
+                        "emissiveMap": {
+                            "m_id": 7559141681301190761
+                        },
+                        "metallicMap": {
+                            "m_id": 3090791231545107633
+                        },
+                        "textureStrength": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "brightnessFactor": 1.0
+                    }
+                ],
+                "opacity": 1.0,
+                "flickerDuration": 0.10000000149011612,
+                "flickerColor": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "wireframeMode": false,
+                "wireframeColor": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "ignoreLighting": false,
+                "reflectSpecular": false
+            }
+        },
+        "15714226809779721473": {
+            "EntityID": 15714226809779721473,
+            "Transform": {
+                "Position": {
+                    "x": 1.0,
+                    "y": 0.0,
+                    "z": 1.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Local Position": {
+                    "x": 1.0,
+                    "y": 0.0,
+                    "z": 1.0
+                },
+                "Local Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Local Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Children": [],
+                "Parent": {
+                    "m_id": 0
+                }
+            },
+            "EntityInfo": {
+                "Entity Name": "New Entity",
+                "Tags": [],
+                "Flags": 1
+            },
+            "lightComponent": {
+                "Colour": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "Intensity": 1.0,
+                "Radius": 1.0
+            }
+        }
+    },
+    "Canvases": [],
+    "Global Illumination setting": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "intentsity": 0.019999999552965164
+    }
+}

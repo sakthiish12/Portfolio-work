@@ -1,0 +1,182 @@
+{
+    "0": {
+        "Name": "Background",
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 200.0,
+                    "y": 200.0,
+                    "z": 0.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 4000.0,
+                    "y": 4000.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 0.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "NEWENVIRONMENT.png",
+                "textureSlotsId": 2.0,
+                "loop": false,
+                "toLoaded": true,
+                "rows": 0,
+                "columns": 0,
+                "speed": 0.0,
+                "isVisible": true
+            }
+        }
+    },
+    "1": {
+        "Name": "Player",
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 1500.0,
+                    "y": 1200.0,
+                    "z": 1.0
+                },
+                "rotation": 5.264898777008057,
+                "scale": {
+                    "x": 50.0,
+                    "y": 50.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "kettlesprite.png",
+                "textureSlotsId": 3.0,
+                "loop": true,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": true
+            },
+            "struct rigidBody2D": {
+                "Mass": 1.0,
+                "isGravityOn": false,
+                "Type": "Kinametics"
+            },
+            "struct AABB": {
+                "scale": {
+                    "x": 0.800000011920929,
+                    "y": 0.800000011920929
+                },
+                "offset_pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "struct controller": {},
+            "struct Com_FindPath": {},
+            "struct Com_type": {
+                "Type": 0
+            },
+            "struct Com_Health": {
+                "health": 3
+            }
+        }
+    },
+    "5": {
+        "Name": "Camera",
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 1500.0,
+                    "y": 1200.0,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 50.0,
+                    "y": 50.0
+                }
+            },
+            "struct camera2DCom": {
+                "height_change_val": 20,
+                "height": 200.0,
+                "min_height": 100.0,
+                "isFixedToPlayer": true,
+                "isPrimary": true
+            },
+            "struct Com_type": {
+                "Type": 3
+            },
+            "struct Com_GUI": {
+                "isVisible": true,
+                "preCamPosSet": false
+            }
+        }
+    },
+    "19": {
+        "Name": "Enemy4_Static",
+        "Data": {
+            "struct transform2D": {
+                "pos": {
+                    "x": 1818.8060302734376,
+                    "y": 1099.4300537109376,
+                    "z": 1.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 100.0,
+                    "y": 100.0
+                }
+            },
+            "struct material": {
+                "shader": "../../Graphics/Resources/shaders/NewBatching.shader",
+                "mesh": "square",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                }
+            },
+            "struct spriteCom": {
+                "textureId": "tomatosprite2.png",
+                "textureSlotsId": 4.0,
+                "loop": true,
+                "toLoaded": true,
+                "rows": 4,
+                "columns": 4,
+                "speed": 100.0,
+                "isVisible": true
+            },
+            "struct rigidBody2D": {
+                "Mass": 1.0,
+                "isGravityOn": false,
+                "Type": "Static"
+            },
+            "struct AABB": {
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "offset_pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1359 @@
+{
+    "Tags": [
+        {
+            "Key": "Enemy",
+            "Value": {
+                "m_id": 1
+            }
+        },
+        {
+            "Key": "Wall",
+            "Value": {
+                "m_id": 9549151538412593353
+            }
+        }
+    ],
+    "entities": [
+        {
+            "EntityID": 17416787047597810573,
+            "EntityInfo": {
+                "Entity Name": "Light1",
+                "Tags": [],
+                "Flags": 1
+            },
+            "Transform": {
+                "Position": {
+                    "x": 1.3143991231918335,
+                    "y": 0.9999999403953552,
+                    "z": -0.5220586061477661
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Local Position": {
+                    "x": 1.3143991231918335,
+                    "y": 0.9999999403953552,
+                    "z": -0.5220586061477661
+                },
+                "Local Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Local Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Children": [],
+                "Parent": {
+                    "m_id": 0
+                }
+            },
+            "lightComponent": {
+                "Colour": [
+                    0.0,
+                    1.0,
+                    1.0
+                ],
+                "Intensity": 1.0,
+                "Radius": 0.10000000149011612
+            }
+        },
+        {
+            "EntityID": 9808830209462987944,
+            "EntityInfo": {
+                "Entity Name": "Floor",
+                "Tags": [],
+                "Flags": 1
+            },
+            "Transform": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 50.0,
+                    "y": 0.20000000298023224,
+                    "z": 50.0
+                },
+                "Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Local Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Local Scale": {
+                    "x": 50.0,
+                    "y": 0.20000000298023224,
+                    "z": 50.0
+                },
+                "Local Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Children": [],
+                "Parent": {
+                    "m_id": 0
+                }
+            },
+            "Physics": {
+                "Shape Enum": "Box",
+                "Shape Size": {
+                    "x": 50.0,
+                    "y": 0.20000000298023224,
+                    "z": 50.0
+                },
+                "Motion Type Enum": "Static",
+                "Scale Binded": true,
+                "Motion Quality Enum": "Discrete",
+                "Max Angular Velocity": 0.0,
+                "Angular Damping": 0.0,
+                "Max Linear Velocity": 0.0,
+                "Linear Damping": 0.0,
+                "Friction": 0.20000000298023224,
+                "Restitution": 0.0,
+                "Gravity": 0.0,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Is Trigger": false
+            },
+            "GameLogic": {
+                "Scripts": [
+                    "StressTest"
+                ]
+            },
+            "Renderer": {
+                "ModelID": {
+                    "m_id": 4387389176603137095
+                },
+                "MeshInfoVector": [
+                    {
+                        "meshName": "Cube",
+                        "hasTextures": false,
+                        "albedoAlphaMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "normalMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "ambientOcclusionMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "roughnessMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "emissiveMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "metallicMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "textureStrength": [
+                            0.05000000074505806,
+                            1.0,
+                            1.0,
+                            1.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "EntityID": 2,
+            "EntityInfo": {
+                "Entity Name": "TeeHee",
+                "Tags": [],
+                "Flags": 1
+            },
+            "Transform": {
+                "Position": {
+                    "x": -4.466228008270264,
+                    "y": 0.800000011920929,
+                    "z": 0.8485485911369324
+                },
+                "Scale": {
+                    "x": 0.30000001192092896,
+                    "y": 0.3700000047683716,
+                    "z": 0.30000001192092896
+                },
+                "Rotation": {
+                    "i": -6.001439487590687e-7,
+                    "j": 0.8358370065689087,
+                    "k": 0.000001108111064240802,
+                    "r": 0.5489776730537415
+                },
+                "Local Position": {
+                    "x": -4.466228008270264,
+                    "y": 0.800000011920929,
+                    "z": 0.8485485911369324
+                },
+                "Local Scale": {
+                    "x": 0.30000001192092896,
+                    "y": 0.3700000047683716,
+                    "z": 0.30000001192092896
+                },
+                "Local Rotation": {
+                    "i": -6.001439487590687e-7,
+                    "j": 0.8358370065689087,
+                    "k": 0.000001108111064240802,
+                    "r": 0.5489776730537415
+                },
+                "Children": [
+                    {
+                        "m_id": 1227442498344718098
+                    }
+                ],
+                "Parent": {
+                    "m_id": 0
+                }
+            },
+            "Physics": {
+                "Shape Enum": "Capsule",
+                "Shape Size": {
+                    "x": 0.30000001192092896,
+                    "y": 0.30000001192092896,
+                    "z": 0.30000001192092896
+                },
+                "Motion Type Enum": "Dynamic",
+                "Scale Binded": false,
+                "Motion Quality Enum": "Discrete",
+                "Max Angular Velocity": 0.0,
+                "Angular Damping": 15.0,
+                "Max Linear Velocity": 500.0,
+                "Linear Damping": 0.10000000149011612,
+                "Friction": 0.5,
+                "Restitution": 0.0,
+                "Gravity": 1.0,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Is Trigger": false
+            },
+            "GameLogic": {
+                "Scripts": [
+                    "CharacterScript",
+                    "PlayerCharacter"
+                ]
+            },
+            "Renderer": {
+                "ModelID": {
+                    "m_id": 17574040075608796267
+                },
+                "MeshInfoVector": [
+                    {
+                        "meshName": "",
+                        "hasTextures": false,
+                        "albedoAlphaMap": {
+                            "m_id": 10895420861009934316
+                        },
+                        "normalMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "ambientOcclusionMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "roughnessMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "emissiveMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "metallicMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "textureStrength": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "EntityID": 2305019610084970756,
+            "EntityInfo": {
+                "Entity Name": "Light3",
+                "Tags": [],
+                "Flags": 1
+            },
+            "Transform": {
+                "Position": {
+                    "x": -0.2050727903842926,
+                    "y": 0.9999999403953552,
+                    "z": 1.3992639780044556
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Local Position": {
+                    "x": -0.2050727903842926,
+                    "y": 0.9999999403953552,
+                    "z": 1.3992639780044556
+                },
+                "Local Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Local Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Children": [],
+                "Parent": {
+                    "m_id": 0
+                }
+            },
+            "lightComponent": {
+                "Colour": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "Intensity": 1.0,
+                "Radius": 0.10000000149011612
+            }
+        },
+        {
+            "EntityID": 6959738499463577040,
+            "EntityInfo": {
+                "Entity Name": "Light4",
+                "Tags": [],
+                "Flags": 1
+            },
+            "Transform": {
+                "Position": {
+                    "x": -1.3143991231918335,
+                    "y": 0.9999999403953552,
+                    "z": 0.5220586061477661
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Local Position": {
+                    "x": -1.3143991231918335,
+                    "y": 0.9999999403953552,
+                    "z": 0.5220586061477661
+                },
+                "Local Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Local Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Children": [],
+                "Parent": {
+                    "m_id": 0
+                }
+            },
+            "lightComponent": {
+                "Colour": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "Intensity": 1.0,
+                "Radius": 0.10000000149011612
+            }
+        },
+        {
+            "EntityID": 9253980227413916119,
+            "EntityInfo": {
+                "Entity Name": "Light5",
+                "Tags": [],
+                "Flags": 1
+            },
+            "Transform": {
+                "Position": {
+                    "x": -1.1092745065689087,
+                    "y": 0.9999998807907104,
+                    "z": -0.8772398233413696
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Local Position": {
+                    "x": -1.1092745065689087,
+                    "y": 0.9999998807907104,
+                    "z": -0.8772398233413696
+                },
+                "Local Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Local Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Children": [],
+                "Parent": {
+                    "m_id": 0
+                }
+            },
+            "lightComponent": {
+                "Colour": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "Intensity": 1.0,
+                "Radius": 0.10000000149011612
+            }
+        },
+        {
+            "EntityID": 9292042530425967715,
+            "EntityInfo": {
+                "Entity Name": "Wall2",
+                "Tags": [
+                    {
+                        "m_id": 9549151538412593353
+                    }
+                ],
+                "Flags": 1
+            },
+            "Transform": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 0.5,
+                    "z": -4.325631141662598
+                },
+                "Scale": {
+                    "x": 4.0,
+                    "y": 0.5,
+                    "z": 0.25
+                },
+                "Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Local Position": {
+                    "x": 0.0,
+                    "y": 0.5,
+                    "z": -4.325631141662598
+                },
+                "Local Scale": {
+                    "x": 4.0,
+                    "y": 0.5,
+                    "z": 0.25
+                },
+                "Local Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Children": [],
+                "Parent": {
+                    "m_id": 0
+                }
+            },
+            "Physics": {
+                "Shape Enum": "Box",
+                "Shape Size": {
+                    "x": 4.0,
+                    "y": 0.5,
+                    "z": 0.25
+                },
+                "Motion Type Enum": "Static",
+                "Scale Binded": true,
+                "Motion Quality Enum": "Discrete",
+                "Max Angular Velocity": 0.0,
+                "Angular Damping": 0.0,
+                "Max Linear Velocity": 0.0,
+                "Linear Damping": 0.0,
+                "Friction": 0.20000000298023224,
+                "Restitution": 0.0,
+                "Gravity": 0.0,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Is Trigger": false
+            },
+            "Renderer": {
+                "ModelID": {
+                    "m_id": 4387389176603137095
+                },
+                "MeshInfoVector": [
+                    {
+                        "meshName": "",
+                        "hasTextures": false,
+                        "albedoAlphaMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "normalMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "ambientOcclusionMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "roughnessMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "emissiveMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "metallicMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "textureStrength": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "EntityID": 11146671326805355096,
+            "EntityInfo": {
+                "Entity Name": "Wall1",
+                "Tags": [
+                    {
+                        "m_id": 9549151538412593353
+                    }
+                ],
+                "Flags": 1
+            },
+            "Transform": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 0.5,
+                    "z": 4.0
+                },
+                "Scale": {
+                    "x": 4.0,
+                    "y": 0.5,
+                    "z": 0.25
+                },
+                "Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Local Position": {
+                    "x": 0.0,
+                    "y": 0.5,
+                    "z": 4.0
+                },
+                "Local Scale": {
+                    "x": 4.0,
+                    "y": 0.5,
+                    "z": 0.25
+                },
+                "Local Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Children": [],
+                "Parent": {
+                    "m_id": 0
+                }
+            },
+            "Physics": {
+                "Shape Enum": "Box",
+                "Shape Size": {
+                    "x": 4.0,
+                    "y": 0.5,
+                    "z": 0.25
+                },
+                "Motion Type Enum": "Static",
+                "Scale Binded": true,
+                "Motion Quality Enum": "Discrete",
+                "Max Angular Velocity": 0.0,
+                "Angular Damping": 0.0,
+                "Max Linear Velocity": 0.0,
+                "Linear Damping": 0.0,
+                "Friction": 0.20000000298023224,
+                "Restitution": 0.0,
+                "Gravity": 0.0,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Is Trigger": false
+            },
+            "Renderer": {
+                "ModelID": {
+                    "m_id": 4387389176603137095
+                },
+                "MeshInfoVector": [
+                    {
+                        "meshName": "",
+                        "hasTextures": false,
+                        "albedoAlphaMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "normalMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "ambientOcclusionMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "roughnessMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "emissiveMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "metallicMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "textureStrength": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "EntityID": 5763757673321193704,
+            "EntityInfo": {
+                "Entity Name": "Light6",
+                "Tags": [],
+                "Flags": 1
+            },
+            "Transform": {
+                "Position": {
+                    "x": 0.20506206154823303,
+                    "y": 0.9999999403953552,
+                    "z": -1.3992700576782227
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Local Position": {
+                    "x": 0.20506206154823303,
+                    "y": 0.9999999403953552,
+                    "z": -1.3992700576782227
+                },
+                "Local Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Local Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Children": [],
+                "Parent": {
+                    "m_id": 0
+                }
+            },
+            "lightComponent": {
+                "Colour": [
+                    1.0,
+                    1.0,
+                    0.0
+                ],
+                "Intensity": 1.0,
+                "Radius": 0.10000000149011612
+            }
+        },
+        {
+            "EntityID": 1439192689368952845,
+            "EntityInfo": {
+                "Entity Name": "Wall4",
+                "Tags": [
+                    {
+                        "m_id": 9549151538412593353
+                    }
+                ],
+                "Flags": 1
+            },
+            "Transform": {
+                "Position": {
+                    "x": 4.063582420349121,
+                    "y": 0.5,
+                    "z": 2.3147709369659424
+                },
+                "Scale": {
+                    "x": 0.25,
+                    "y": 0.5,
+                    "z": 2.0
+                },
+                "Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Local Position": {
+                    "x": 4.063582420349121,
+                    "y": 0.5,
+                    "z": 2.3147709369659424
+                },
+                "Local Scale": {
+                    "x": 0.25,
+                    "y": 0.5,
+                    "z": 2.0
+                },
+                "Local Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Children": [],
+                "Parent": {
+                    "m_id": 0
+                }
+            },
+            "Physics": {
+                "Shape Enum": "Box",
+                "Shape Size": {
+                    "x": 0.25,
+                    "y": 0.5,
+                    "z": 2.0
+                },
+                "Motion Type Enum": "Static",
+                "Scale Binded": true,
+                "Motion Quality Enum": "Discrete",
+                "Max Angular Velocity": 0.0,
+                "Angular Damping": 0.0,
+                "Max Linear Velocity": 0.0,
+                "Linear Damping": 0.0,
+                "Friction": 0.20000000298023224,
+                "Restitution": 0.0,
+                "Gravity": 0.0,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Is Trigger": false
+            },
+            "Renderer": {
+                "ModelID": {
+                    "m_id": 4387389176603137095
+                },
+                "MeshInfoVector": [
+                    {
+                        "meshName": "",
+                        "hasTextures": false,
+                        "albedoAlphaMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "normalMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "ambientOcclusionMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "roughnessMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "emissiveMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "metallicMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "textureStrength": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "EntityID": 2022453213733291919,
+            "EntityInfo": {
+                "Entity Name": "Wall3",
+                "Tags": [
+                    {
+                        "m_id": 9549151538412593353
+                    }
+                ],
+                "Flags": 1
+            },
+            "Transform": {
+                "Position": {
+                    "x": -3.5,
+                    "y": 0.5,
+                    "z": -0.12459397315979004
+                },
+                "Scale": {
+                    "x": 0.25,
+                    "y": 0.5,
+                    "z": 4.0
+                },
+                "Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Local Position": {
+                    "x": -3.5,
+                    "y": 0.5,
+                    "z": -0.12459397315979004
+                },
+                "Local Scale": {
+                    "x": 0.25,
+                    "y": 0.5,
+                    "z": 4.0
+                },
+                "Local Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Children": [],
+                "Parent": {
+                    "m_id": 0
+                }
+            },
+            "Physics": {
+                "Shape Enum": "Box",
+                "Shape Size": {
+                    "x": 0.25,
+                    "y": 0.5,
+                    "z": 4.0
+                },
+                "Motion Type Enum": "Static",
+                "Scale Binded": true,
+                "Motion Quality Enum": "Discrete",
+                "Max Angular Velocity": 0.0,
+                "Angular Damping": 0.0,
+                "Max Linear Velocity": 0.0,
+                "Linear Damping": 0.0,
+                "Friction": 0.20000000298023224,
+                "Restitution": 0.0,
+                "Gravity": 0.0,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Is Trigger": false
+            },
+            "Renderer": {
+                "ModelID": {
+                    "m_id": 4387389176603137095
+                },
+                "MeshInfoVector": [
+                    {
+                        "meshName": "",
+                        "hasTextures": false,
+                        "albedoAlphaMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "normalMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "ambientOcclusionMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "roughnessMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "emissiveMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "metallicMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "textureStrength": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "EntityID": 3,
+            "EntityInfo": {
+                "Entity Name": "Enemy1",
+                "Tags": [
+                    {
+                        "m_id": 1
+                    }
+                ],
+                "Flags": 1
+            },
+            "Transform": {
+                "Position": {
+                    "x": 2.0,
+                    "y": 0.800000011920929,
+                    "z": 2.0
+                },
+                "Scale": {
+                    "x": 0.30000001192092896,
+                    "y": 0.3700000047683716,
+                    "z": 0.30000001192092896
+                },
+                "Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Local Position": {
+                    "x": 2.0,
+                    "y": 0.800000011920929,
+                    "z": 2.0
+                },
+                "Local Scale": {
+                    "x": 0.30000001192092896,
+                    "y": 0.3700000047683716,
+                    "z": 0.30000001192092896
+                },
+                "Local Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Children": [],
+                "Parent": {
+                    "m_id": 0
+                }
+            },
+            "Physics": {
+                "Shape Enum": "Capsule",
+                "Shape Size": {
+                    "x": 0.30000001192092896,
+                    "y": 0.30000001192092896,
+                    "z": 0.30000001192092896
+                },
+                "Motion Type Enum": "Dynamic",
+                "Scale Binded": false,
+                "Motion Quality Enum": "Discrete",
+                "Max Angular Velocity": 0.0,
+                "Angular Damping": 15.0,
+                "Max Linear Velocity": 500.0,
+                "Linear Damping": 0.10000000149011612,
+                "Friction": 0.5,
+                "Restitution": 0.0,
+                "Gravity": 1.0,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Is Trigger": false
+            },
+            "GameLogic": {
+                "Scripts": [
+                    "CharacterScript",
+                    "EnemyCharacter"
+                ]
+            },
+            "Renderer": {
+                "ModelID": {
+                    "m_id": 17574040075608796267
+                },
+                "MeshInfoVector": [
+                    {
+                        "meshName": "",
+                        "hasTextures": false,
+                        "albedoAlphaMap": {
+                            "m_id": 10267887709755569005
+                        },
+                        "normalMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "ambientOcclusionMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "roughnessMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "emissiveMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "metallicMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "textureStrength": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "EntityID": 1227442498344718098,
+            "EntityInfo": {
+                "Entity Name": "CameraRig",
+                "Tags": [],
+                "Flags": 1
+            },
+            "Transform": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Rotation": {
+                    "i": 1.7484555314695172e-7,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Local Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Local Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Local Rotation": {
+                    "i": 1.7484555314695172e-7,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Children": [
+                    {
+                        "m_id": 8549207111826241340
+                    }
+                ],
+                "Parent": {
+                    "m_id": 2
+                }
+            }
+        },
+        {
+            "EntityID": 8549207111826241340,
+            "EntityInfo": {
+                "Entity Name": "Camera Controller",
+                "Tags": [],
+                "Flags": 1
+            },
+            "Transform": {
+                "Position": {
+                    "x": 0.75,
+                    "y": 1.0,
+                    "z": -2.0
+                },
+                "Scale": {
+                    "x": 0.0010000000474974513,
+                    "y": 0.0010000000474974513,
+                    "z": 0.0010000000474974513
+                },
+                "Rotation": {
+                    "i": 0.05233747139573097,
+                    "j": 0.0000031914134979160735,
+                    "k": -1.6725974205655803e-7,
+                    "r": 0.9986294507980347
+                },
+                "Local Position": {
+                    "x": 0.75,
+                    "y": 1.0,
+                    "z": -2.0
+                },
+                "Local Scale": {
+                    "x": 0.0010000000474974513,
+                    "y": 0.0010000000474974513,
+                    "z": 0.0010000000474974513
+                },
+                "Local Rotation": {
+                    "i": 0.05233747139573097,
+                    "j": 0.0000031914134979160735,
+                    "k": -1.6725974205655803e-7,
+                    "r": 0.9986294507980347
+                },
+                "Children": [],
+                "Parent": {
+                    "m_id": 1227442498344718098
+                }
+            },
+            "GameLogic": {
+                "Scripts": [
+                    "CameraController"
+                ]
+            },
+            "Renderer": {
+                "ModelID": {
+                    "m_id": 4387389176603137095
+                },
+                "MeshInfoVector": [
+                    {
+                        "meshName": "Cube",
+                        "hasTextures": false,
+                        "albedoAlphaMap": {
+                            "m_id": 0
+                        },
+                        "normalMap": {
+                            "m_id": 0
+                        },
+                        "ambientOcclusionMap": {
+                            "m_id": 0
+                        },
+                        "roughnessMap": {
+                            "m_id": 0
+                        },
+                        "emissiveMap": {
+                            "m_id": 0
+                        },
+                        "metallicMap": {
+                            "m_id": 0
+                        },
+                        "textureStrength": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "EntityID": 6354180269110761308,
+            "EntityInfo": {
+                "Entity Name": "Light2",
+                "Tags": [],
+                "Flags": 1
+            },
+            "Transform": {
+                "Position": {
+                    "x": 1.1092556715011597,
+                    "y": 0.9999999403953552,
+                    "z": 0.8772468566894531
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Local Position": {
+                    "x": 1.1092556715011597,
+                    "y": 0.9999999403953552,
+                    "z": 0.8772468566894531
+                },
+                "Local Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Local Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Children": [],
+                "Parent": {
+                    "m_id": 0
+                }
+            },
+            "lightComponent": {
+                "Colour": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Intensity": 1.0,
+                "Radius": 0.10000000149011612
+            }
+        },
+        {
+            "EntityID": 14697821980438281160,
+            "EntityInfo": {
+                "Entity Name": "Laser",
+                "Tags": [],
+                "Flags": 0
+            },
+            "Transform": {
+                "Position": {
+                    "x": 1000.0,
+                    "y": 1000.0,
+                    "z": 1000.0
+                },
+                "Scale": {
+                    "x": 0.10000000149011612,
+                    "y": 0.10000000149011612,
+                    "z": 100.0
+                },
+                "Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Local Position": {
+                    "x": 1000.0,
+                    "y": 1000.0,
+                    "z": 1000.0
+                },
+                "Local Scale": {
+                    "x": 0.10000000149011612,
+                    "y": 0.10000000149011612,
+                    "z": 100.0
+                },
+                "Local Rotation": {
+                    "i": 0.0,
+                    "j": 0.0,
+                    "k": 0.0,
+                    "r": 1.0
+                },
+                "Children": [],
+                "Parent": {
+                    "m_id": 0
+                }
+            },
+            "Renderer": {
+                "ModelID": {
+                    "m_id": 4387389176603137095
+                },
+                "MeshInfoVector": [
+                    {
+                        "meshName": "",
+                        "hasTextures": false,
+                        "albedoAlphaMap": {
+                            "m_id": 5602551787267187971
+                        },
+                        "normalMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "ambientOcclusionMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "roughnessMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "emissiveMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "metallicMap": {
+                            "m_id": 17197716863404279269
+                        },
+                        "textureStrength": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
